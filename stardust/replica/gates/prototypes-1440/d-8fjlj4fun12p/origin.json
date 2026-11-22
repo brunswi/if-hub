@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://if-hub.de/d/8fJLj4FUN12p",
+  "reference": {
+    "dir": "stardust/replica/gates/d-8fjlj4fun12p-1440",
+    "capturedAt": "2026-11-21T00:54:10.037Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0,
+    "variableRows": 0,
+    "maskArg": ""
+  },
+  "note": "reused stardust/replica/gates/d-8fjlj4fun12p-1440/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-21T01:13:48.112Z"
+}

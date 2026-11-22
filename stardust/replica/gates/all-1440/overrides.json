@@ -1,0 +1,11 @@
+{
+  "d-8fjlj4fun12p": {
+    "verdict": "pass",
+    "waives": [
+      "height"
+    ],
+    "reason": "inner scroller on the source: if-hub.de scrolls inside a radix scroll-area viewport (html/body 100dvh), so the live document reports 900px while the EDS page scrolls the document (foundation runtime contract: body padding-right 10px + hidden root scrollbar). Footer box sits at the same y on both sides (chrome-parity 1440: live 0,4303 1430x104 = build 0,4303 1430x104), content-diff MISSING 0 / HIDDEN 0 over the whole DOM, clip 0. stardust/replica/progress.json innerScroller; source-fidelity-gate.md Hardening rule 13.",
+    "by": "archetype-hub unit (agent)",
+    "at": "2026-11-21T01:56:43.587Z"
+  }
+}

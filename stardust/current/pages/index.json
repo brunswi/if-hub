@@ -1,0 +1,245 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-21T00:11:14.997Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "index",
+  "url": "https://if-hub.de/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-21T00:11:14.997Z",
+  "finalUrl": "https://if-hub.de/auth/?referer=%2F",
+  "title": "Log in - DSGV Markenportal der Sparkasse",
+  "description": null,
+  "og": {
+    "title": "DSGV Markenportal der Sparkasse",
+    "description": null,
+    "image": null,
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Herzlich willkommen im IF- Hub"
+    }
+  ],
+  "body": [
+    "Zugang beantragen"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Anmelden über SSO",
+      "href": "https://if-hub.de/api/thirdparty/oidc/auth?referer=%2F"
+    },
+    {
+      "label": "Zugang beantragen",
+      "href": "https://portal.dsv-gruppe.de/freischaltinfo/if-hub.html "
+    }
+  ],
+  "links": [
+    "https://if-hub.de/#main",
+    "https://if-hub.de/api/thirdparty/oidc/auth?referer=%2F",
+    "https://portal.dsv-gruppe.de/freischaltinfo/if-hub.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://media.ffycdn.net/eu/sparkassenfinanzportal/Bn4EX9DDsb9pocPP8s6E.svg?width={width}",
+        "alt": "DSGV Markenportal der Sparkasse logo",
+        "w": 120,
+        "h": 150
+      }
+    ],
+    "allImgCount": 1,
+    "cssBackgrounds": [
+      "https://media.ffycdn.net/eu/sparkassenfinanzportal/c95yUqCmLCeZMGDtT37D.jpg?width={width}"
+    ],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 1,
+    "mainTextLen": 577,
+    "realImageCount": 1,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage",
+    "pageSize": {
+      "w": 1440,
+      "h": 900
+    }
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/csrf-token",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/csrf-token",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/session",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/session",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/context",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/context",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.frontify.com",
+        "path": "/locales/en.12d41535f7d23b7b.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.frontify.com/locales/en.12d41535f7d23b7b.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "if-hub.de",
+        "path": "/graphql-internal",
+        "query": [
+          "operationName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 4,
+        "example": "https://if-hub.de/graphql-internal",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/dashboard/appearance",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/dashboard/appearance",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "if-hub.de",
+        "path": "/api/context",
+        "query": [
+          "referer"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/context",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "sentryapp.appsupport.frontify.dev",
+        "path": "/api/{n}/envelope/",
+        "query": [
+          "sentry_client",
+          "sentry_key",
+          "sentry_version"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://sentryapp.appsupport.frontify.dev/api/51/envelope/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/account/metadata",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/account/metadata",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.frontify.com",
+        "count": 36
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 7,
+      "thirdPartyEndpoints": 2,
+      "thirdPartyScriptHosts": 1,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/index.png",
+  "renderedHtml": "pages/index.html",
+  "slots": {
+    "type": "form",
+    "logo": "DSGV Markenportal der Sparkasse logo",
+    "headline": "Herzlich willkommen im IF- Hub",
+    "label": "Interne Benutzeranmeldung",
+    "cta": {
+      "label": "Anmelden über SSO"
+    },
+    "secondaryLink": {
+      "label": "Zugang beantragen"
+    },
+    "image": "https://media.ffycdn.net/eu/sparkassenfinanzportal/c95yUqCmLCeZMGDtT37D.jpg"
+  }
+}

@@ -38,6 +38,35 @@ if (window.trustedTypes && window.trustedTypes.createPolicy) {
 }
 
 /**
+ * Templates rendered without header and footer (metadata "Template").
+ * The sign-in page (/) uses "auth": the live source shows no chrome there.
+ */
+const NO_CHROME_TEMPLATES = ['auth'];
+
+/**
+ * @returns {boolean} true when the page's template renders without chrome
+ */
+function hasNoChrome() {
+  return NO_CHROME_TEMPLATES.some((t) => document.body.classList.contains(t));
+}
+
+/**
+ * Sign-in template: the source's "Skip to main content" link (first in <body>, off-screen
+ * until focused - styles.css body.auth .skip-link) targeting <main id="main">.
+ * @param {Document} doc The document
+ */
+function addSkipLink(doc) {
+  const main = doc.querySelector('main');
+  if (!main || doc.querySelector('body > a.skip-link')) return;
+  if (!main.id) main.id = 'main';
+  const link = doc.createElement('a');
+  link.className = 'skip-link';
+  link.href = `#${main.id}`;
+  link.textContent = 'Skip to main content';
+  doc.body.prepend(link);
+}
+
+/**
  * load fonts.css and set a session storage flag
  */
 async function loadFonts() {
@@ -160,8 +189,14 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
-  document.documentElement.lang = 'en';
+  import('./martech.js').then((m) => m.loadConsent());
+  document.documentElement.lang = 'de';
   decorateTemplateAndTheme();
+  if (hasNoChrome()) {
+    doc.querySelector('body > header')?.remove();
+    doc.querySelector('body > footer')?.remove();
+  }
+  if (document.body.classList.contains('auth')) addSkipLink(doc);
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);
@@ -184,7 +219,8 @@ async function loadEager(doc) {
  * @param {Element} doc The container element
  */
 async function loadLazy(doc) {
-  loadHeader(doc.querySelector('body > header'));
+  const header = doc.querySelector('body > header');
+  if (header) loadHeader(header);
 
   const main = doc.querySelector('main');
   await loadSections(main);
@@ -193,7 +229,8 @@ async function loadLazy(doc) {
   const element = hash ? doc.getElementById(hash.substring(1)) : false;
   if (hash && element) element.scrollIntoView();
 
-  loadFooter(doc.querySelector('body > footer'));
+  const footer = doc.querySelector('body > footer');
+  if (footer) loadFooter(footer);
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();

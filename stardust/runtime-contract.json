@@ -1,0 +1,52 @@
+{
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "lang": "de",
+  "templates": {
+    "hub": {
+      "metadata": "Template | hub",
+      "bodyClass": "hub",
+      "chrome": "header + footer (/nav, /footer)",
+      "layout": "body padding-right 10px + hidden root scrollbar (the source scrolls inside a 10px-gutter viewport)",
+      "pages": ["/d/8fjlj4fun12p"]
+    },
+    "auth": {
+      "metadata": "Template | auth",
+      "bodyClass": "auth",
+      "chrome": "none",
+      "noChromeMechanism": "scripts/scripts.js NO_CHROME_TEMPLATES = ['auth']: loadEager removes body > header and body > footer after decorateTemplateAndTheme(), loadLazy skips loadHeader/loadFooter; styles.css also hides body.auth > header/footer so no 90px reservation paints",
+      "font": "var(--auth-font) on body.auth (Sparkasse_Rg)",
+      "pages": ["/"]
+    }
+  },
+  "sectionScaffold": "main > .section margin 0; main > .section > div max-width none, margin 0, padding 0 - blocks own their wraps and gutters; no content cap at foundation level (R-02: hub fluid, sign-in 370px module cap lives in the auth-login block)",
+  "baseTypography": "browser defaults (the prototypes reset nothing but box-sizing); body 16px/24px, color #000, font var(--font-light) on hub",
+  "imgReset": "img, video { display: block; max-width: 100% } img { height: auto }",
+  "navHeight": "--nav-height: 90px at every width; header background var(--hub-red)",
+  "tokens": {
+    "colors": ["--hub-red", "--hub-red-hover", "--hub-ink", "--hub-text", "--hub-intro", "--hub-rule", "--hub-card-border", "--auth-text", "--auth-link", "--auth-cta-bg", "--auth-cta-bg-hover", "--auth-cta-border"],
+    "fonts": ["--font-light", "--font-regular", "--font-medium", "--font-footer", "--font-player (Diatype, video controls)", "--auth-font", "--hub-fallback"]
+  },
+  "fonts": {
+    "file": "styles/fonts.css",
+    "families": ["Sparkasse Light 300", "Sparkasse Regular 400", "Sparkasse Medium 500", "Sparkasse_Rg 400", "Diatype 1-999", "Mier B 400"],
+    "fallbacks": ["sparkasse-fallback", "mier-fallback"],
+    "licensing": "fonts/LICENSING.md - proprietary, register R-01"
+  },
+  "chrome": {
+    "header": "blocks/header - /nav: section 1 linked logo img (alt 'Go to IF-Hub'), section 2 <ul> of links, section 3 search placeholder text; burger + red drawer below 768px; search overlay over /query-index.json",
+    "footer": "blocks/footer - /footer: section 1 <ul> links + copyright <p>, section 2 the login shortcut link (renders the fixed red lock button .hub-login bottom-left)",
+    "documents": ["/nav", "/footer"],
+    "robots": "noindex on both chrome documents"
+  },
+  "reservedBlockNames": ["header", "footer", "fragment", "widget", "hero", "columns", "cards"],
+  "notes": [
+    "The hub login shortcut (.hub-login) is rendered by the footer block - page blocks must not build it.",
+    "blocks/cards, blocks/hero, blocks/columns are stock boilerplate blocks; a page block named 'cards' replaces the stock one - rename (e.g. hub-cards) or overwrite deliberately.",
+    "Do not emit <header> elements inside block DOM (the header reservation rule matches every <header>)."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "org": "aemcoder",
+  "site": "8053f48d",
+  "blocks": [
+    "auth-login",
+    "hub-cards",
+    "hub-embed",
+    "hub-hero",
+    "services",
+    "support",
+    "tiles"
+  ],
+  "variants": 7,
+  "templates": [
+    "D 8fjlj4fun12p",
+    "Index"
+  ],
+  "pages": [
+    "/d/8fjlj4fun12p",
+    "/"
+  ],
+  "rows": [
+    {
+      "title": "Blocks",
+      "path": "https://content.da.live/aemcoder/8053f48d/library/blocks.json"
+    },
+    {
+      "title": "Templates",
+      "path": "https://content.da.live/aemcoder/8053f48d/library/templates.json"
+    }
+  ],
+  "at": "2026-11-21T02:42:22.226Z"
+}

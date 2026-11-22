@@ -1,0 +1,237 @@
+/* index (sign-in) — same-design replica of https://if-hub.de/auth/ .
+   Values lifted from the source's measured boxes and its o-auth rules;
+   breakpoints are the source's own (480 / 540 / 968 / 1024 / 1440 / 1600). */
+
+@font-face {
+  font-family: Sparkasse_Rg;
+  src: url("assets/fonts/sparkasse-rg-400.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --auth-text: rgb(17 17 16);
+  --auth-link: rgb(0 0 0);
+  --auth-cta-bg: rgb(238 0 0);
+  --auth-cta-bg-hover: rgb(218 0 0);
+  --auth-cta-border: rgb(135 135 129 / 50%);
+  --auth-gap: 28px;
+  --auth-filler: 54px;
+  --auth-font: Sparkasse_Rg, Arimo, "Liberation Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100dvh;
+  font-family: var(--auth-font);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--auth-text);
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 8px 12px;
+  background: #fff;
+  color: var(--auth-link);
+  transform: translateY(-120%);
+}
+
+.skip-link:focus {
+  transform: none;
+}
+
+/* split screen: photo on the root, white box on the left */
+.o-auth {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.o-auth__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+}
+
+.o-auth__box-content {
+  align-self: center;
+  width: calc(100% - 108px);
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.o-auth__filler {
+  height: var(--auth-filler);
+}
+
+.o-auth__logo-wrap {
+  margin: 0 0 var(--auth-gap);
+  text-align: left;
+}
+
+.o-auth__logo {
+  display: block;
+  width: 64px;
+  height: 80px;
+}
+
+.o-auth__greeting {
+  margin: 40px 0;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: var(--auth-text);
+}
+
+.o-auth__form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--auth-gap);
+}
+
+.o-auth__login-title {
+  display: block;
+}
+
+.o-auth__sso {
+  display: block;
+  padding: 10px 20px;
+  border: 1px solid var(--auth-cta-border);
+  border-radius: 30px;
+  background-color: var(--auth-cta-bg);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.15s linear, color 0.15s linear, border 0.15s linear;
+}
+
+.o-auth__sso:hover {
+  background-color: var(--auth-cta-bg-hover);
+}
+
+/* the source keeps its e-mail login hidden: a 24px toggle row (empty label)
+   and a 24px links row (empty password-lost entry) stay in the flow */
+.o-auth__alt-toggle {
+  line-height: 24px;
+}
+
+.o-auth__links {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.o-auth__inline-btn {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: 400 12px/18px var(--auth-font);
+  cursor: pointer;
+}
+
+.o-auth__email-form[hidden],
+.o-auth__error[hidden] {
+  display: none;
+}
+
+.o-auth__disclaimer {
+  margin: var(--auth-gap) 0 0;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.o-auth__disclaimer p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+  overflow-wrap: break-word;
+}
+
+.o-auth__link {
+  display: inline-block;
+  color: var(--auth-link);
+  text-decoration: underline;
+}
+
+@media (width >= 480px) {
+  .o-auth {
+    background-image: url("assets/media/c95yUqCmLCeZMGDtT37D.jpg");
+  }
+
+  .o-auth__box-content {
+    width: 370px;
+    max-width: 370px;
+    height: auto;
+  }
+
+  .o-auth__greeting {
+    margin-top: 12.3047vh;
+    margin-bottom: 4.29688vh;
+    font-size: 38px;
+    line-height: 44px;
+  }
+}
+
+@media (width >= 540px) {
+  .o-auth__box { width: 80%; }
+}
+
+@media (width >= 968px) {
+  .o-auth__box { width: 70%; }
+}
+
+@media (width >= 1024px) {
+  .o-auth__box { width: 60%; }
+}
+
+@media (width >= 1440px) {
+  .o-auth__box { width: 50%; }
+}
+
+@media (width >= 1600px) {
+  .o-auth__box { width: 40%; }
+}

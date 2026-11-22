@@ -1,0 +1,120 @@
+/* support - IF-Hub support band (gated prototype row cp-support) */
+.support {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+  background-color: #fff;
+}
+
+.support .support-col {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.support .support-image,
+.support .support-text {
+  position: relative;
+  flex: 0 0 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.support .support-image img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.support .support-text {
+  padding: 20px;
+  color: var(--hub-text);
+  font-family: var(--font-light);
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.support .support-text :is(h2, h3) {
+  margin: 0 0 10px;
+  color: var(--hub-ink);
+  font-family: var(--font-regular);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.support .support-text p {
+  margin: 0 0 10px;
+}
+
+.support .support-text p:last-child {
+  margin-bottom: 0;
+}
+
+.support .support-text strong,
+.support .support-text em {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.support .support-text a.button:any-link,
+.support .support-text :is(strong, em) > a:any-link {
+  display: inline-block;
+  max-width: none;
+  margin: 10px 0;
+  border-radius: 99px;
+  font-family: var(--font-regular);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  white-space: pre-wrap;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+}
+
+.support .support-text a.button:any-link,
+.support .support-text strong > a:any-link {
+  padding: 15px 40px;
+  border: 2px solid var(--hub-red);
+  background-color: var(--hub-red);
+  color: #fff;
+  line-height: 1.6;
+}
+
+.support .support-text a.button:hover,
+.support .support-text strong > a:hover {
+  border-color: var(--hub-red-hover);
+  background-color: var(--hub-red-hover);
+}
+
+.support .support-col > .support-text {
+  max-width: 800px;
+  padding: 20px 20px 0;
+}
+
+@media (width >= 768px) {
+  .support .support-image {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .support .support-image img {
+    aspect-ratio: 640 / 426;
+  }
+}
+
+@media (width >= 992px) {
+  .support .support-image {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .support .support-text {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}

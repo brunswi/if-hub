@@ -1,0 +1,263 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-21T00:15:47.671Z",
+    "stardustVersion": "0.43.3",
+    "sources": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json",
+      "stardust/current/pages/*.html",
+      "stardust/current/assets/fonts/_fonts.json"
+    ],
+    "notes": "2-page scoped run (--pages). Home / serves the login screen (/auth/?referer=%2F) to anonymous visitors; the hub page /d/8fJLj4FUN12p is a Frontify brand-portal cover page."
+  },
+  "origins": [
+    {
+      "origin": "https://if-hub.de",
+      "role": "primary",
+      "pages": 2
+    }
+  ],
+  "logo": {
+    "source": "img",
+    "url": "https://media.ffycdn.net/eu/sparkassenfinanzportal/Bn4EX9DDsb9pocPP8s6E.svg",
+    "file": "stardust/current/assets/logo.svg",
+    "selector": "login page logo img (alt \"DSGV Markenportal der Sparkasse logo\")",
+    "alt": "DSGV Markenportal der Sparkasse logo",
+    "headerMark": {
+      "url": "https://media.ffycdn.net/eu/sparkassenfinanzportal/h52apBMkJBRJKJWJ7iyW.png",
+      "file": "stardust/current/assets/media/h52apBMkJBRJKJWJ7iyW.png",
+      "alt": "Go to IF-Hub"
+    }
+  },
+  "favicon": {
+    "url": "https://media.ffycdn.net/eu/sparkassenfinanzportal/9wnvijEiAiM9MyiBPQLF.png",
+    "file": "stardust/current/assets/favicon.png"
+  },
+  "palette": [
+    {
+      "role": "background",
+      "hex": "#ffffff",
+      "source": "_computed-styles.json aggregate.colors[0]"
+    },
+    {
+      "role": "primary",
+      "hex": "#ee0000",
+      "note": "Sparkasse red — header bar, primary buttons, login SSO button",
+      "source": "aggregate.colors[3]"
+    },
+    {
+      "role": "primary-hover",
+      "hex": "#d10000",
+      "source": "aggregate.hover[1]"
+    },
+    {
+      "role": "text",
+      "hex": "#292929",
+      "source": "aggregate.colors[2]"
+    },
+    {
+      "role": "secondary",
+      "hex": "#565656",
+      "note": "secondary button fill / borders",
+      "source": "aggregate.colors[1]"
+    },
+    {
+      "role": "surface-muted",
+      "hex": "#e3e3e3",
+      "source": "aggregate.colors[5]"
+    },
+    {
+      "role": "ink-deep",
+      "hex": "#111110",
+      "source": "aggregate.colors[6]"
+    },
+    {
+      "role": "accent",
+      "hex": "#000000",
+      "source": "aggregate.colors[4]"
+    }
+  ],
+  "type": {
+    "headingFamily": "Sparkasse Regular",
+    "bodyFamily": "Sparkasse Light",
+    "families": [
+      {
+        "family": "Sparkasse Regular",
+        "weight": 400,
+        "use": "headings, buttons (hub page)"
+      },
+      {
+        "family": "Sparkasse Light",
+        "weight": 300,
+        "use": "body text (hub page)"
+      },
+      {
+        "family": "Sparkasse Medium",
+        "weight": 500,
+        "use": "emphasis headings (hub page)"
+      },
+      {
+        "family": "Sparkasse_Rg",
+        "weight": 400,
+        "use": "login page headline + button"
+      }
+    ],
+    "sizes": [
+      54,
+      38,
+      28,
+      24,
+      20,
+      16,
+      14
+    ],
+    "levels": {
+      "h1": {
+        "fontSize": 38,
+        "fontWeight": 700
+      },
+      "h2": {
+        "fontSize": 28,
+        "fontWeight": 400
+      },
+      "h3": {
+        "fontSize": 24,
+        "fontWeight": 400
+      }
+    },
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "note": "54/38/28/24/20/16/14 — no constant ratio"
+    },
+    "files": [
+      {
+        "family": "Sparkasse Light",
+        "weight": 300,
+        "file": "stardust/current/assets/fonts/sparkasse-light-300.woff",
+        "url": "https://if-hub.de/api/font-file/88523?format=woff&project_id=319",
+        "license": "proprietary"
+      },
+      {
+        "family": "Sparkasse Regular",
+        "weight": 400,
+        "file": "stardust/current/assets/fonts/sparkasse-regular-400.woff",
+        "url": "https://if-hub.de/api/font-file/88519?format=woff&project_id=319",
+        "license": "proprietary"
+      },
+      {
+        "family": "Sparkasse Medium",
+        "weight": 500,
+        "file": "stardust/current/assets/fonts/sparkasse-medium-500.woff",
+        "url": "https://if-hub.de/api/font-file/88516?format=woff&project_id=319",
+        "license": "proprietary"
+      },
+      {
+        "family": "Sparkasse_Rg",
+        "weight": 400,
+        "file": "stardust/current/assets/fonts/sparkasse-rg-400.ttf",
+        "url": "https://if-hub.de/api/font-file/5782?format=ttf&project_id=76",
+        "license": "proprietary"
+      },
+      {
+        "family": "SparkasseHead_web_Rg",
+        "file": "stardust/current/assets/fonts/SparkasseHead_web_Rg.woff",
+        "url": "https://sparkassen-mediacenter.de/intern/fonts/SparkasseHead_web_Rg.woff",
+        "license": "proprietary"
+      },
+      {
+        "family": "Sparkasse_web_Lt",
+        "file": "stardust/current/assets/fonts/Sparkasse_web_Lt.woff",
+        "url": "https://sparkassen-mediacenter.de/intern/fonts/Sparkasse_web_Lt.woff",
+        "license": "proprietary"
+      },
+      {
+        "family": "Sparkasse_web_Rg",
+        "file": "stardust/current/assets/fonts/Sparkasse_web_Rg.woff",
+        "url": "https://sparkassen-mediacenter.de/intern/fonts/Sparkasse_web_Rg.woff",
+        "license": "proprietary"
+      },
+      {
+        "family": "Sparkasse_web_Md",
+        "file": "stardust/current/assets/fonts/Sparkasse_web_Md.woff",
+        "url": "https://sparkassen-mediacenter.de/intern/fonts/Sparkasse_web_Md.woff",
+        "license": "proprietary"
+      },
+      {
+        "family": "Diatype",
+        "file": "stardust/current/assets/fonts/ABCDiatypeVariable.woff2",
+        "url": "https://cdn.frontify.com/fonts/ABCDiatypeVariable.woff2",
+        "license": "proprietary (Frontify platform UI)"
+      },
+      {
+        "family": "Mier B",
+        "file": "stardust/current/assets/fonts/MierB-Book.woff2",
+        "url": "https://cdn.frontify.com/fonts/MierB-Book.woff2",
+        "license": "proprietary (Frontify platform UI)"
+      }
+    ]
+  },
+  "motifs": {
+    "radius": {
+      "mode": "99px",
+      "values": [
+        "99px",
+        "4px",
+        "10px",
+        "30px",
+        "9999px"
+      ],
+      "note": "pill buttons dominate"
+    },
+    "shadows": [],
+    "gradients": [],
+    "patterns": [
+      "pill-button",
+      "red-header-bar",
+      "video-hero",
+      "tile-grid",
+      "split-login"
+    ]
+  },
+  "voice": {
+    "heroHeadline": "Herzlich willkommen im IF-Hub",
+    "heroLede": "News, Tipps und Anleitungen rund um Ihre Internet-Filiale: Finden Sie auf inen Blick alles, um die Online-Präsenz Ihrer Sparkasse auf dem neuesten Stand zu halten.",
+    "ctas": [
+      "Weiter",
+      "Anmelden über SSO",
+      "Zugang beantragen",
+      "Alle Podcast-Folgen"
+    ],
+    "language": "de",
+    "heroImage": {
+      "url": "https://media.ffycdn.net/eu/sparkassenfinanzportal/c95yUqCmLCeZMGDtT37D.jpg",
+      "page": "index",
+      "note": "login split-screen photo"
+    },
+    "heroMedium": {
+      "kind": "video",
+      "url": "https://media.ffycdn.net/eu/sparkassenfinanzportal/NT4Cqvwes46oAW5bkkNc.mp4",
+      "file": "stardust/current/assets/media/NT4Cqvwes46oAW5bkkNc.mp4",
+      "page": "d-8fjlj4fun12p",
+      "note": "looping background video behind the hub hero (00:55)"
+    }
+  },
+  "iconFont": null,
+  "systemComponents": [
+    {
+      "id": "hub-header",
+      "kind": "header",
+      "pages": [
+        "d-8fjlj4fun12p"
+      ],
+      "note": "red bar: S logo, nav IF-Wissen · Redaktions-Guidelines · Bewegtbild-Guidelines · Kontakt, search icon"
+    },
+    {
+      "id": "hub-footer",
+      "kind": "footer",
+      "pages": [
+        "d-8fjlj4fun12p"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "writtenBy": "gate.sh --gate-against-baseline",
+  "origin": "baseline",
+  "url": "https://if-hub.de/",
+  "width": 1440,
+  "at": "2026-11-21T01:14:35.730Z",
+  "originBaseline": {
+    "capturedAt": "2026-11-21T01:14:35.730Z",
+    "height": 900
+  }
+}

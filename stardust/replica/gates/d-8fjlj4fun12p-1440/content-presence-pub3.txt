@@ -1,0 +1,42 @@
+[live-session] waiting to pace live navigations to if-hub.de (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+[live-session] waiting to pace live navigations to main--8053f48d--aemcoder.aem.page (2000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+content-presence @ 1440px (chrome) — origin https://if-hub.de/d/8fJLj4FUN12p (docH 900, 29 items, HTTP 200) vs served https://main--8053f48d--aemcoder.aem.page/d/8fjlj4fun12p (docH 4407, 69 items, HTTP 200)
+scope: main.th-w-full.th-relative vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 0/0 | 0/0 | 0/0 | 1/1 | - |
+| 1 | herzlich willkommen im if-hub | 0/16 | 0/0 | 3/17 | 0/4 | EXTRA LINK, COUNT TEXT, COUNT IMAGES |
+  🟡 EXTRA HEADING: served h3 "if-wissen" (y 1219) has no origin heading
+  🟡 EXTRA HEADING: served h3 "redaktions-guidelines" (y 1219) has no origin heading
+  🟡 EXTRA HEADING: served h3 "technik-guidelines" (y 1219) has no origin heading
+  🟡 EXTRA HEADING: served h3 "das neue redaktionelle regelwerk für die internet-filiale ist online" (y 1678) has no origin heading
+  🟡 EXTRA HEADING: served h3 "erklär-podcast" (y 2038) has no origin heading
+  🟡 EXTRA HEADING: served h2 "oft gesucht" (y 3037) has no origin heading
+  🟡 EXTRA HEADING: served h3 "news & hinweise" (y 3174) has no origin heading
+  🟡 EXTRA HEADING: served h3 "support für die internet-filiale" (y 3174) has no origin heading
+  🟡 EXTRA HEADING: served h3 "plattformen & systeme" (y 3174) has no origin heading
+  🟡 EXTRA HEADING: served h3 "bfsg infos" (y 3174) has no origin heading
+  🟡 EXTRA HEADING: served h2 "weitere services" (y 3513) has no origin heading
+  🟡 EXTRA HEADING: served h3 "app-shop" (y 3650) has no origin heading
+  🟡 EXTRA HEADING: served h3 "media-center" (y 3650) has no origin heading
+  🟡 EXTRA HEADING: served h3 "ui-guidelines" (y 3650) has no origin heading
+  🟡 EXTRA HEADING: served h3 "if-schulungsprogramm" (y 3867) has no origin heading
+  🟡 EXTRA HEADING: served h3 "content-service" (y 3867) has no origin heading
+  🟡 EXTRA HEADING: served h3 "info-mail-datenbank" (y 3867) has no origin heading
+  🟡 EXTRA HEADING: served h3 "sie haben die antwort auf ihre frage nicht gefunden?" (y 4083) has no origin heading
+  🟡 EXTRA LINK: ×7 "weiter" served in band "herzlich willkommen im if-hub", no origin link or button
+  🟡 EXTRA LINK: "zum redaktionellen regelwerk" served in band "herzlich willkommen im if-hub", no origin link or button
+  🟡 EXTRA LINK: "alle podcast-folgen" served in band "herzlich willkommen im if-hub", no origin link or button
+  🟡 EXTRA LINK: "app-shop besuchen" served in band "herzlich willkommen im if-hub", no origin link or button
+  🟡 EXTRA LINK: "media-center besuchen" served in band "herzlich willkommen im if-hub", no origin link or button
+  🟡 EXTRA LINK: "ui-guidelines besuchen" served in band "herzlich willkommen im if-hub", no origin link or button
+  🟡 EXTRA LINK: "if-schulungsprogramm besuchen" served in band "herzlich willkommen im if-hub", no origin link or button
+  🟡 EXTRA LINK: "content-service besuchen" served in band "herzlich willkommen im if-hub", no origin link or button
+  🟡 EXTRA LINK: "info-mail-datenbank besuchen" served in band "herzlich willkommen im if-hub", no origin link or button
+  🟡 EXTRA LINK: "support für die internet-filiale" served in band "herzlich willkommen im if-hub", no origin link or button
+  🟡 COUNT TEXT: band "herzlich willkommen im if-hub": 3 origin → 17 served visible
+  🟡 COUNT IMAGES: band "herzlich willkommen im if-hub": 0 origin → 4 served visible
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 16 / count deltas 2
+Findings: 30 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/d-8fjlj4fun12p-1440/content-presence-pub3.json

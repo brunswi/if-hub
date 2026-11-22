@@ -1,0 +1,18 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://if-hub.de/",
+  "width": 1440,
+  "vh": 900,
+  "height": 900,
+  "chunks": 1,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 6,
+    "late": 0
+  },
+  "at": "2026-11-21T01:14:59.178Z"
+}

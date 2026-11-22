@@ -1,0 +1,950 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-21T00:12:37.802Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "d-8fjlj4fun12p",
+  "url": "https://if-hub.de/d/8fJLj4FUN12p",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-21T00:12:37.802Z",
+  "finalUrl": "https://if-hub.de/d/8fJLj4FUN12p",
+  "title": "Start - IF-Hub",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": "A Powerful Brand Powered by Frontify",
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h3",
+      "text": "Herzlich willkommen im IF-Hub"
+    },
+    {
+      "tag": "h3",
+      "text": "IF-Wissen"
+    },
+    {
+      "tag": "h3",
+      "text": "Redaktions-Guidelines"
+    },
+    {
+      "tag": "h3",
+      "text": "Technik-Guidelines"
+    },
+    {
+      "tag": "h3",
+      "text": "Das neue Redaktionelle Regelwerk für die Internet-Filiale ist online"
+    },
+    {
+      "tag": "h3",
+      "text": "Erklär-Podcast"
+    },
+    {
+      "tag": "h2",
+      "text": "Oft gesucht"
+    },
+    {
+      "tag": "h3",
+      "text": "News & Hinweise"
+    },
+    {
+      "tag": "h3",
+      "text": "Support für die Internet-Filiale"
+    },
+    {
+      "tag": "h3",
+      "text": "Plattformen & Systeme"
+    },
+    {
+      "tag": "h3",
+      "text": "BFSG Infos"
+    },
+    {
+      "tag": "h2",
+      "text": "Weitere Services"
+    },
+    {
+      "tag": "h3",
+      "text": "App-Shop"
+    },
+    {
+      "tag": "h3",
+      "text": "Media-Center"
+    },
+    {
+      "tag": "h3",
+      "text": "UI-Guidelines"
+    },
+    {
+      "tag": "h3",
+      "text": "IF-Schulungsprogramm"
+    },
+    {
+      "tag": "h3",
+      "text": "Content-Service"
+    },
+    {
+      "tag": "h3",
+      "text": "Info-Mail-Datenbank"
+    },
+    {
+      "tag": "h3",
+      "text": "Sie haben die Antwort auf Ihre Frage nicht gefunden?"
+    }
+  ],
+  "body": [
+    "News, Tipps und Anleitungen rund um Ihre Internet-Filiale: Finden Sie auf inen Blick alles, um die Online-Präsenz Ihrer Sparkasse auf dem neuesten Stand zu halten.",
+    "Kundenorientiert und leicht verständlich: Finden Sie hier das Wichtigste, um ihre Online-Texte modern zu gestalten - und zugleichalle gesetzlichen Anforderungen im Blick zu behalten. Nur einen Klick entfernt finden Programmierer und Agenturen diewichtigsten Komponenten der Internet-Filiale zum Runterladen.",
+    "Entdecken Sie hilfreiche Informationen, die Ihre Arbeit im IF-CMS erleichtern. Wir freuen uns über neue Themen und wachsen gerne gemeinsam mit Ihnen!",
+    "Weiter",
+    "Das Redaktionelle Regelwerk: Vorgaben für eine überzeugende und barrierearme Sprache in der Internet-Filiale. Die neue Fassung von Juli 2025 ist jetzt verfügbar.",
+    "Weiter",
+    "Man muss das Rad nicht immer neu erfinden: Von allgemeinen Vorgaben bis hin zum einsatzbereitem Code - wir unterstützen Sie und Ihre Partner gerne.",
+    "Weiter",
+    "Die neue Fassung von Juli 2025 finden Sie unter Redaktions-Guidelines.Das Redaktionelle Regelwerk enthält Vorgaben für eine überzeugende und barrierearme Sprache in der IF. Es wurde sowohl strukturell als auch der inhaltlich umfassend überarbeitet. Sie finden in der neuen Version also neue Informationen und Vorgaben. Und Sie finden sie jetzt schneller. Zum Redaktionellen Regelwerk",
+    "In \"IF Talk\" und \"IF News2Use\" halten Sie Laura Knöll und Tobias Budde gemeinsam mit Expertinnen und Experten aus der S-Finanzgruppe immer auf dem Laufenden. Erfahren Sie alles Wichtige zu Updates, Neuerungen und relevanten Themen – direkt aus unserem Bewegtbild-Studio in Düsseldorf. Hier finden Sie alle Folgen auf einen Blick:",
+    "Alle Podcast-Folgen",
+    "Hier finden Sie aktuelle Informationen, Updates und wichtige Hinweise rund um die Internet-Filiale, damit Sie jederzeit bestens informiert sind.",
+    "Weiter",
+    "Wir helfen Ihnen schnell und effizient bei Fragen oder Störungen.",
+    "Weiter",
+    "Hier finden Sie nützliche Plattformen für die tägliche Arbeit, wie z. B. das Extranet und das Media-Center.",
+    "Weiter",
+    "Immer Up-to-date: Neue Gesetze und Vorschriften rund um das Thema Barrierefreiheitsstärkungsgesetz.",
+    "Weiter",
+    "Das gewisse Extrafür Ihre Internet-Filiale.",
+    "App-Shop besuchen",
+    "Die zentrale Plattformfür alle Online-Medien.",
+    "Media-Center besuchen",
+    "Für konsistentes Design und aktuelle Komponenten-Nutzung",
+    "UI-Guidelines besuchen",
+    "Fit für die Internet-Filiale.Aktuelles Schulungsprogramm.",
+    "IF-Schulungsprogramm besuchen",
+    "Regelmäßige oder gelegentliche Unterstützungfür Ihre Internet-Filiale.",
+    "Content-Service besuchen",
+    "Der Pool für alle Info-Mails rund um Ihre Internet-Filiale.",
+    "Info-Mail-Datenbank besuchen",
+    "Support für die Internet-Filiale"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "IF-Wissen",
+      "href": "/d/8fJLj4FUN12p/if-wissen"
+    },
+    {
+      "label": "Redaktions-Guidelines",
+      "href": "/d/8fJLj4FUN12p/redaktions-guidelines"
+    },
+    {
+      "label": "Bewegtbild-Guidelines",
+      "href": "/d/8fJLj4FUN12p/bewegtbild-guidelines"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/d/8fJLj4FUN12p/kontakt"
+    },
+    {
+      "label": "Search",
+      "href": null
+    },
+    {
+      "label": "Normal",
+      "href": "javascript:;"
+    },
+    {
+      "label": "Weiter",
+      "href": "/r/V3G101QvJeBekTNhxe2ceYyPCT4c22WOWKC3KE_8cN8"
+    },
+    {
+      "label": "Weiter",
+      "href": "/r/ucDy5Xr2RsLtIvZOZT7kn8BxFyxvunZWSjjftR5JmV4"
+    },
+    {
+      "label": "Weiter",
+      "href": "https://styleguide.sparkasse.de/document/531#/uebersicht/it-guidelines-coming-soon"
+    },
+    {
+      "label": "Zum Redaktionellen Regelwerk",
+      "href": "https://if-hub.de/document/525"
+    },
+    {
+      "label": "Alle Podcast-Folgen",
+      "href": "https://if-hub.de/document/528#/erklaer-podcast-neu/alle-podcast-folgen"
+    },
+    {
+      "label": "Weiter",
+      "href": "/r/2q9Re259nrB8znUH2oJzu8PxUQUdbWQzfy7DQ330ks0"
+    },
+    {
+      "label": "Weiter",
+      "href": "/r/Ro7HHQUle9y2Mdxxkvdog8vk-ScAeaSNUhsP5m4aqys"
+    },
+    {
+      "label": "Weiter",
+      "href": "/r/d75CaHmoVJ7QuYnFUzxUysOvef8i8X7Oceapnfp0YIc"
+    },
+    {
+      "label": "Weiter",
+      "href": "/r/JUKRKgORoB2Vr6AhBCa_mP6UTui5VQeDQvMXQeTKmxw"
+    },
+    {
+      "label": "App-Shop besuchen",
+      "href": "https://apps.sparkasse.de/splash"
+    },
+    {
+      "label": "Media-Center besuchen",
+      "href": "https://sparkassen-mediacenter.de/"
+    },
+    {
+      "label": "UI-Guidelines besuchen",
+      "href": "https://if-styleguide.sparkasse.de/"
+    },
+    {
+      "label": "IF-Schulungsprogramm besuchen",
+      "href": "/r/3VFwUuoIys05Gk6e35GaxTbAFGYxiOyUWzyWlMjn9jQ"
+    },
+    {
+      "label": "Content-Service besuchen",
+      "href": "https://if-hub.de/document/528#/statistik-service-support/content-service"
+    },
+    {
+      "label": "Info-Mail-Datenbank besuchen",
+      "href": "https://public.centerdevice.de/e5861710-8090-4642-a0be-fadba5063523"
+    },
+    {
+      "label": "Support für die Internet-Filiale",
+      "href": "/r/Ro7HHQUle9y2Mdxxkvdog8vk-ScAeaSNUhsP5m4aqys"
+    },
+    {
+      "label": "Nutzungshinweise",
+      "href": "https://if-styleguide.sparkasse.de/document/527#/nutzungshinweise/nutzungshinweise"
+    },
+    {
+      "label": "Impressum",
+      "href": "https://if-styleguide.sparkasse.de/document/527#/impressum/impressum"
+    },
+    {
+      "label": "Kontakt",
+      "href": "https://if-styleguide.sparkasse.de/document/527#/kontakt/kontaktmoeglichkeiten"
+    }
+  ],
+  "links": [
+    "https://if-hub.de/#main",
+    "https://if-hub.de/auth?referer=%2Fd%2F8fJLj4FUN12p",
+    "https://if-hub.de/d/8fJLj4FUN12p",
+    "https://if-hub.de/d/8fJLj4FUN12p/if-wissen",
+    "https://if-hub.de/d/8fJLj4FUN12p/redaktions-guidelines",
+    "https://if-hub.de/d/8fJLj4FUN12p/bewegtbild-guidelines",
+    "https://if-hub.de/d/8fJLj4FUN12p/kontakt",
+    "javascript:;",
+    "https://if-hub.de/r/V3G101QvJeBekTNhxe2ceYyPCT4c22WOWKC3KE_8cN8",
+    "https://if-hub.de/r/ucDy5Xr2RsLtIvZOZT7kn8BxFyxvunZWSjjftR5JmV4",
+    "https://styleguide.sparkasse.de/document/531#/uebersicht/it-guidelines-coming-soon",
+    "https://if-hub.de/document/525",
+    "https://if-hub.de/document/528#/erklaer-podcast-neu/alle-podcast-folgen",
+    "https://if-hub.de/r/2q9Re259nrB8znUH2oJzu8PxUQUdbWQzfy7DQ330ks0",
+    "https://if-hub.de/r/Ro7HHQUle9y2Mdxxkvdog8vk-ScAeaSNUhsP5m4aqys",
+    "https://if-hub.de/r/d75CaHmoVJ7QuYnFUzxUysOvef8i8X7Oceapnfp0YIc",
+    "https://if-hub.de/r/JUKRKgORoB2Vr6AhBCa_mP6UTui5VQeDQvMXQeTKmxw",
+    "https://apps.sparkasse.de/splash",
+    "https://sparkassen-mediacenter.de/",
+    "https://if-styleguide.sparkasse.de/",
+    "https://if-hub.de/r/3VFwUuoIys05Gk6e35GaxTbAFGYxiOyUWzyWlMjn9jQ",
+    "https://if-hub.de/document/528#/statistik-service-support/content-service",
+    "https://public.centerdevice.de/e5861710-8090-4642-a0be-fadba5063523",
+    "http://www.frontify.com/",
+    "https://if-styleguide.sparkasse.de/document/527#/nutzungshinweise/nutzungshinweise",
+    "https://if-styleguide.sparkasse.de/document/527#/impressum/impressum",
+    "https://if-styleguide.sparkasse.de/document/527#/kontakt/kontaktmoeglichkeiten"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://media.ffycdn.net/eu/sparkassenfinanzportal/h52apBMkJBRJKJWJ7iyW.png?width={width}",
+        "alt": "Go to IF-Hub",
+        "w": 176,
+        "h": 275
+      },
+      {
+        "src": "https://if-hub.de/img/brandportal/blankslate/arrow.svg",
+        "alt": "arrow down",
+        "w": 55,
+        "h": 71
+      },
+      {
+        "src": "https://media.ffycdn.net/eu/sparkassenfinanzportal/rPNYk2kRNVSEhV2LkAFm.png?width={width}",
+        "alt": "",
+        "w": 960,
+        "h": 720
+      },
+      {
+        "src": "https://media.ffycdn.net/eu/sparkassenfinanzportal/gL8hhGB2W2aRDWGsPBdr.webp?width={width}&rect=29.472776555022,0,318.66666666667,239&reference_width=800",
+        "alt": "",
+        "w": 319,
+        "h": 239
+      },
+      {
+        "src": "https://media.ffycdn.net/eu/sparkassenfinanzportal/TpzzJrkyGis3152ekCUL.webp?width={width}&rect=0,0,318.66666666667,239&reference_width=800",
+        "alt": "",
+        "w": 319,
+        "h": 239
+      },
+      {
+        "src": "https://media.ffycdn.net/eu/sparkassenfinanzportal/DMoYV8aec2czCim7TqfK.jpg?width={width}&rect=39.833333333333,0,637.33333333333,478&reference_width=717",
+        "alt": "",
+        "w": 637,
+        "h": 478
+      },
+      {
+        "src": "https://media.ffycdn.net/eu/sparkassenfinanzportal/hQKdjW6wXL8esQAfs4xo.jpg?width={width}",
+        "alt": "",
+        "w": 640,
+        "h": 426
+      }
+    ],
+    "allImgCount": 8,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [
+      {
+        "src": "https://media.ffycdn.net/eu/sparkassenfinanzportal/NT4Cqvwes46oAW5bkkNc.mp4?width={width}&format=mp4",
+        "poster": "https://media.ffycdn.net/eu/sparkassenfinanzportal/NT4Cqvwes46oAW5bkkNc.mp4?width={width}",
+        "autoplay": false,
+        "loop": true,
+        "muted": false
+      }
+    ],
+    "iframes": [
+      {
+        "src": "https://sparkassen-mediacenter.de/intern/mediacenter/mediathek/player/extern?id=0_prgkgedz&blz=99999001&autoplay=false",
+        "title": "Embedded content"
+      }
+    ]
+  },
+  "customProps": {
+    "--f-theme-settings-heading1-font-size": "46px",
+    "--f-theme-settings-heading1-line-height": "1.3",
+    "--f-theme-settings-heading1-text-decoration": "none",
+    "--f-theme-settings-heading1-font-style": "normal",
+    "--f-theme-settings-heading1-text-transform": "none",
+    "--f-theme-settings-heading1-letter-spacing": "normal",
+    "--f-theme-settings-heading1-font-weight": "400",
+    "--f-theme-settings-heading1-font-family": "\"Sparkasse Medium\"",
+    "--f-theme-settings-heading1-color": "rgb(0, 0, 0)",
+    "--f-theme-settings-heading1-margin-top": "0px",
+    "--f-theme-settings-heading1-margin-bottom": "10px",
+    "--f-theme-settings-heading2-font-size": "28px",
+    "--f-theme-settings-heading2-line-height": "1.3",
+    "--f-theme-settings-heading2-text-decoration": "none",
+    "--f-theme-settings-heading2-font-style": "normal",
+    "--f-theme-settings-heading2-text-transform": "none",
+    "--f-theme-settings-heading2-letter-spacing": "normal",
+    "--f-theme-settings-heading2-font-weight": "400",
+    "--f-theme-settings-heading2-font-family": "\"Sparkasse Medium\"",
+    "--f-theme-settings-heading2-color": "rgb(41, 41, 41)",
+    "--f-theme-settings-heading2-margin-top": "0px",
+    "--f-theme-settings-heading2-margin-bottom": "0px",
+    "--f-theme-settings-heading3-font-size": "24px",
+    "--f-theme-settings-heading3-line-height": "1.2",
+    "--f-theme-settings-heading3-text-decoration": "none",
+    "--f-theme-settings-heading3-font-style": "normal",
+    "--f-theme-settings-heading3-text-transform": "none",
+    "--f-theme-settings-heading3-letter-spacing": "normal",
+    "--f-theme-settings-heading3-font-weight": "400",
+    "--f-theme-settings-heading3-font-family": "\"Sparkasse Regular\"",
+    "--f-theme-settings-heading3-color": "rgb(41, 41, 41)",
+    "--f-theme-settings-heading3-margin-top": "0px",
+    "--f-theme-settings-heading3-margin-bottom": "10px",
+    "--f-theme-settings-heading4-font-size": "20px",
+    "--f-theme-settings-heading4-line-height": "1.5",
+    "--f-theme-settings-heading4-text-decoration": "none",
+    "--f-theme-settings-heading4-font-style": "normal",
+    "--f-theme-settings-heading4-text-transform": "none",
+    "--f-theme-settings-heading4-letter-spacing": "normal",
+    "--f-theme-settings-heading4-font-weight": "400",
+    "--f-theme-settings-heading4-font-family": "\"Sparkasse Regular\"",
+    "--f-theme-settings-heading4-color": "rgb(41, 41, 41)",
+    "--f-theme-settings-heading4-margin-top": "0px",
+    "--f-theme-settings-heading4-margin-bottom": "10px",
+    "--f-theme-settings-custom1-font-size": "20px",
+    "--f-theme-settings-custom1-line-height": "1.3",
+    "--f-theme-settings-custom1-text-decoration": "none",
+    "--f-theme-settings-custom1-font-style": "normal",
+    "--f-theme-settings-custom1-text-transform": "none",
+    "--f-theme-settings-custom1-letter-spacing": "normal",
+    "--f-theme-settings-custom1-font-weight": "400",
+    "--f-theme-settings-custom1-font-family": "\"Sparkasse Light\"",
+    "--f-theme-settings-custom1-color": "rgb(0, 0, 0)",
+    "--f-theme-settings-custom1-margin-top": "0px",
+    "--f-theme-settings-custom1-margin-bottom": "10px",
+    "--f-theme-settings-custom2-font-size": "24px",
+    "--f-theme-settings-custom2-line-height": "1.6",
+    "--f-theme-settings-custom2-text-decoration": "none",
+    "--f-theme-settings-custom2-font-style": "normal",
+    "--f-theme-settings-custom2-text-transform": "none",
+    "--f-theme-settings-custom2-letter-spacing": "normal",
+    "--f-theme-settings-custom2-font-weight": "400",
+    "--f-theme-settings-custom2-font-family": "\"Sparkasse Light\"",
+    "--f-theme-settings-custom2-color": "rgb(68, 68, 68)",
+    "--f-theme-settings-custom2-margin-top": "0px",
+    "--f-theme-settings-custom2-margin-bottom": "10px",
+    "--f-theme-settings-custom3-font-size": "14px",
+    "--f-theme-settings-custom3-line-height": "1.5",
+    "--f-theme-settings-custom3-text-decoration": "none",
+    "--f-theme-settings-custom3-font-style": "normal",
+    "--f-theme-settings-custom3-text-transform": "none",
+    "--f-theme-settings-custom3-letter-spacing": "normal",
+    "--f-theme-settings-custom3-font-weight": "400",
+    "--f-theme-settings-custom3-font-family": "\"Sparkasse Light\"",
+    "--f-theme-settings-custom3-color": "rgb(110, 110, 110)",
+    "--f-theme-settings-custom3-margin-top": "0px",
+    "--f-theme-settings-custom3-margin-bottom": "10px",
+    "--f-theme-settings-body-font-size": "20px",
+    "--f-theme-settings-body-line-height": "1.5",
+    "--f-theme-settings-body-text-decoration": "none",
+    "--f-theme-settings-body-font-style": "normal",
+    "--f-theme-settings-body-text-transform": "none",
+    "--f-theme-settings-body-letter-spacing": "normal",
+    "--f-theme-settings-body-font-weight": "400",
+    "--f-theme-settings-body-font-family": "\"Sparkasse Light\"",
+    "--f-theme-settings-body-color": "rgb(86, 86, 86)",
+    "--f-theme-settings-body-margin-top": "0",
+    "--f-theme-settings-body-margin-bottom": "0",
+    "--f-theme-settings-link-font-size": "16px",
+    "--f-theme-settings-link-line-height": "1.3",
+    "--f-theme-settings-link-text-decoration": "underline",
+    "--f-theme-settings-link-font-style": "normal",
+    "--f-theme-settings-link-text-transform": "none",
+    "--f-theme-settings-link-letter-spacing": "normal",
+    "--f-theme-settings-link-font-weight": "400",
+    "--f-theme-settings-link-font-family": "\"Sparkasse Light\"",
+    "--f-theme-settings-link-color": "rgb(68, 68, 68)",
+    "--f-theme-settings-quote-font-size": "22px",
+    "--f-theme-settings-quote-line-height": "1.3",
+    "--f-theme-settings-quote-text-decoration": "none",
+    "--f-theme-settings-quote-font-style": "normal",
+    "--f-theme-settings-quote-text-transform": "none",
+    "--f-theme-settings-quote-letter-spacing": "normal",
+    "--f-theme-settings-quote-font-weight": "100",
+    "--f-theme-settings-quote-font-family": "\"Sparkasse Regular\"",
+    "--f-theme-settings-quote-color": "rgb(174, 174, 174)",
+    "--f-theme-settings-quote-margin-top": "0",
+    "--f-theme-settings-quote-margin-bottom": "10px",
+    "--f-theme-settings-image-title-font-size": "16px",
+    "--f-theme-settings-image-title-line-height": "1.4",
+    "--f-theme-settings-image-title-text-decoration": "none",
+    "--f-theme-settings-image-title-font-style": "normal",
+    "--f-theme-settings-image-title-text-transform": "none",
+    "--f-theme-settings-image-title-letter-spacing": "normal",
+    "--f-theme-settings-image-title-font-weight": "400",
+    "--f-theme-settings-image-title-font-family": "\"Sparkasse Medium\"",
+    "--f-theme-settings-image-title-color": "rgb(41, 41, 41)",
+    "--f-theme-settings-image-title-margin-top": "0",
+    "--f-theme-settings-image-title-margin-bottom": "3px",
+    "--f-theme-settings-image-caption-font-size": "16px",
+    "--f-theme-settings-image-caption-line-height": "1.5",
+    "--f-theme-settings-image-caption-text-decoration": "none",
+    "--f-theme-settings-image-caption-font-style": "normal",
+    "--f-theme-settings-image-caption-text-transform": "none",
+    "--f-theme-settings-image-caption-letter-spacing": "normal",
+    "--f-theme-settings-image-caption-font-weight": "400",
+    "--f-theme-settings-image-caption-font-family": "\"Sparkasse Light\"",
+    "--f-theme-settings-image-caption-color": "rgb(110, 110, 110)",
+    "--f-theme-settings-image-caption-margin-top": "0",
+    "--f-theme-settings-image-caption-margin-bottom": "0",
+    "--f-theme-settings-main-font-font-family": "\"Sparkasse Light\"",
+    "--f-theme-settings-accent-color-info-color": "rgb(122, 122, 122)",
+    "--f-theme-settings-accent-color-note-color": "rgb(0, 47, 212)",
+    "--f-theme-settings-accent-color-tip-color": "rgb(0, 114, 75)",
+    "--f-theme-settings-accent-color-warning-color": "rgb(238, 0, 0)",
+    "--f-theme-settings-button-primary-font-family": "\"Sparkasse Regular\"",
+    "--f-theme-settings-button-primary-font-size": "16px",
+    "--f-theme-settings-button-primary-line-height": "1.6",
+    "--f-theme-settings-button-primary-font-weight": "400",
+    "--f-theme-settings-button-primary-font-style": "normal",
+    "--f-theme-settings-button-primary-text-transform": "none",
+    "--f-theme-settings-button-primary-padding-top": "15px",
+    "--f-theme-settings-button-primary-padding-right": "40px",
+    "--f-theme-settings-button-primary-padding-bottom": "15px",
+    "--f-theme-settings-button-primary-padding-left": "40px",
+    "--f-theme-settings-button-primary-border-radius": "99px",
+    "--f-theme-settings-button-primary-border-width": "2px",
+    "--f-theme-settings-button-primary-background-color": "rgb(238, 0, 0)",
+    "--f-theme-settings-button-primary-border-color": "rgb(238, 0, 0)",
+    "--f-theme-settings-button-primary-color": "rgb(255, 255, 255)",
+    "--f-theme-settings-button-primary-background-color-hover": "rgb(209, 0, 0)",
+    "--f-theme-settings-button-primary-border-color-hover": "rgb(209, 0, 0)",
+    "--f-theme-settings-button-primary-color-hover": "rgb(255, 255, 255)",
+    "--f-theme-settings-button-secondary-font-family": "\"Sparkasse Regular\"",
+    "--f-theme-settings-button-secondary-font-size": "16px",
+    "--f-theme-settings-button-secondary-line-height": "1.5",
+    "--f-theme-settings-button-secondary-font-weight": "400",
+    "--f-theme-settings-button-secondary-font-style": "normal",
+    "--f-theme-settings-button-secondary-text-transform": "none",
+    "--f-theme-settings-button-secondary-padding-top": "10px",
+    "--f-theme-settings-button-secondary-padding-right": "20px",
+    "--f-theme-settings-button-secondary-padding-bottom": "10px",
+    "--f-theme-settings-button-secondary-padding-left": "20px",
+    "--f-theme-settings-button-secondary-border-radius": "99px",
+    "--f-theme-settings-button-secondary-border-width": "2px",
+    "--f-theme-settings-button-secondary-background-color": "rgb(86, 86, 86)",
+    "--f-theme-settings-button-secondary-border-color": "rgb(86, 86, 86)",
+    "--f-theme-settings-button-secondary-color": "rgb(255, 255, 255)",
+    "--f-theme-settings-button-secondary-background-color-hover": "rgb(172, 172, 172)",
+    "--f-theme-settings-button-secondary-border-color-hover": "rgb(155, 155, 155)",
+    "--f-theme-settings-button-secondary-color-hover": "rgb(76, 76, 76)",
+    "--f-theme-settings-button-tertiary-font-family": "\"Sparkasse Regular\"",
+    "--f-theme-settings-button-tertiary-font-size": "16px",
+    "--f-theme-settings-button-tertiary-line-height": "1.3",
+    "--f-theme-settings-button-tertiary-font-weight": "400",
+    "--f-theme-settings-button-tertiary-font-style": "normal",
+    "--f-theme-settings-button-tertiary-text-transform": "none",
+    "--f-theme-settings-button-tertiary-padding-top": "10px",
+    "--f-theme-settings-button-tertiary-padding-right": "20px",
+    "--f-theme-settings-button-tertiary-padding-bottom": "10px",
+    "--f-theme-settings-button-tertiary-padding-left": "20px",
+    "--f-theme-settings-button-tertiary-border-radius": "99px",
+    "--f-theme-settings-button-tertiary-border-width": "1px",
+    "--f-theme-settings-button-tertiary-background-color": "rgb(255, 255, 255)",
+    "--f-theme-settings-button-tertiary-border-color": "rgb(86, 86, 86)",
+    "--f-theme-settings-button-tertiary-color": "rgb(41, 41, 41)",
+    "--f-theme-settings-button-tertiary-background-color-hover": "rgb(86, 86, 86)",
+    "--f-theme-settings-button-tertiary-border-color-hover": "rgb(86, 86, 86)",
+    "--f-theme-settings-button-tertiary-color-hover": "rgb(255, 255, 255)",
+    "--f-theme-settings-background-color": "initial",
+    "--f-theme-settings-list-bullet1-color": "currentColor",
+    "--f-theme-settings-list-bullet1-shape": "'•'",
+    "--f-theme-settings-list-bullet1-size": "auto",
+    "--f-theme-settings-list-bullet2-color": "currentColor",
+    "--f-theme-settings-list-bullet2-shape": "'•'",
+    "--f-theme-settings-list-bullet2-size": "auto",
+    "--f-theme-settings-list-bullet3-color": "currentColor",
+    "--f-theme-settings-list-bullet3-shape": "'•'",
+    "--f-theme-settings-list-bullet3-size": "auto",
+    "--f-theme-settings-list-numbered1-color": "currentColor",
+    "--f-theme-settings-list-numbered1-counter-type": "decimal",
+    "--f-theme-settings-list-numbered2-color": "currentColor",
+    "--f-theme-settings-list-numbered2-counter-type": "lower-alpha",
+    "--f-theme-settings-list-numbered3-color": "currentColor",
+    "--f-theme-settings-list-numbered3-counter-type": "lower-roman"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 19,
+    "mainTextLen": 3590,
+    "realImageCount": 7,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage",
+    "pageSize": {
+      "w": 1440,
+      "h": 900
+    }
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/csrf-token",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/csrf-token",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/session",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/session",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.frontify.com",
+        "path": "/locales/en.12d41535f7d23b7b.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.frontify.com/locales/en.12d41535f7d23b7b.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "if-hub.de",
+        "path": "/graphql-internal",
+        "query": [
+          "operationName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 11,
+        "example": "https://if-hub.de/graphql-internal",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/context",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/context",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/dashboard/appearance",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/dashboard/appearance",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "sentryapp.appsupport.frontify.dev",
+        "path": "/api/{n}/envelope/",
+        "query": [
+          "sentry_client",
+          "sentry_key",
+          "sentry_version"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://sentryapp.appsupport.frontify.dev/api/51/envelope/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal",
+        "query": [
+          "token"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/portal",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "if-hub.de",
+        "path": "/api/context",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/context",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/marketplace-app/importmap",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/marketplace-app/importmap",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/marketplace-app/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/marketplace-app/123",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal/{n}/footer",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/portal/110/footer",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal/{n}/font-families",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/portal/110/font-families",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal/{n}/font-styles",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/portal/110/font-styles",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/document/navigation/{n}",
+        "query": [
+          "language"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/document/navigation/110",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/ai-assistant/configuration/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/ai-assistant/configuration/110",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal/{n}/cover-page-template-asset",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/portal/110/cover-page-template-asset",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal/{n}/theme-asset/cover",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/portal/110/theme-asset/cover",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "if-hub.de",
+        "path": "/api/guideline-view-tracking",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/guideline-view-tracking",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal-navigation/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/portal-navigation/110",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/guideline-stylesheets/portal/{n}",
+        "query": [
+          "language"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/guideline-stylesheets/portal/110",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://if-hub.de/api/portal/110",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/hub/grid/{n}",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/hub/grid/110",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/cross-search-guideline/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://if-hub.de/api/cross-search-guideline/110",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.frontify.com",
+        "count": 106
+      },
+      {
+        "host": "frontify-artifacts.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [
+      "https://sparkassen-mediacenter.de/intern/mediacenter/mediathek/player/extern?id=0_prgkgedz&blz=99999001&autoplay=false"
+    ],
+    "summary": {
+      "sameSiteEndpoints": 22,
+      "thirdPartyEndpoints": 2,
+      "thirdPartyScriptHosts": 2,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/d-8fjlj4fun12p.png",
+  "renderedHtml": "pages/d-8fjlj4fun12p.html",
+  "slots": {
+    "type": "landing",
+    "hero": {
+      "headline": "Herzlich willkommen im IF-Hub",
+      "media": "video"
+    },
+    "intro": "Kundenorientiert und leicht verständlich…",
+    "tiles": [
+      "IF-Wissen",
+      "Redaktions-Guidelines",
+      "Technik-Guidelines"
+    ],
+    "feature": [
+      "Das neue Redaktionelle Regelwerk für die Internet-Filiale ist online",
+      "Erklär-Podcast"
+    ],
+    "oftGesucht": [
+      "News & Hinweise",
+      "Support für die Internet-Filiale",
+      "Plattformen & Systeme",
+      "BFSG Infos"
+    ],
+    "weitereServices": [
+      "App-Shop",
+      "Media-Center",
+      "UI-Guidelines",
+      "IF-Schulungsprogramm",
+      "Content-Service",
+      "Info-Mail-Datenbank"
+    ],
+    "supportBand": "Sie haben die Antwort auf Ihre Frage nicht gefunden?"
+  }
+}

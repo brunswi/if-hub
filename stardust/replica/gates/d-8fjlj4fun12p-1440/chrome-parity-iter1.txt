@@ -1,0 +1,14 @@
+chrome-parity: --live-cache stardust/replica/gates/d-8fjlj4fun12p-1440/chrome-live.json was probed for a different url/width/regions/overlay state — re-probing live
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://if-hub.de/d/8fJLj4FUN12p
+  build: http://localhost:8791/d-8fjlj4fun12p-proposed.html
+
+■ header: ✓ parity — 4 paired of 4/4 texts, 2/2 icons
+  region live:  header.th-relative.th-z-20 — outermost <header>, box 0,0 1430×90; selector #classic-theme > div:nth-of-type(1) > header
+  region build: header.hub-header — outermost <header>, box 0,0 1430×90; selector body > div > header
+
+■ footer: ✓ parity — 4 paired of 4/4 texts, 0/0 icons
+  region live:  [data-test-id="guideline-theme-custom-footer"] — given by --region, box 0,4303 1430×104
+  region build: footer — given by --region, box 0,4303 1430×104
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

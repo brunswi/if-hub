@@ -1,0 +1,2465 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-21T02:38:19.865Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://if-hub.de/d/8fJLj4FUN12p",
+  "at": "2026-11-21T02:37:36.342Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 900,
+  "root": "main.th-w-full.th-relative",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > div.tw-fixed.tw-group > a.tw-block.tw-w-10",
+    "x": 12,
+    "y": 848,
+    "w": 40,
+    "h": 40,
+    "text": "go to login page",
+    "href": "/auth"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.th-flex.th-items-center > a",
+    "x": 24,
+    "y": 29,
+    "w": 20,
+    "h": 32,
+    "text": "go to if-hub",
+    "href": "/d/8fJLj4FUN12p"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.th-flex.th-items-center > a > img.th-block.th-max-w-full",
+    "x": 28,
+    "y": 22,
+    "w": 20,
+    "h": 32,
+    "text": "go to if-hub",
+    "file": "h52apBMkJBRJKJWJ7iyW"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.th-flex.th-items-center > div.th-pr-4.th-pt-1 > button",
+    "x": 262,
+    "y": 32,
+    "w": 24,
+    "h": 24,
+    "text": ""
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.th-z-20.th-text-white > div.th-flex.th-items-center > button.th-font-[family-name:var(--theme-font-family)].th-font-[number:var(--theme-default-font-weight)]",
+    "x": 302,
+    "y": 33,
+    "w": 24,
+    "h": 24,
+    "text": "open navigation"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.js-pb-text-image__image.pb-text-image__image-container > div.cm-image-legacy.js-cm-image-legacy > img.cm-image-legacy__image.ls-is-cached",
+    "x": 0,
+    "y": 90,
+    "w": 350,
+    "h": 517,
+    "text": "",
+    "file": "rPNYk2kRNVSEhV2LkAFm"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pb-text-image__text > div.pb-text-image__text-inner.js-pb-text-image__editor > h3",
+    "x": 70,
+    "y": 110,
+    "w": 245,
+    "h": 259,
+    "level": 3,
+    "text": "herzlich willkommen im if-hub"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pb-text-image__text-inner.js-pb-text-image__editor > h3 > span",
+    "x": 70,
+    "y": 112,
+    "w": 248,
+    "h": 253,
+    "text": "Herzlich willkommen im IF-Hub"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pb-text-image__text-inner.js-pb-text-image__editor > p.custom.custom1 > span",
+    "x": 70,
+    "y": 381,
+    "w": 248,
+    "h": 204,
+    "text": "News, Tipps und Anleitungen rund um Ihre Internet-Filiale: Finden Sie auf inen B"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.o-scom__link > p > a",
+    "x": 50,
+    "y": 8616,
+    "w": 128,
+    "h": 21,
+    "text": "nutzungshinweise",
+    "href": "/document/527"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.o-scom__link > p > a",
+    "x": 50,
+    "y": 8650,
+    "w": 77,
+    "h": 21,
+    "text": "impressum",
+    "href": "/document/527"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.o-scom__link > p > a",
+    "x": 50,
+    "y": 8684,
+    "w": 54,
+    "h": 21,
+    "text": "kontakt",
+    "href": "/document/527"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.o-scom__footer > div.o-scom__copyright > p",
+    "x": 50,
+    "y": 8727,
+    "w": 280,
+    "h": 48,
+    "text": "© S-Communication Services GmbH 2024"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 7,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 9,
+    "controls": 7,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 3,
+     "clipper": "div._viewport_71r9v_12",
+     "path": "div.o-scom__links > div.o-scom__link > p > a",
+     "text": "nutzungshinweise",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 3,
+     "clipper": "div._viewport_71r9v_12",
+     "path": "div.o-scom__links > div.o-scom__link > p > a",
+     "text": "nutzungshinweise",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div._viewport_71r9v_12",
+     "path": "div.o-scom__wrapper > div.o-scom__footer > div.o-scom__copyright > p",
+     "text": "© s-communication services gmbh 2024",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--8053f48d--aemcoder.aem.page/d/8fjlj4fun12p",
+  "at": "2026-11-21T02:38:19.759Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8795,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hub-header-bar > div.hub-header-brand > a.hub-header-logo",
+    "x": 24,
+    "y": 29,
+    "w": 20,
+    "h": 32,
+    "text": "go to if-hub",
+    "href": "/d/8fjlj4fun12p"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.hub-header-logo > picture > img",
+    "x": 28,
+    "y": 22,
+    "w": 20,
+    "h": 32,
+    "text": "go to if-hub",
+    "file": "media_1e923467e24151867db6f56d55bd096346"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hub-header-bar > div.hub-header-tools > button.hub-header-search",
+    "x": 262,
+    "y": 32,
+    "w": 24,
+    "h": 24,
+    "text": ""
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hub-header-tools > div.hub-header-menu > button.hub-header-burger",
+    "x": 302,
+    "y": 34,
+    "w": 24,
+    "h": 24,
+    "text": "open navigation"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hub-header-tools > div.hub-header-menu > button.hub-header-burger",
+    "x": 302,
+    "y": 34,
+    "w": 24,
+    "h": 24,
+    "label": "open navigation",
+    "value": "open navigation",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-hero-bg > picture > img",
+    "x": 0,
+    "y": 90,
+    "w": 350,
+    "h": 517,
+    "text": "",
+    "file": "media_1b4af9de79e9ce6192b18dc75f8de33c1c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-hero-text > div.hub-hero-title > h1#herzlich-willkommenim-if-hub",
+    "x": 70,
+    "y": 110,
+    "w": 245,
+    "h": 259,
+    "level": 1,
+    "text": "herzlich willkommen im if-hub"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-hero-text > div.hub-hero-lede > p",
+    "x": 70,
+    "y": 379,
+    "w": 245,
+    "h": 208,
+    "text": "News, Tipps und Anleitungen rund um Ihre Internet-Filiale: Finden Sie auf inen B"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.tiles-container > div.default-content-wrapper.hub-reveal > p",
+    "x": 50,
+    "y": 930,
+    "w": 250,
+    "h": 614,
+    "text": "Kundenorientiert und leicht verständlich: Finden Sie hier das Wichtigste, um ihr"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tiles-image > picture > img",
+    "x": 50,
+    "y": 1634,
+    "w": 250,
+    "h": 188,
+    "text": "",
+    "file": "media_17baf4239973f52f3eac1eb68299bcbf77"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tiles-col.hub-reveal > div.tiles-text > h3#if-wissen",
+    "x": 70,
+    "y": 1841,
+    "w": 210,
+    "h": 29,
+    "level": 3,
+    "text": "if-wissen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tiles-col.hub-reveal > div.tiles-text > p",
+    "x": 70,
+    "y": 1880,
+    "w": 210,
+    "h": 210,
+    "text": "Entdecken Sie hilfreiche Informationen, die Ihre Arbeit im IF-CMS erleichtern. W"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tiles-text > p.button-wrapper > a.button.primary",
+    "x": 70,
+    "y": 2110,
+    "w": 131,
+    "h": 60,
+    "text": "weiter",
+    "href": "/r/V3G101QvJeBekTNhxe2ceYyPCT4c22WOWKC3KE_8cN8"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tiles-image > picture > img",
+    "x": 50,
+    "y": 2200,
+    "w": 250,
+    "h": 188,
+    "text": "",
+    "file": "media_1675281820024c19b6c8d260dd7236d38a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tiles-col.hub-reveal > div.tiles-text > h3#redaktions-guidelines",
+    "x": 70,
+    "y": 2407,
+    "w": 210,
+    "h": 58,
+    "level": 3,
+    "text": "redaktions-guidelines"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tiles-col.hub-reveal > div.tiles-text > p",
+    "x": 70,
+    "y": 2475,
+    "w": 210,
+    "h": 210,
+    "text": "Das Redaktionelle Regelwerk: Vorgaben für eine überzeugende und barrierearme Spr"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tiles-text > p.button-wrapper > a.button.primary",
+    "x": 70,
+    "y": 2705,
+    "w": 131,
+    "h": 60,
+    "text": "weiter",
+    "href": "/r/ucDy5Xr2RsLtIvZOZT7kn8BxFyxvunZWSjjftR5JmV4"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tiles-image > picture > img",
+    "x": 50,
+    "y": 2795,
+    "w": 250,
+    "h": 188,
+    "text": "",
+    "file": "media_1f5812691ad525a8731ae97a6b439348fd"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tiles-col.hub-reveal > div.tiles-text > h3#technik-guidelines",
+    "x": 70,
+    "y": 3002,
+    "w": 210,
+    "h": 29,
+    "level": 3,
+    "text": "technik-guidelines"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tiles-col.hub-reveal > div.tiles-text > p",
+    "x": 70,
+    "y": 3041,
+    "w": 210,
+    "h": 210,
+    "text": "Man muss das Rad nicht immer neu erfinden: Von allgemeinen Vorgaben bis hin zum "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.tiles-text > p.button-wrapper > a.button.primary",
+    "x": 70,
+    "y": 3271,
+    "w": 131,
+    "h": 60,
+    "text": "weiter",
+    "href": "/document/531"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.feature.rule-before-spaced > div.default-content-wrapper.hub-reveal > h3#das-neue-redaktionelle-regelwerk-für-die-internet-filiale-ist-online",
+    "x": 20,
+    "y": 3551,
+    "w": 310,
+    "h": 86,
+    "level": 3,
+    "text": "das neue redaktionelle regelwerk für die internet-filiale ist online"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.feature.rule-before-spaced > div.default-content-wrapper.hub-reveal > p",
+    "x": 20,
+    "y": 3648,
+    "w": 310,
+    "h": 440,
+    "text": "Die neue Fassung von Juli 2025 finden Sie unter Redaktions-Guidelines. Das Redak"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > a",
+    "x": 22,
+    "y": 4018,
+    "w": 306,
+    "h": 60,
+    "text": "zum redaktionellen regelwerk",
+    "href": "/document/525"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.feature.rule-after-spaced > div.default-content-wrapper.hub-reveal > h3#erklär-podcast",
+    "x": 20,
+    "y": 4178,
+    "w": 310,
+    "h": 29,
+    "level": 3,
+    "text": "erklär-podcast"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.feature.rule-after-spaced > div.default-content-wrapper.hub-reveal > p",
+    "x": 20,
+    "y": 4217,
+    "w": 310,
+    "h": 330,
+    "text": "In \"IF Talk\" und \"IF News2Use\" halten Sie Laura Knöll und Tobias Budde gemeinsam"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper.hub-reveal > p.button-wrapper > a.button.primary",
+    "x": 62,
+    "y": 4567,
+    "w": 225,
+    "h": 60,
+    "text": "alle podcast-folgen",
+    "href": "/document/528"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.hub-cards-container > div.default-content-wrapper.hub-reveal > h2#oft-gesucht",
+    "x": 20,
+    "y": 5388,
+    "w": 310,
+    "h": 36,
+    "level": 2,
+    "text": "oft gesucht"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-cards-card > div.hub-cards-text > h3#news--hinweise",
+    "x": 21,
+    "y": 5525,
+    "w": 308,
+    "h": 29,
+    "level": 3,
+    "text": "news & hinweise"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-cards-card > div.hub-cards-text > p",
+    "x": 21,
+    "y": 5564,
+    "w": 308,
+    "h": 150,
+    "text": "Hier finden Sie aktuelle Informationen, Updates und wichtige Hinweise rund um di"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-cards-text > p.button-wrapper > a.button.secondary",
+    "x": 21,
+    "y": 5734,
+    "w": 89,
+    "h": 43,
+    "text": "weiter",
+    "href": "/r/2q9Re259nrB8znUH2oJzu8PxUQUdbWQzfy7DQ330ks0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-cards-card > div.hub-cards-text > h3#support-für-dieinternet-filiale",
+    "x": 21,
+    "y": 5829,
+    "w": 308,
+    "h": 58,
+    "level": 3,
+    "text": "support für die internet-filiale"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-cards-card > div.hub-cards-text > p",
+    "x": 21,
+    "y": 5896,
+    "w": 308,
+    "h": 90,
+    "text": "Wir helfen Ihnen schnell und effizient bei Fragen oder Störungen."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-cards-text > p.button-wrapper > a.button.secondary",
+    "x": 21,
+    "y": 6006,
+    "w": 89,
+    "h": 43,
+    "text": "weiter",
+    "href": "/r/Ro7HHQUle9y2Mdxxkvdog8vk-ScAeaSNUhsP5m4aqys"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-cards-card > div.hub-cards-text > h3#plattformen--systeme",
+    "x": 21,
+    "y": 6101,
+    "w": 308,
+    "h": 29,
+    "level": 3,
+    "text": "plattformen & systeme"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-cards-card > div.hub-cards-text > p",
+    "x": 21,
+    "y": 6140,
+    "w": 308,
+    "h": 120,
+    "text": "Hier finden Sie nützliche Plattformen für die tägliche Arbeit, wie z. B. das Ext"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-cards-text > p.button-wrapper > a.button.secondary",
+    "x": 21,
+    "y": 6280,
+    "w": 89,
+    "h": 43,
+    "text": "weiter",
+    "href": "/r/d75CaHmoVJ7QuYnFUzxUysOvef8i8X7Oceapnfp0YIc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-cards-card > div.hub-cards-text > h3#bfsg-infos",
+    "x": 21,
+    "y": 6375,
+    "w": 308,
+    "h": 29,
+    "level": 3,
+    "text": "bfsg infos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-cards-card > div.hub-cards-text > p",
+    "x": 21,
+    "y": 6414,
+    "w": 308,
+    "h": 120,
+    "text": "Immer Up-to-date: Neue Gesetze und Vorschriften rund um das Thema Barrierefreihe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hub-cards-text > p.button-wrapper > a.button.secondary",
+    "x": 21,
+    "y": 6554,
+    "w": 89,
+    "h": 43,
+    "text": "weiter",
+    "href": "/r/JUKRKgORoB2Vr6AhBCa_mP6UTui5VQeDQvMXQeTKmxw"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.services-container > div.default-content-wrapper.hub-reveal > h2#weitere-services",
+    "x": 20,
+    "y": 6684,
+    "w": 310,
+    "h": 36,
+    "level": 2,
+    "text": "weitere services"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-col.hub-reveal > div.services-text > h3#app-shop",
+    "x": 20,
+    "y": 6820,
+    "w": 310,
+    "h": 29,
+    "level": 3,
+    "text": "app-shop"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-col.hub-reveal > div.services-text > p",
+    "x": 20,
+    "y": 6859,
+    "w": 310,
+    "h": 60,
+    "text": "Das gewisse Extra für Ihre Internet-Filiale."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-text > p.button-wrapper > a.button.secondary",
+    "x": 20,
+    "y": 6939,
+    "w": 188,
+    "h": 48,
+    "text": "app-shop besuchen",
+    "href": "/splash"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-col.hub-reveal > div.services-text > h3#media-center",
+    "x": 20,
+    "y": 7037,
+    "w": 310,
+    "h": 29,
+    "level": 3,
+    "text": "media-center"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-col.hub-reveal > div.services-text > p",
+    "x": 20,
+    "y": 7076,
+    "w": 310,
+    "h": 60,
+    "text": "Die zentrale Plattform für alle Online-Medien."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-text > p.button-wrapper > a.button.secondary",
+    "x": 20,
+    "y": 7156,
+    "w": 214,
+    "h": 48,
+    "text": "media-center besuchen",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-col.hub-reveal > div.services-text > h3#ui-guidelines",
+    "x": 20,
+    "y": 7254,
+    "w": 310,
+    "h": 29,
+    "level": 3,
+    "text": "ui-guidelines"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-col.hub-reveal > div.services-text > p",
+    "x": 20,
+    "y": 7293,
+    "w": 310,
+    "h": 60,
+    "text": "Für konsistentes Design und aktuelle Komponenten-Nutzung"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-text > p.button-wrapper > a.button.secondary",
+    "x": 20,
+    "y": 7373,
+    "w": 215,
+    "h": 48,
+    "text": "ui-guidelines besuchen",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-col.hub-reveal > div.services-text > h3#if-schulungsprogramm",
+    "x": 20,
+    "y": 7471,
+    "w": 310,
+    "h": 29,
+    "level": 3,
+    "text": "if-schulungsprogramm"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-col.hub-reveal > div.services-text > p",
+    "x": 20,
+    "y": 7509,
+    "w": 310,
+    "h": 60,
+    "text": "Fit für die Internet-Filiale. Aktuelles Schulungsprogramm."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-text > p.button-wrapper > a.button.secondary",
+    "x": 20,
+    "y": 7589,
+    "w": 285,
+    "h": 48,
+    "text": "if-schulungsprogramm besuchen",
+    "href": "/r/3VFwUuoIys05Gk6e35GaxTbAFGYxiOyUWzyWlMjn9jQ"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-col.hub-reveal > div.services-text > h3#content-service",
+    "x": 20,
+    "y": 7687,
+    "w": 310,
+    "h": 29,
+    "level": 3,
+    "text": "content-service"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-col.hub-reveal > div.services-text > p",
+    "x": 20,
+    "y": 7726,
+    "w": 310,
+    "h": 90,
+    "text": "Regelmäßige oder gelegentliche Unterstützung für Ihre Internet-Filiale."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-text > p.button-wrapper > a.button.secondary",
+    "x": 20,
+    "y": 7836,
+    "w": 231,
+    "h": 48,
+    "text": "content-service besuchen",
+    "href": "/document/528"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-col.hub-reveal > div.services-text > h3#info-mail-datenbank",
+    "x": 20,
+    "y": 7934,
+    "w": 310,
+    "h": 29,
+    "level": 3,
+    "text": "info-mail-datenbank"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-col.hub-reveal > div.services-text > p",
+    "x": 20,
+    "y": 7973,
+    "w": 310,
+    "h": 60,
+    "text": "Der Pool für alle Info-Mails rund um Ihre Internet-Filiale."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.services-text > p.button-wrapper > a.button.secondary",
+    "x": 20,
+    "y": 8053,
+    "w": 264,
+    "h": 48,
+    "text": "info-mail-datenbank besuchen",
+    "href": "/e5861710-8090-4642-a0be-fadba5063523"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.support-image > picture > img",
+    "x": 0,
+    "y": 8131,
+    "w": 350,
+    "h": 197,
+    "text": "",
+    "file": "media_1d0d0ae79dbadf159b65796577b1de3cc4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.support-col.hub-reveal > div.support-text > h3#sie-haben-die-antwort-auf-ihre-frage-nicht-gefunden",
+    "x": 20,
+    "y": 8348,
+    "w": 310,
+    "h": 58,
+    "level": 3,
+    "text": "sie haben die antwort auf ihre frage nicht gefunden?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.support-text > p.button-wrapper > a.button.primary",
+    "x": 20,
+    "y": 8425,
+    "w": 301,
+    "h": 60,
+    "text": "support für die internet-filiale",
+    "href": "/r/Ro7HHQUle9y2Mdxxkvdog8vk-ScAeaSNUhsP5m4aqys"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.hub-footer-links > li > a",
+    "x": 50,
+    "y": 8616,
+    "w": 128,
+    "h": 21,
+    "text": "nutzungshinweise",
+    "href": "/document/527"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.hub-footer-links > li > a",
+    "x": 50,
+    "y": 8650,
+    "w": 77,
+    "h": 21,
+    "text": "impressum",
+    "href": "/document/527"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.hub-footer-links > li > a",
+    "x": 50,
+    "y": 8684,
+    "w": 54,
+    "h": 21,
+    "text": "kontakt",
+    "href": "/document/527"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hub-footer > div.hub-footer-inner > p.hub-footer-copyright",
+    "x": 50,
+    "y": 8727,
+    "w": 280,
+    "h": 48,
+    "text": "© S-Communication Services GmbH 2024"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.hub-footer > p.hub-login-wrapper > a.hub-login",
+    "x": 12,
+    "y": 848,
+    "w": 40,
+    "h": 40,
+    "text": "go to login page",
+    "href": "/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 69,
+    "controls": 23,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "herzlich willkommen im if-hub",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 16,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 17,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "COUNT TEXT",
+    "COUNT IMAGES"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"if-wissen\" (y 1841) has no origin heading",
+   "text": "if-wissen"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"redaktions-guidelines\" (y 2407) has no origin heading",
+   "text": "redaktions-guidelines"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"technik-guidelines\" (y 3002) has no origin heading",
+   "text": "technik-guidelines"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"das neue redaktionelle regelwerk für die internet-filiale ist online\" (y 3551) has no origin heading",
+   "text": "das neue redaktionelle regelwerk für die internet-filiale ist online"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"erklär-podcast\" (y 4178) has no origin heading",
+   "text": "erklär-podcast"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"oft gesucht\" (y 5388) has no origin heading",
+   "text": "oft gesucht"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"news & hinweise\" (y 5525) has no origin heading",
+   "text": "news & hinweise"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"support für die internet-filiale\" (y 5829) has no origin heading",
+   "text": "support für die internet-filiale"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"plattformen & systeme\" (y 6101) has no origin heading",
+   "text": "plattformen & systeme"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"bfsg infos\" (y 6375) has no origin heading",
+   "text": "bfsg infos"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"weitere services\" (y 6684) has no origin heading",
+   "text": "weitere services"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"app-shop\" (y 6820) has no origin heading",
+   "text": "app-shop"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"media-center\" (y 7037) has no origin heading",
+   "text": "media-center"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"ui-guidelines\" (y 7254) has no origin heading",
+   "text": "ui-guidelines"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"if-schulungsprogramm\" (y 7471) has no origin heading",
+   "text": "if-schulungsprogramm"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"content-service\" (y 7687) has no origin heading",
+   "text": "content-service"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"info-mail-datenbank\" (y 7934) has no origin heading",
+   "text": "info-mail-datenbank"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"sie haben die antwort auf ihre frage nicht gefunden?\" (y 8348) has no origin heading",
+   "text": "sie haben die antwort auf ihre frage nicht gefunden?"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×7 \"weiter\" served in band \"herzlich willkommen im if-hub\", no origin link or button",
+   "band": 1,
+   "n": 7,
+   "text": "weiter"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"zum redaktionellen regelwerk\" served in band \"herzlich willkommen im if-hub\", no origin link or button",
+   "band": 1,
+   "n": 1,
+   "text": "zum redaktionellen regelwerk"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"alle podcast-folgen\" served in band \"herzlich willkommen im if-hub\", no origin link or button",
+   "band": 1,
+   "n": 1,
+   "text": "alle podcast-folgen"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"app-shop besuchen\" served in band \"herzlich willkommen im if-hub\", no origin link or button",
+   "band": 1,
+   "n": 1,
+   "text": "app-shop besuchen"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"media-center besuchen\" served in band \"herzlich willkommen im if-hub\", no origin link or button",
+   "band": 1,
+   "n": 1,
+   "text": "media-center besuchen"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"ui-guidelines besuchen\" served in band \"herzlich willkommen im if-hub\", no origin link or button",
+   "band": 1,
+   "n": 1,
+   "text": "ui-guidelines besuchen"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"if-schulungsprogramm besuchen\" served in band \"herzlich willkommen im if-hub\", no origin link or button",
+   "band": 1,
+   "n": 1,
+   "text": "if-schulungsprogramm besuchen"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"content-service besuchen\" served in band \"herzlich willkommen im if-hub\", no origin link or button",
+   "band": 1,
+   "n": 1,
+   "text": "content-service besuchen"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"info-mail-datenbank besuchen\" served in band \"herzlich willkommen im if-hub\", no origin link or button",
+   "band": 1,
+   "n": 1,
+   "text": "info-mail-datenbank besuchen"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"support für die internet-filiale\" served in band \"herzlich willkommen im if-hub\", no origin link or button",
+   "band": 1,
+   "n": 1,
+   "text": "support für die internet-filiale"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"herzlich willkommen im if-hub\": 2 origin → 17 served visible",
+   "band": 1,
+   "origin": 2,
+   "eds": 17,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"herzlich willkommen im if-hub\": 0 origin → 4 served visible",
+   "band": 1,
+   "origin": 0,
+   "eds": 4,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 18,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 16,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 2,
+  "findings": 30,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 70,
+    "y": 112,
+    "w": 198,
+    "h": 59
+   },
+   {
+    "x": 268,
+    "y": 112,
+    "w": 12,
+    "h": 59
+   },
+   {
+    "x": 70,
+    "y": 177,
+    "w": 232,
+    "h": 59
+   },
+   {
+    "x": 70,
+    "y": 242,
+    "w": 73,
+    "h": 59
+   },
+   {
+    "x": 70,
+    "y": 306,
+    "w": 236,
+    "h": 59
+   },
+   {
+    "x": 306,
+    "y": 306,
+    "w": 12,
+    "h": 59
+   },
+   {
+    "x": 70,
+    "y": 381,
+    "w": 141,
+    "h": 22
+   },
+   {
+    "x": 211,
+    "y": 381,
+    "w": 5,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 407,
+    "w": 221,
+    "h": 22
+   },
+   {
+    "x": 291,
+    "y": 407,
+    "w": 5,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 433,
+    "w": 135,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 459,
+    "w": 208,
+    "h": 22
+   },
+   {
+    "x": 278,
+    "y": 459,
+    "w": 5,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 485,
+    "w": 243,
+    "h": 22
+   },
+   {
+    "x": 313,
+    "y": 485,
+    "w": 5,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 511,
+    "w": 45,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 537,
+    "w": 161,
+    "h": 22
+   },
+   {
+    "x": 231,
+    "y": 537,
+    "w": 5,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 563,
+    "w": 223,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 70,
+    "y": 112,
+    "w": 198,
+    "h": 59
+   },
+   {
+    "x": 70,
+    "y": 177,
+    "w": 232,
+    "h": 59
+   },
+   {
+    "x": 70,
+    "y": 242,
+    "w": 60,
+    "h": 59
+   },
+   {
+    "x": 70,
+    "y": 306,
+    "w": 236,
+    "h": 59
+   },
+   {
+    "x": 70,
+    "y": 381,
+    "w": 141,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 407,
+    "w": 221,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 433,
+    "w": 130,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 459,
+    "w": 208,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 485,
+    "w": 243,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 511,
+    "w": 40,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 537,
+    "w": 161,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 563,
+    "w": 223,
+    "h": 22
+   },
+   {
+    "x": 50,
+    "y": 936,
+    "w": 223,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 974,
+    "w": 193,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 1012,
+    "w": 195,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 1051,
+    "w": 199,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 1089,
+    "w": 244,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 1128,
+    "w": 248,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 1166,
+    "w": 172,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 1204,
+    "w": 241,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 1243,
+    "w": 233,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 1281,
+    "w": 207,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 1320,
+    "w": 202,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 1358,
+    "w": 146,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 1396,
+    "w": 119,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 1435,
+    "w": 187,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 1473,
+    "w": 201,
+    "h": 26
+   },
+   {
+    "x": 50,
+    "y": 1512,
+    "w": 133,
+    "h": 26
+   },
+   {
+    "x": 70,
+    "y": 1842,
+    "w": 105,
+    "h": 26
+   },
+   {
+    "x": 70,
+    "y": 1884,
+    "w": 205,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 1914,
+    "w": 196,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 1944,
+    "w": 142,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 1974,
+    "w": 190,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 2004,
+    "w": 198,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 2034,
+    "w": 168,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 2064,
+    "w": 193,
+    "h": 22
+   },
+   {
+    "x": 112,
+    "y": 2131,
+    "w": 47,
+    "h": 17
+   },
+   {
+    "x": 70,
+    "y": 2408,
+    "w": 130,
+    "h": 26
+   },
+   {
+    "x": 70,
+    "y": 2437,
+    "w": 115,
+    "h": 26
+   },
+   {
+    "x": 70,
+    "y": 2479,
+    "w": 155,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 2509,
+    "w": 209,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 2539,
+    "w": 205,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 2569,
+    "w": 206,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 2599,
+    "w": 197,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 2629,
+    "w": 189,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 2659,
+    "w": 202,
+    "h": 22
+   },
+   {
+    "x": 112,
+    "y": 2726,
+    "w": 47,
+    "h": 17
+   },
+   {
+    "x": 70,
+    "y": 3003,
+    "w": 204,
+    "h": 26
+   },
+   {
+    "x": 70,
+    "y": 3045,
+    "w": 208,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 3075,
+    "w": 174,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 3105,
+    "w": 144,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 3135,
+    "w": 186,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 3165,
+    "w": 199,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 3195,
+    "w": 209,
+    "h": 22
+   },
+   {
+    "x": 70,
+    "y": 3225,
+    "w": 160,
+    "h": 22
+   },
+   {
+    "x": 112,
+    "y": 3292,
+    "w": 47,
+    "h": 17
+   },
+   {
+    "x": 48,
+    "y": 3552,
+    "w": 253,
+    "h": 26
+   },
+   {
+    "x": 32,
+    "y": 3581,
+    "w": 287,
+    "h": 26
+   },
+   {
+    "x": 90,
+    "y": 3610,
+    "w": 170,
+    "h": 26
+   },
+   {
+    "x": 40,
+    "y": 3652,
+    "w": 271,
+    "h": 22
+   },
+   {
+    "x": 53,
+    "y": 3682,
+    "w": 244,
+    "h": 22
+   },
+   {
+    "x": 127,
+    "y": 3712,
+    "w": 96,
+    "h": 22
+   },
+   {
+    "x": 51,
+    "y": 3742,
+    "w": 249,
+    "h": 22
+   },
+   {
+    "x": 66,
+    "y": 3772,
+    "w": 218,
+    "h": 22
+   },
+   {
+    "x": 35,
+    "y": 3802,
+    "w": 280,
+    "h": 22
+   },
+   {
+    "x": 29,
+    "y": 3832,
+    "w": 293,
+    "h": 22
+   },
+   {
+    "x": 35,
+    "y": 3862,
+    "w": 279,
+    "h": 22
+   },
+   {
+    "x": 25,
+    "y": 3892,
+    "w": 300,
+    "h": 22
+   },
+   {
+    "x": 43,
+    "y": 3922,
+    "w": 265,
+    "h": 22
+   },
+   {
+    "x": 29,
+    "y": 3952,
+    "w": 292,
+    "h": 22
+   },
+   {
+    "x": 53,
+    "y": 3982,
+    "w": 243,
+    "h": 22
+   },
+   {
+    "x": 64,
+    "y": 4039,
+    "w": 222,
+    "h": 17
+   },
+   {
+    "x": 97,
+    "y": 4179,
+    "w": 156,
+    "h": 26
+   },
+   {
+    "x": 47,
+    "y": 4221,
+    "w": 256,
+    "h": 22
+   },
+   {
+    "x": 34,
+    "y": 4251,
+    "w": 283,
+    "h": 22
+   },
+   {
+    "x": 23,
+    "y": 4281,
+    "w": 304,
+    "h": 22
+   },
+   {
+    "x": 73,
+    "y": 4311,
+    "w": 205,
+    "h": 22
+   },
+   {
+    "x": 48,
+    "y": 4341,
+    "w": 253,
+    "h": 22
+   },
+   {
+    "x": 51,
+    "y": 4371,
+    "w": 248,
+    "h": 22
+   },
+   {
+    "x": 28,
+    "y": 4401,
+    "w": 293,
+    "h": 22
+   },
+   {
+    "x": 21,
+    "y": 4431,
+    "w": 307,
+    "h": 22
+   },
+   {
+    "x": 45,
+    "y": 4461,
+    "w": 261,
+    "h": 22
+   },
+   {
+    "x": 44,
+    "y": 4491,
+    "w": 262,
+    "h": 22
+   },
+   {
+    "x": 79,
+    "y": 4521,
+    "w": 192,
+    "h": 22
+   },
+   {
+    "x": 104,
+    "y": 4588,
+    "w": 141,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 5390,
+    "w": 148,
+    "h": 31
+   },
+   {
+    "x": 21,
+    "y": 5526,
+    "w": 183,
+    "h": 26
+   },
+   {
+    "x": 21,
+    "y": 5568,
+    "w": 198,
+    "h": 22
+   },
+   {
+    "x": 21,
+    "y": 5598,
+    "w": 241,
+    "h": 22
+   },
+   {
+    "x": 21,
+    "y": 5628,
+    "w": 264,
+    "h": 22
+   },
+   {
+    "x": 21,
+    "y": 5658,
+    "w": 295,
+    "h": 22
+   },
+   {
+    "x": 21,
+    "y": 5688,
+    "w": 204,
+    "h": 22
+   },
+   {
+    "x": 42,
+    "y": 5746,
+    "w": 47,
+    "h": 17
+   },
+   {
+    "x": 21,
+    "y": 5830,
+    "w": 161,
+    "h": 26
+   },
+   {
+    "x": 21,
+    "y": 5859,
+    "w": 159,
+    "h": 26
+   },
+   {
+    "x": 21,
+    "y": 5900,
+    "w": 244,
+    "h": 22
+   },
+   {
+    "x": 21,
+    "y": 5930,
+    "w": 209,
+    "h": 22
+   },
+   {
+    "x": 21,
+    "y": 5960,
+    "w": 95,
+    "h": 22
+   },
+   {
+    "x": 42,
+    "y": 6018,
+    "w": 47,
+    "h": 17
+   },
+   {
+    "x": 21,
+    "y": 6102,
+    "w": 246,
+    "h": 26
+   },
+   {
+    "x": 21,
+    "y": 6144,
+    "w": 209,
+    "h": 22
+   },
+   {
+    "x": 21,
+    "y": 6174,
+    "w": 295,
+    "h": 22
+   },
+   {
+    "x": 21,
+    "y": 6204,
+    "w": 253,
+    "h": 22
+   },
+   {
+    "x": 21,
+    "y": 6234,
+    "w": 119,
+    "h": 22
+   },
+   {
+    "x": 42,
+    "y": 6292,
+    "w": 47,
+    "h": 17
+   },
+   {
+    "x": 21,
+    "y": 6376,
+    "w": 114,
+    "h": 26
+   },
+   {
+    "x": 21,
+    "y": 6418,
+    "w": 159,
+    "h": 22
+   },
+   {
+    "x": 21,
+    "y": 6448,
+    "w": 265,
+    "h": 22
+   },
+   {
+    "x": 21,
+    "y": 6478,
+    "w": 171,
+    "h": 22
+   },
+   {
+    "x": 21,
+    "y": 6508,
+    "w": 285,
+    "h": 22
+   },
+   {
+    "x": 42,
+    "y": 6566,
+    "w": 47,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 6686,
+    "w": 211,
+    "h": 31
+   },
+   {
+    "x": 20,
+    "y": 6821,
+    "w": 106,
+    "h": 26
+   },
+   {
+    "x": 20,
+    "y": 6863,
+    "w": 154,
+    "h": 22
+   },
+   {
+    "x": 20,
+    "y": 6893,
+    "w": 196,
+    "h": 22
+   },
+   {
+    "x": 42,
+    "y": 6954,
+    "w": 144,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 7038,
+    "w": 145,
+    "h": 26
+   },
+   {
+    "x": 20,
+    "y": 7080,
+    "w": 187,
+    "h": 22
+   },
+   {
+    "x": 20,
+    "y": 7110,
+    "w": 195,
+    "h": 22
+   },
+   {
+    "x": 42,
+    "y": 7171,
+    "w": 170,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 7255,
+    "w": 146,
+    "h": 26
+   },
+   {
+    "x": 20,
+    "y": 7297,
+    "w": 243,
+    "h": 22
+   },
+   {
+    "x": 20,
+    "y": 7327,
+    "w": 276,
+    "h": 22
+   },
+   {
+    "x": 42,
+    "y": 7388,
+    "w": 171,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 7472,
+    "w": 252,
+    "h": 26
+   },
+   {
+    "x": 20,
+    "y": 7513,
+    "w": 216,
+    "h": 22
+   },
+   {
+    "x": 20,
+    "y": 7543,
+    "w": 268,
+    "h": 22
+   },
+   {
+    "x": 42,
+    "y": 7604,
+    "w": 241,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 7688,
+    "w": 171,
+    "h": 26
+   },
+   {
+    "x": 20,
+    "y": 7730,
+    "w": 280,
+    "h": 22
+   },
+   {
+    "x": 20,
+    "y": 7760,
+    "w": 124,
+    "h": 22
+   },
+   {
+    "x": 20,
+    "y": 7790,
+    "w": 196,
+    "h": 22
+   },
+   {
+    "x": 42,
+    "y": 7851,
+    "w": 187,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 7935,
+    "w": 220,
+    "h": 26
+   },
+   {
+    "x": 20,
+    "y": 7977,
+    "w": 224,
+    "h": 22
+   },
+   {
+    "x": 20,
+    "y": 8007,
+    "w": 246,
+    "h": 22
+   },
+   {
+    "x": 42,
+    "y": 8068,
+    "w": 220,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 8349,
+    "w": 274,
+    "h": 26
+   },
+   {
+    "x": 20,
+    "y": 8378,
+    "w": 288,
+    "h": 26
+   },
+   {
+    "x": 62,
+    "y": 8446,
+    "w": 217,
+    "h": 17
+   },
+   {
+    "x": 50,
+    "y": 8616,
+    "w": 128,
+    "h": 21
+   },
+   {
+    "x": 50,
+    "y": 8650,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 50,
+    "y": 8684,
+    "w": 54,
+    "h": 21
+   },
+   {
+    "x": 50,
+    "y": 8728,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 50,
+    "y": 8752,
+    "w": 38,
+    "h": 21
+   }
+  ]
+ }
+}

@@ -1,0 +1,115 @@
+{
+  "media/chrome/h52apBMkJBRJKJWJ7iyW.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/deploy/chrome-media/h52apBMkJBRJKJWJ7iyW.png",
+    "size": 1332,
+    "sha256": "938a888772b4a5ff3f97bfb7f43413ed134711927e1e9009e6df7bcdff5f876e",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/8053f48d/media/chrome/h52apBMkJBRJKJWJ7iyW.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-21T01:23:48.185Z"
+  },
+  "media/auth/Bn4EX9DDsb9pocPP8s6E.svg": {
+    "status": "uploaded",
+    "file": "stardust/.work/deploy/auth-media/Bn4EX9DDsb9pocPP8s6E.svg",
+    "size": 1241,
+    "sha256": "bd78d441cd2c33fedd4a92c0d68c603bebf84d93cfbbc9078954f9f536f84bf4",
+    "contentType": "image/svg+xml",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/8053f48d/media/auth/Bn4EX9DDsb9pocPP8s6E.svg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-21T01:31:08.199Z"
+  },
+  "media/auth/c95yUqCmLCeZMGDtT37D.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/deploy/auth-media/c95yUqCmLCeZMGDtT37D.jpg",
+    "size": 638351,
+    "sha256": "1c5ba60bfb69e5e04bb818852bc8bfaf0fa6b94af5f2e6ba9c8854586165f1e1",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/8053f48d/media/auth/c95yUqCmLCeZMGDtT37D.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-21T01:31:08.808Z"
+  },
+  "media/hub/DMoYV8aec2czCim7TqfK.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/deploy/hub-media/DMoYV8aec2czCim7TqfK.jpg",
+    "size": 49103,
+    "sha256": "b69d8119c563260f1e9f3afab720a392ea24c42090eaf437b4c7b10743bc9e4b",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/8053f48d/media/hub/DMoYV8aec2czCim7TqfK.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-21T01:33:47.124Z"
+  },
+  "media/hub/hQKdjW6wXL8esQAfs4xo.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/deploy/hub-media/hQKdjW6wXL8esQAfs4xo.jpg",
+    "size": 50653,
+    "sha256": "55a0cbccca4ad377f5648d57f4794f141430eaf6a47aa7b01391f9656703779a",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/8053f48d/media/hub/hQKdjW6wXL8esQAfs4xo.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-21T01:33:47.902Z"
+  },
+  "media/hub/gL8hhGB2W2aRDWGsPBdr.webp": {
+    "status": "uploaded",
+    "file": "stardust/.work/deploy/hub-media/gL8hhGB2W2aRDWGsPBdr.webp",
+    "size": 15010,
+    "sha256": "fb230596e68660662ba71b679df555b5ed08d9f50b46490b9900610ec1fec82c",
+    "contentType": "image/webp",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/8053f48d/media/hub/gL8hhGB2W2aRDWGsPBdr.webp",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-21T01:33:48.062Z"
+  },
+  "media/hub/TpzzJrkyGis3152ekCUL.webp": {
+    "status": "uploaded",
+    "file": "stardust/.work/deploy/hub-media/TpzzJrkyGis3152ekCUL.webp",
+    "size": 12931,
+    "sha256": "b9a3113aa569bc925430f60633296501237c0e358b9afc4012aaa31eeb8a1ef4",
+    "contentType": "image/webp",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/8053f48d/media/hub/TpzzJrkyGis3152ekCUL.webp",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-21T01:33:48.066Z"
+  },
+  "media/hub/rPNYk2kRNVSEhV2LkAFm.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/deploy/hub-media/rPNYk2kRNVSEhV2LkAFm.png",
+    "size": 31367,
+    "sha256": "f0f82f6d1e58e82409770ab0050966b7c672a80bf29d383436fc264145354cc5",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/8053f48d/media/hub/rPNYk2kRNVSEhV2LkAFm.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-21T01:33:48.560Z"
+  },
+  "media/hub/nt4cqvwes46oaw5bkknc.mp4": {
+    "status": "uploaded",
+    "file": "stardust/.work/deploy/hub-media/NT4Cqvwes46oAW5bkkNc.mp4",
+    "size": 3707236,
+    "sha256": "7eb830acbfd9bf0e35dd4d806b7b86a09f3c6c85a227d4a29cf04b39045d9aa0",
+    "contentType": "video/mp4",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/8053f48d/media/hub/nt4cqvwes46oaw5bkknc.mp4",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-21T01:33:48.347Z",
+    "authorUrl": "/media/hub/nt4cqvwes46oaw5bkknc.mp4",
+    "delivered": [
+      "preview",
+      "live"
+    ]
+  }
+}

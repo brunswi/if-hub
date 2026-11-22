@@ -1,0 +1,104 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-21T01:19:14.172Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-21T02:55:16.692Z",
+  "pages": [
+    {
+      "slug": "d-8fjlj4fun12p",
+      "path": "/d/8fjlj4fun12p",
+      "title": "Start - IF-Hub",
+      "templateId": "d-8fjlj4fun12p",
+      "source": {
+        "migratedHtml": "stardust/migrated/d/8fJLj4FUN12p.html",
+        "metaJson": "stardust/migrated/d/8fJLj4FUN12p._meta.json",
+        "sourceHash": "sha256:f3f696abed0fa3af16e93f76f92cf66289b3172ee087bc2f8c2ff3819cf1e663",
+        "sourceUrl": "https://if-hub.de/d/8fJLj4FUN12p"
+      },
+      "blocks": [
+        "hub-hero",
+        "tiles",
+        "cards",
+        "services",
+        "support"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--8053f48d--aemcoder.aem.page/d/8fjlj4fun12p",
+        "deployedAt": "2026-11-21T01:42:16.065Z",
+        "verifiedAt": "2026-11-21T02:55:16.692Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.37,
+          "heightDelta": -7895,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 30,
+            "variable": []
+          },
+          "reasons": [
+            "Δh -7895px > 5% of 900"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T02:40:31.836Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Log in - DSGV Markenportal der Sparkasse",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:34b6e0772fa267f6d9ca62204d2ccc68fc6e25c53cad4c07b65e3a65e59ca441",
+        "sourceUrl": "https://if-hub.de/"
+      },
+      "blocks": [
+        "auth-login"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--8053f48d--aemcoder.aem.live/",
+        "deployedAt": "2026-11-21T01:34:24.106Z",
+        "verifiedAt": "2026-11-21T02:55:16.692Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T02:40:31.836Z"
+        }
+      }
+    }
+  ]
+}

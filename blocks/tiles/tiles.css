@@ -1,0 +1,126 @@
+/* tiles - IF-Hub guideline tiles (gated prototype rows cp-intro + cp-tiles) */
+.tiles {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 90px 50px 0;
+  background-color: #fff;
+}
+
+.tiles .tiles-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -25px;
+}
+
+.tiles .tiles-col {
+  position: relative;
+  flex: 0 0 100%;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 1px;
+  padding: 0 25px;
+}
+
+.tiles .tiles-image img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.tiles .tiles-text {
+  padding: 20px;
+  color: var(--hub-text);
+  font-family: var(--font-light);
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.tiles .tiles-text :is(h2, h3) {
+  margin: 0 0 10px;
+  color: var(--hub-ink);
+  font-family: var(--font-regular);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.tiles .tiles-text p {
+  margin: 0 0 10px;
+}
+
+.tiles .tiles-text p:last-child {
+  margin-bottom: 0;
+}
+
+.tiles .tiles-text strong,
+.tiles .tiles-text em {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.tiles .tiles-text a.button:any-link,
+.tiles .tiles-text :is(strong, em) > a:any-link {
+  display: inline-block;
+  max-width: none;
+  margin: 10px 0;
+  border-radius: 99px;
+  font-family: var(--font-regular);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  white-space: pre-wrap;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+}
+
+.tiles .tiles-text a.button:any-link,
+.tiles .tiles-text strong > a:any-link {
+  padding: 15px 40px;
+  border: 2px solid var(--hub-red);
+  background-color: var(--hub-red);
+  color: #fff;
+  line-height: 1.6;
+}
+
+.tiles .tiles-text a.button:hover,
+.tiles .tiles-text strong > a:hover {
+  border-color: var(--hub-red-hover);
+  background-color: var(--hub-red-hover);
+}
+
+@media (width >= 768px) {
+  .tiles .tiles-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (width >= 992px) {
+  .tiles .tiles-col {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+/* the intro paragraph authored above the block (source row cp-intro) */
+/* stylelint-disable no-descending-specificity */
+main .tiles-container > .default-content-wrapper {
+  padding: 60px 50px 0;
+  background-color: #fff;
+}
+
+main .tiles-container > .default-content-wrapper p {
+  max-width: 1400px;
+  margin: 0;
+  color: var(--hub-intro);
+  font-family: var(--font-light);
+  font-size: 24px;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+}
+/* stylelint-enable no-descending-specificity */

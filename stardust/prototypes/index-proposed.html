@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Log in - DSGV Markenportal der Sparkasse</title>
+  <meta property="og:title" content="DSGV Markenportal der Sparkasse">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="preload" href="assets/fonts/sparkasse-rg-400.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="index-proposed.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <main class="o-auth" id="main">
+    <div class="o-auth__box">
+      <div class="o-auth__box-content">
+        <div class="o-auth__filler"></div>
+        <div class="o-auth__logo-wrap">
+          <img class="o-auth__logo" src="assets/media/Bn4EX9DDsb9pocPP8s6E.svg" alt="DSGV Markenportal der Sparkasse logo" width="64" height="80">
+        </div>
+        <h1 class="o-auth__greeting">Herzlich willkommen im IF- Hub</h1>
+        <div class="o-auth__form">
+          <span class="visually-hidden">Log in</span>
+          <span class="o-auth__login-title">Interne Benutzeranmeldung</span>
+          <a class="o-auth__sso" href="https://if-hub.de/api/thirdparty/oidc/auth?referer=%2F">Anmelden über SSO</a>
+          <div class="o-auth__alt">
+            <div class="o-auth__alt-toggle">
+              <button class="o-auth__link o-auth__inline-btn" type="button">​</button>
+            </div>
+            <form class="o-auth__email-form" aria-label="Log in" action="#" hidden>
+              <div><label class="o-auth__form-label" for="o-auth__email">E-Mail:</label><input class="o-auth__field" id="o-auth__email" name="email" type="email" autocomplete="off" placeholder="mail@mail.de" aria-required="true" required></div>
+              <div class="o-auth__error" id="email-missing-error" hidden>Bitte geben Sie Ihre E-Mail-Adresse ein.</div>
+              <div class="o-auth__error" id="email-invalid-error" hidden>Diese E-Mail-Adresse ist ungültig.</div>
+              <div><label class="o-auth__form-label" for="o-auth__password">Passwort:</label><input class="o-auth__field" id="o-auth__password" name="password" type="password" autocomplete="off" placeholder="Bitte geben Sie Ihr Passwort ein." aria-required="true" required></div>
+              <div class="o-auth__error" id="password-missing-error" hidden>Bitte geben Sie Ihr Passwort ein.</div>
+              <div class="o-auth__error" id="force-sso-error" hidden>Die Anmeldung mit E-Mail/Passwort ist für diesen Benutzer/Domäne deaktiviert. Bitte melden Sie sich über SSO an.</div>
+              <div class="o-auth__error" id="invalid-credentials-error" hidden>Falsche Anmeldeinformationen.</div>
+              <div class="o-auth__error" id="user-locked-error" hidden>Zu viele fehlgeschlagene Anmeldeversuche. Bitte warten Sie einige Minuten und versuchen Sie es erneut.</div>
+              <div class="o-auth__error" id="password-rule-errors" hidden></div>
+              <div class="o-auth__error" id="unexpected-error" hidden>Leider ist etwas schiefgelaufen. Laden Sie die Seite neu und versuchen Sie es erneut.</div>
+              <button class="o-auth__submit" type="submit">Anmelden</button>
+            </form>
+            <ul class="o-auth__links">
+              <li><button class="o-auth__link o-auth__inline-btn" type="button">​</button></li>
+            </ul>
+          </div>
+        </div>
+        <div class="o-auth__disclaimer">
+          <p><a class="o-auth__link" href="https://portal.dsv-gruppe.de/freischaltinfo/if-hub.html" target="_blank" rel="noopener">Zugang beantragen</a></p>
+        </div>
+        <div class="o-auth__filler"></div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

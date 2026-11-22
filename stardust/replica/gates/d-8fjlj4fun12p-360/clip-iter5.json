@@ -1,0 +1,392 @@
+{
+ "url": "http://localhost:8791/d-8fjlj4fun12p-proposed.html",
+ "at": "2026-11-21T01:12:32.131Z",
+ "width": 360,
+ "status": 200,
+ "settlePasses": 2,
+ "docH": 900,
+ "pageW": 360,
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 10,
+  "horizontal": 0,
+  "offPage": 0,
+  "textNodes": 13,
+  "controls": 8,
+  "total": 0
+ },
+ "findings": [
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 6,
+   "path": "div.cp-grid.cp-grid--gutter > div.cp-col.cp-col--12 > div.cp-text.cp-intro__text > p",
+   "text": "kundenorientiert und leicht verständlich: finden sie hier da",
+   "clipper": "div.hub-viewport",
+   "rect": {
+    "l": 50,
+    "t": 936,
+    "r": 273,
+    "b": 962,
+    "w": 223,
+    "h": 26
+   },
+   "clip": {
+    "l": 0,
+    "t": 0,
+    "r": 360,
+    "b": 900,
+    "w": 360,
+    "h": 900
+   },
+   "lines": 6
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 6,
+   "path": "div.cp-grid.cp-grid--gutter > div.cp-col.cp-col--12 > div.cp-text.cp-intro__text > p",
+   "text": "alle gesetzlichen anforderungen im blick zu behalten. nur ei",
+   "clipper": "div.hub-viewport",
+   "rect": {
+    "l": 50,
+    "t": 1166,
+    "r": 222,
+    "b": 1192,
+    "w": 172,
+    "h": 26
+   },
+   "clip": {
+    "l": 0,
+    "t": 0,
+    "r": 360,
+    "b": 900,
+    "w": 360,
+    "h": 900
+   },
+   "lines": 6
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 4,
+   "path": "div.cp-grid.cp-grid--gutter > div.cp-col.cp-col--12 > div.cp-text.cp-intro__text > p",
+   "text": "wichtigsten komponenten der internet-filiale zum runterladen",
+   "clipper": "div.hub-viewport",
+   "rect": {
+    "l": 50,
+    "t": 1396,
+    "r": 169,
+    "b": 1422,
+    "w": 119,
+    "h": 26
+   },
+   "clip": {
+    "l": 0,
+    "t": 0,
+    "r": 360,
+    "b": 900,
+    "w": 360,
+    "h": 900
+   },
+   "lines": 4
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "ul.hub-footer__links > li > p > a",
+   "text": "nutzungshinweise",
+   "clipper": "div.hub-viewport",
+   "rect": {
+    "l": 50,
+    "t": 8616,
+    "r": 178,
+    "b": 8637,
+    "w": 128,
+    "h": 21
+   },
+   "clip": {
+    "l": 0,
+    "t": 0,
+    "r": 360,
+    "b": 900,
+    "w": 360,
+    "h": 900
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "ul.hub-footer__links > li > p > a",
+   "text": "nutzungshinweise",
+   "clipper": "div.hub-viewport",
+   "rect": {
+    "l": 50,
+    "t": 8616,
+    "r": 178,
+    "b": 8637,
+    "w": 128,
+    "h": 21
+   },
+   "clip": {
+    "l": 0,
+    "t": 0,
+    "r": 360,
+    "b": 900,
+    "w": 360,
+    "h": 900
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "ul.hub-footer__links > li > p > a",
+   "text": "impressum",
+   "clipper": "div.hub-viewport",
+   "rect": {
+    "l": 50,
+    "t": 8650,
+    "r": 127,
+    "b": 8671,
+    "w": 77,
+    "h": 21
+   },
+   "clip": {
+    "l": 0,
+    "t": 0,
+    "r": 360,
+    "b": 900,
+    "w": 360,
+    "h": 900
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "ul.hub-footer__links > li > p > a",
+   "text": "impressum",
+   "clipper": "div.hub-viewport",
+   "rect": {
+    "l": 50,
+    "t": 8650,
+    "r": 127,
+    "b": 8671,
+    "w": 77,
+    "h": 21
+   },
+   "clip": {
+    "l": 0,
+    "t": 0,
+    "r": 360,
+    "b": 900,
+    "w": 360,
+    "h": 900
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "ul.hub-footer__links > li > p > a",
+   "text": "kontakt",
+   "clipper": "div.hub-viewport",
+   "rect": {
+    "l": 50,
+    "t": 8684,
+    "r": 104,
+    "b": 8705,
+    "w": 54,
+    "h": 21
+   },
+   "clip": {
+    "l": 0,
+    "t": 0,
+    "r": 360,
+    "b": 900,
+    "w": 360,
+    "h": 900
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "ul.hub-footer__links > li > p > a",
+   "text": "kontakt",
+   "clipper": "div.hub-viewport",
+   "rect": {
+    "l": 50,
+    "t": 8684,
+    "r": 104,
+    "b": 8705,
+    "w": 54,
+    "h": 21
+   },
+   "clip": {
+    "l": 0,
+    "t": 0,
+    "r": 360,
+    "b": 900,
+    "w": 360,
+    "h": 900
+   },
+   "lines": 1
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 2,
+   "path": "div.hub-viewport > footer.hub-footer > div.hub-footer__inner > p.hub-footer__copyright",
+   "text": "© s-communication services gmbh 2024",
+   "clipper": "div.hub-viewport",
+   "rect": {
+    "l": 50,
+    "t": 8728,
+    "r": 304,
+    "b": 8749,
+    "w": 254,
+    "h": 21
+   },
+   "clip": {
+    "l": 0,
+    "t": 0,
+    "r": 360,
+    "b": 900,
+    "w": 360,
+    "h": 900
+   },
+   "lines": 2
+  }
+ ],
+ "textBoxes": [
+  {
+   "x": 12,
+   "y": -69,
+   "w": 141,
+   "h": 17
+  },
+  {
+   "x": 70,
+   "y": 112,
+   "w": 198,
+   "h": 59
+  },
+  {
+   "x": 70,
+   "y": 177,
+   "w": 232,
+   "h": 59
+  },
+  {
+   "x": 70,
+   "y": 242,
+   "w": 60,
+   "h": 59
+  },
+  {
+   "x": 70,
+   "y": 306,
+   "w": 236,
+   "h": 59
+  },
+  {
+   "x": 70,
+   "y": 381,
+   "w": 141,
+   "h": 22
+  },
+  {
+   "x": 70,
+   "y": 407,
+   "w": 221,
+   "h": 22
+  },
+  {
+   "x": 70,
+   "y": 433,
+   "w": 130,
+   "h": 22
+  },
+  {
+   "x": 70,
+   "y": 459,
+   "w": 208,
+   "h": 22
+  },
+  {
+   "x": 70,
+   "y": 485,
+   "w": 243,
+   "h": 22
+  },
+  {
+   "x": 70,
+   "y": 511,
+   "w": 40,
+   "h": 22
+  },
+  {
+   "x": 70,
+   "y": 537,
+   "w": 161,
+   "h": 22
+  },
+  {
+   "x": 70,
+   "y": 563,
+   "w": 223,
+   "h": 22
+  }
+ ],
+ "groups": [
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 3,
+   "clipper": "div.hub-viewport",
+   "path": "div.cp-grid.cp-grid--gutter > div.cp-col.cp-col--12 > div.cp-text.cp-intro__text > p",
+   "text": "kundenorientiert und leicht verständlich: finden sie hier da",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 3,
+   "clipper": "div.hub-viewport",
+   "path": "ul.hub-footer__links > li > p > a",
+   "text": "nutzungshinweise",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 3,
+   "clipper": "div.hub-viewport",
+   "path": "ul.hub-footer__links > li > p > a",
+   "text": "nutzungshinweise",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.hub-viewport",
+   "path": "div.hub-viewport > footer.hub-footer > div.hub-footer__inner > p.hub-footer__copyright",
+   "text": "© s-communication services gmbh 2024",
+   "cutMin": null,
+   "cutMax": null
+  }
+ ],
+ "tier": "chrome"
+}

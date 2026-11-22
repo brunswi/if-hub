@@ -1,0 +1,52 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-21T01:19:14.172Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-21T02:55:16.692Z",
+  "templates": [
+    {
+      "id": "d-8fjlj4fun12p",
+      "representativeSlug": "d-8fjlj4fun12p",
+      "pages": [
+        "d-8fjlj4fun12p"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "cards",
+        "hub-hero",
+        "services",
+        "support",
+        "tiles"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "auth-login"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

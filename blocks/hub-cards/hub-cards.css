@@ -1,0 +1,123 @@
+/* hub-cards - IF-Hub "Oft gesucht" cards (gated prototype rows cp-heading + cp-cards) */
+.hub-cards .hub-cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.hub-cards .hub-cards-col {
+  display: flex;
+  position: relative;
+  flex: 0 0 100%;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 1px;
+}
+
+@media (width >= 768px) {
+  .hub-cards .hub-cards-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (width >= 992px) {
+  .hub-cards .hub-cards-col {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.hub-cards .hub-cards-card {
+  display: flex;
+  flex: 1;
+  border: 1px solid var(--hub-card-border);
+}
+
+.hub-cards .hub-cards-text {
+  width: 100%;
+  padding: 20px;
+  color: var(--hub-text);
+  font-family: var(--font-light);
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.hub-cards .hub-cards-text :is(h2, h3) {
+  margin: 0 0 10px;
+  color: var(--hub-ink);
+  font-family: var(--font-regular);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.hub-cards .hub-cards-text p {
+  margin: 0 0 10px;
+}
+
+.hub-cards .hub-cards-text p:last-child {
+  margin-bottom: 0;
+}
+
+.hub-cards .hub-cards-text strong,
+.hub-cards .hub-cards-text em {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.hub-cards .hub-cards-text a.button:any-link,
+.hub-cards .hub-cards-text :is(strong, em) > a:any-link {
+  display: inline-block;
+  max-width: none;
+  margin: 10px 0;
+  border-radius: 99px;
+  font-family: var(--font-regular);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  white-space: pre-wrap;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+}
+
+.hub-cards .hub-cards-text a.button.secondary:any-link,
+.hub-cards .hub-cards-text em > a:any-link {
+  padding: 10px 20px;
+  border: 1px solid var(--hub-text);
+  background-color: #fff;
+  color: var(--hub-ink);
+  line-height: 1.3;
+}
+
+.hub-cards .hub-cards-text a.button.secondary:hover,
+.hub-cards .hub-cards-text em > a:hover {
+  background-color: var(--hub-text);
+  color: #fff;
+}
+
+/* the section heading authored above the block (source row cp-heading) */
+main .hub-cards-container > .default-content-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 20px 80px;
+  color: var(--hub-text);
+  font-family: var(--font-light);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+main .hub-cards-container > .default-content-wrapper h2 {
+  margin: 0;
+  color: var(--hub-ink);
+  font-family: var(--font-medium);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.3;
+}

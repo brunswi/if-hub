@@ -1,0 +1,12 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://if-hub.de/d/8fJLj4FUN12p
+  other    27 capped box(es) outside the section tier (in the JSON) — e.g. 515px div.pb-text-image__text > div.pb-text-image__text-inner.js-pb-text-image__editor > h3 > span
+  modules  0 sections: none capped · full-bleed ×0
+  contentMaxWidth fluid · shellMaxWidth fluid · root #classic-theme > div.th-flex.th-flex-col > main.th-w-full.th-relative
+build  http://localhost:8791/d-8fjlj4fun12p-proposed.html
+  modules  15 sections: capped 1400 ×6, 800 ×2, 1520 ×1, 900 ×1, 502 ×1 · full-bleed ×4
+  contentMaxWidth 1400px (module) · shellMaxWidth fluid · root #main
+rows
+  ✗ content cap: build 1400px (module caps only: 1400px ×6, 800px ×2, 1520px ×1, 900px ×1, 502px ×1) but live modules are fluid — fix the sizing rule, not pixels: remove the module cap
+  ⚠ sections: live 0 vs build 15 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches
+cap-probe: FAIL at 2560 — 1 of 2 rows failed (evidence stardust/replica/gates/d-8fjlj4fun12p-2560/cap-iter.json)

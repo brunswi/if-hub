@@ -1,0 +1,29 @@
+[live-session] waiting to pace live navigations to if-hub.de (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 875 ms
+
+Content diff @ 1440px (profile "generic", roots: .o-auth, header, footer)
+root ".o-auth"
+  source: 17 text nodes — 1 headings, 0 eyebrows, 2 CTAs, 14 body; 1 img
+  build: 5 text nodes — 1 headings, 0 eyebrows, 2 CTAs, 2 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 2
+  attributes (placeholder/aria-label/title): source 3 / build 0; icons: source 0 / build 0
+root "header": absent on both sides (no <header> / [role="banner"] outside the main root(s)) — not compared
+root "footer": absent on both sides (no <footer> / [role="contentinfo"] outside the main root(s)) — not compared
+
+Findings: 16 (2 structural 🔴)
+Tiers: looks-same 🔴 2 · nothing-lost 🟡 1 · accepted 🟢 0 (owner 0, auto 0) · advisory 13
+  🔴 MISSING PLACEHOLDER [.o-auth]: source <input> placeholder="mail@mail.de" has no build <input> with that placeholder. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🔴 MISSING PLACEHOLDER [.o-auth]: source <input> placeholder="Bitte geben Sie Ihr Passwort ein." has no build <input> with that placeholder. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING BODY [.o-auth]: source body "​"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.o-auth]: source body "E-Mail:"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.o-auth]: source body "Bitte geben Sie Ihre E-Mail-Adresse ein."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.o-auth]: source body "Diese E-Mail-Adresse ist ungültig."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.o-auth]: source body "Passwort:"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.o-auth]: source body "Bitte geben Sie Ihr Passwort ein."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.o-auth]: source body "Die Anmeldung mit E-Mail/Passwort ist für diesen"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.o-auth]: source body "Falsche Anmeldeinformationen."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.o-auth]: source body "Zu viele fehlgeschlagene Anmeldeversuche. Bitte "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.o-auth]: source body "Leider ist etwas schiefgelaufen. Laden Sie die S"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.o-auth]: source body "Anmelden"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.o-auth]: source body "​"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EDITABLE COUNT [.o-auth]: build has 2 outermost editable element(s) vs 3 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING ARIA-LABEL [.o-auth]: source <form> aria-label="Log in" has no build <form> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.

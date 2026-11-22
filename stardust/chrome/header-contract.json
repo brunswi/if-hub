@@ -1,0 +1,833 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://if-hub.de/d/8fJLj4FUN12p",
+ "at": "2026-11-21T00:17:23.625Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "390": {
+   "root": "#classic-theme>div:nth-of-type(1)>header",
+   "controls": [
+    {
+     "name": "Go to IF-Hub",
+     "key": "go to ifhub",
+     "role": "link",
+     "kind": "link",
+     "sel": "#classic-theme>div:nth-of-type(1)>header>div>div>div>div:nth-of-type(1)>div>a",
+     "href": "https://if-hub.de/d/8fJLj4FUN12p",
+     "expanded": null,
+     "rect": [
+      24,
+      29,
+      20,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#classic-theme>div:nth-of-type(1)>header>div>div>div>div:nth-of-type(2)>div:nth-of-type(1)>div>button",
+     "expanded": null,
+     "rect": [
+      292,
+      32,
+      24,
+      24
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         86,
+         390,
+         758
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div._root_1w04r_5"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div._root_1w04r_5"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div._root_1w04r_5"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div._root_1w04r_5"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.cm-video__progressbar-new-played"
+        }
+       ],
+       "shot": "390-001-Search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         86,
+         390,
+         758
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.cm-video__progressbar-new-played"
+        }
+       ],
+       "shot": "390-002-Search-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Search guidelines, images, and videos",
+       "key": "search guidelines images and videos",
+       "role": "input",
+       "kind": "search",
+       "sel": "body>div:nth-of-type(10)>div>div>div>div>div>div>div:nth-of-type(1)>input",
+       "expanded": null,
+       "rect": [
+        76,
+        86,
+        280,
+        36
+       ],
+       "actions": {},
+       "search": {
+        "probe": "wissen",
+        "typeahead": {
+         "links": 6,
+         "options": 0
+        },
+        "submit": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Open navigation",
+     "key": "open navigation",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#classic-theme>div:nth-of-type(1)>header>div>div>div>div:nth-of-type(2)>div:nth-of-type(1)>button",
+     "expanded": null,
+     "rect": [
+      332,
+      33,
+      24,
+      24
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Search",
+         "Close navigation",
+         "IF-Wissen",
+         "Redaktions-Guidelines",
+         "Bewegtbild-Guidelines",
+         "Kontakt"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         35,
+         380,
+         357
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.cm-video__progressbar-new-played"
+        }
+       ],
+       "shot": "390-003-Open-navigation-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Search",
+         "Close navigation",
+         "IF-Wissen",
+         "Redaktions-Guidelines",
+         "Bewegtbild-Guidelines",
+         "Kontakt"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         35,
+         380,
+         357
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.cm-video__progressbar-new-played"
+        }
+       ],
+       "shot": "390-004-Open-navigation-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#classic-theme>div:nth-of-type(1)>header>div>div>div>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div>button",
+       "expanded": null,
+       "rect": [
+        292,
+        35,
+        24,
+        24
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           86,
+           390,
+           758
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "border-top-color",
+           "ms": 150,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "div._root_1w04r_5"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-bottom-color",
+           "ms": 150,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "div._root_1w04r_5"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-left-color",
+           "ms": 150,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "div._root_1w04r_5"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-right-color",
+           "ms": 150,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "div._root_1w04r_5"
+          },
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": 250,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.cm-video__progressbar-new-played"
+          }
+         ],
+         "shot": "390-005-Search-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           86,
+           390,
+           758
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": 250,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.cm-video__progressbar-new-played"
+          }
+         ],
+         "shot": "390-006-Search-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "Search guidelines, images, and videos",
+         "key": "search guidelines images and videos",
+         "role": "input",
+         "kind": "search",
+         "sel": "body>div:nth-of-type(10)>div>div>div>div>div>div>div:nth-of-type(1)>input",
+         "expanded": null,
+         "rect": [
+          76,
+          86,
+          280,
+          36
+         ],
+         "actions": {},
+         "search": {
+          "probe": "wissen",
+          "typeahead": {
+           "links": 6,
+           "options": 0
+          },
+          "submit": null
+         }
+        }
+       ]
+      },
+      {
+       "name": "Close navigation",
+       "key": "close navigation",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#classic-theme>div:nth-of-type(1)>header>div>div>div>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        332,
+        37,
+        24,
+        24
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 6
+        },
+        "key": {
+         "opened": false,
+         "hides": 6
+        }
+       }
+      },
+      {
+       "name": "IF-Wissen",
+       "key": "ifwissen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#classic-theme>div:nth-of-type(1)>header>div>div>div>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>nav>ul>li:nth-of-type(1)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        177,
+        380,
+        53
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Übersicht",
+           "Aktuelle Hinweise",
+           "Barrierefreiheit",
+           "Erklär-Podcast (Neu)",
+           "Gesetze & Vorschriften",
+           "Kampagnen & Themen",
+           "Komponenten & Module",
+           "Leitfäden & Tipps",
+           "Plattformen & Systeme",
+           "Prozesse & Aufträge",
+           "Statistik, Service & Support",
+           "S-App",
+           "IF-Schulungsprogramm"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           222,
+           380,
+           585
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 150,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "span.th-h-4"
+          },
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": 250,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.cm-video__progressbar-new-played"
+          }
+         ],
+         "shot": "390-007-IF-Wissen-click.png"
+        },
+        "key": null
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": []
+      },
+      {
+       "name": "Redaktions-Guidelines",
+       "key": "redaktionsguidelines",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#classic-theme>div:nth-of-type(1)>header>div>div>div>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>nav>ul>li:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        231,
+        380,
+        53
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Bewegtbild-Guidelines",
+       "key": "bewegtbildguidelines",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#classic-theme>div:nth-of-type(1)>header>div>div>div>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>nav>ul>li:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        285,
+        380,
+        53
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Kontakt",
+       "key": "kontakt",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#classic-theme>div:nth-of-type(1)>header>div>div>div>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>nav>ul>li:nth-of-type(4)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        339,
+        380,
+        53
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [],
+   "states": 7,
+   "truncated": null,
+   "loads": 9,
+   "requests": 344,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "#classic-theme>div:nth-of-type(1)>header",
+   "controls": [
+    {
+     "name": "Go to IF-Hub",
+     "key": "go to ifhub",
+     "role": "link",
+     "kind": "link",
+     "sel": "#classic-theme>div:nth-of-type(1)>header>div>div>div>div:nth-of-type(1)>div>a",
+     "href": "https://if-hub.de/d/8fJLj4FUN12p",
+     "expanded": null,
+     "rect": [
+      97,
+      11,
+      43,
+      67
+     ],
+     "actions": {}
+    },
+    {
+     "name": "IF-Wissen",
+     "key": "ifwissen",
+     "role": "link",
+     "kind": "link",
+     "sel": "#classic-theme>div:nth-of-type(1)>header>div>div>div>nav>div>ul>li:nth-of-type(1)>a",
+     "href": "https://if-hub.de/d/8fJLj4FUN12p/if-wissen",
+     "expanded": null,
+     "rect": [
+      347,
+      36,
+      61,
+      18
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Redaktions-Guidelines",
+     "key": "redaktionsguidelines",
+     "role": "link",
+     "kind": "link",
+     "sel": "#classic-theme>div:nth-of-type(1)>header>div>div>div>nav>div>ul>li:nth-of-type(2)>a",
+     "href": "https://if-hub.de/d/8fJLj4FUN12p/redaktions-guidelines",
+     "expanded": null,
+     "rect": [
+      432,
+      36,
+      142,
+      18
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Bewegtbild-Guidelines",
+     "key": "bewegtbildguidelines",
+     "role": "link",
+     "kind": "link",
+     "sel": "#classic-theme>div:nth-of-type(1)>header>div>div>div>nav>div>ul>li:nth-of-type(3)>a",
+     "href": "https://if-hub.de/d/8fJLj4FUN12p/bewegtbild-guidelines",
+     "expanded": null,
+     "rect": [
+      598,
+      36,
+      143,
+      18
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Kontakt",
+     "key": "kontakt",
+     "role": "link",
+     "kind": "link",
+     "sel": "#classic-theme>div:nth-of-type(1)>header>div>div>div>nav>div>ul>li:nth-of-type(4)>a",
+     "href": "https://if-hub.de/d/8fJLj4FUN12p/kontakt",
+     "expanded": null,
+     "rect": [
+      765,
+      36,
+      49,
+      18
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#classic-theme>div:nth-of-type(1)>header>div>div>div>div:nth-of-type(2)>button",
+     "expanded": null,
+     "rect": [
+      1309,
+      33,
+      24,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         86,
+         1440,
+         814
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.cm-video__progressbar-new-played"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div._root_1w04r_5"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div._root_1w04r_5"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div._root_1w04r_5"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div._root_1w04r_5"
+        }
+       ],
+       "shot": "1440-001-Search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         86,
+         1440,
+         814
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.cm-video__progressbar-new-played"
+        }
+       ],
+       "shot": "1440-002-Search-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Search guidelines, images, and videos",
+       "key": "search guidelines images and videos",
+       "role": "input",
+       "kind": "search",
+       "sel": "body>div:nth-of-type(10)>div>div>div>div>div>div>div:nth-of-type(1)>input",
+       "expanded": null,
+       "rect": [
+        480,
+        86,
+        522,
+        36
+       ],
+       "actions": {},
+       "search": {
+        "probe": "wissen",
+        "typeahead": {
+         "links": 7,
+         "options": 0
+        },
+        "submit": null
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [],
+   "states": 2,
+   "truncated": null,
+   "loads": 1,
+   "requests": 46,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": "wissen"
+}

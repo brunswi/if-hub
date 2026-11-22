@@ -10,64 +10,89 @@
  * governing permissions and limitations under the License.
  */
 
+/*
+ * FONT LICENSING REQUIRED BEFORE GOING LIVE (register R-01).
+ * Sparkasse Light / Regular / Medium / Sparkasse_Rg (DSGV), Diatype (ABC Dinamo) and
+ * Mier B (Atipo) are proprietary faces self-hosted as captured from if-hub.de.
+ * Do not publish to aem.live for production use until the webfont / embedding licence
+ * is confirmed for this host. Remove path: fonts/LICENSING.md.
+ */
+
+/*
+ * IF-Hub same-design replica - foundation.
+ * Two templates (metadata "Template"):
+ *   hub  - the IF-Hub pages: red header bar, dark footer, 10px right gutter.
+ *   auth - the sign-in page: NO header and NO footer (scripts.js skips both).
+ * The base layer is the prototypes' own: browser-default typography,
+ * blocks paint their own sections (no section padding, no content cap).
+ */
+
 :root {
-  /* colors */
-  --background-color: white;
+  /* hub colours (lifted from the gated prototype) */
+  --hub-red: rgb(238 0 0);
+  --hub-red-hover: rgb(209 0 0);
+  --hub-ink: rgb(41 41 41);
+  --hub-text: rgb(86 86 86);
+  --hub-intro: rgb(68 68 68);
+  --hub-rule: rgb(221 221 221);
+  --hub-card-border: rgb(227 227 227);
+
+  /* sign-in colours */
+  --auth-text: rgb(17 17 16);
+  --auth-link: rgb(0 0 0);
+  --auth-cta-bg: rgb(238 0 0);
+  --auth-cta-bg-hover: rgb(218 0 0);
+  --auth-cta-border: rgb(135 135 129 / 50%);
+
+  /* fonts: brand face, metric-matched local fallback, then the source's system stack */
+  --hub-fallback: "Space Grotesk Frontify", -apple-system, blinkmacsystemfont, "Segoe UI",
+    roboto, helvetica, arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  --font-light: "Sparkasse Light", sparkasse-fallback, var(--hub-fallback);
+  --font-regular: "Sparkasse Regular", sparkasse-fallback, var(--hub-fallback);
+  --font-medium: "Sparkasse Medium", sparkasse-fallback, var(--hub-fallback);
+  --font-footer: "Sparkasse_web_Lt", "Mier B", mier-fallback, -apple-system, blinkmacsystemfont,
+    "Segoe UI", roboto, helvetica, arial, sans-serif;
+  --font-player: diatype, arial, sans-serif;
+  --auth-font: "Sparkasse_Rg", sparkasse-fallback, arimo, "Liberation Sans", sans-serif;
+
+  /* boilerplate aliases (kept so stock code keeps resolving) */
+  --background-color: #fff;
+  --text-color: #000;
+  --link-color: var(--hub-red);
+  --link-hover-color: var(--hub-red-hover);
   --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --dark-color: var(--hub-ink);
+  --body-font-family: var(--font-light);
+  --heading-font-family: var(--font-regular);
 
-  /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
-
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
-
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
-
-  /* nav height */
-  --nav-height: 64px;
+  /* chrome reservation: the hub header bar is 90px at every width */
+  --nav-height: 90px;
 }
 
-/* fallback fonts */
+/* metric-matched fallbacks (available at first paint; fonts.css loads later) */
 @font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
+  font-family: sparkasse-fallback;
+  src: local("Arial"), local("Liberation Sans"), local("Arimo");
+  size-adjust: 101.33%;
+  ascent-override: 87.22%;
+  descent-override: 21.01%;
+  line-gap-override: 0%;
 }
 
 @font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
+  font-family: mier-fallback;
+  src: local("Arial"), local("Liberation Sans"), local("Arimo");
+  size-adjust: 100%;
+  ascent-override: 88.04%;
+  descent-override: 21.21%;
+  line-gap-override: 0%;
 }
 
-@media (width >= 900px) {
-  :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
-
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
@@ -76,16 +101,60 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-font-smoothing: antialiased;
 }
 
 body.appear {
   display: block;
 }
 
+/* hub template: the source scrolls inside a viewport with a 10px gutter and no scrollbar */
+html:has(> body.hub) {
+  scrollbar-width: none;
+}
+
+html:has(> body.hub)::-webkit-scrollbar {
+  display: none;
+}
+
+body.hub {
+  padding-right: 10px;
+}
+
+/* sign-in template: no chrome at all (scripts.js also removes both hosts) */
+body.auth {
+  color: var(--auth-text);
+  font-family: var(--auth-font);
+  -moz-osx-font-smoothing: grayscale;
+}
+
 header {
+  position: relative;
   height: var(--nav-height);
+  background-color: var(--hub-red);
+}
+
+body.auth > header,
+body.auth > footer {
+  display: none;
+}
+
+/* sign-in skip link (source .skip-to-main-content): off-screen until focused */
+body.auth .skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 8px 12px;
+  background: #fff;
+  color: var(--auth-link);
+  transform: translateY(-120%);
+}
+
+body.auth .skip-link:focus {
+  transform: none;
 }
 
 header .header,
@@ -98,52 +167,18 @@ footer .footer[data-block-status="loaded"] {
   visibility: visible;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
-  scroll-margin: 40px;
+img,
+video {
+  display: block;
+  max-width: 100%;
 }
 
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
-
-p,
-dl,
-ol,
-ul,
-pre,
-blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+img {
+  height: auto;
 }
 
-code,
-pre {
-  font-size: var(--body-font-size-s);
-}
-
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
-}
-
-main > div {
-  margin: 40px 16px;
+[hidden] {
+  display: none !important;
 }
 
 input,
@@ -151,137 +186,6 @@ textarea,
 select,
 button {
   font: inherit;
-}
-
-/* links */
-a:any-link {
-  color: var(--link-color);
-  text-decoration: none;
-  overflow-wrap: break-word;
-}
-
-a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
-}
-
-/* buttons */
-p.button-wrapper {
-  margin: 12px 0;
-}
-
-a.button:any-link,
-button.button {
-  box-sizing: border-box;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-  margin: 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
-  font: inherit;
-  font-weight: 500;
-  line-height: 1.25;
-  text-decoration: none;
-  cursor: pointer;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-a.button[aria-disabled="true"],
-button.button:disabled {
-  cursor: not-allowed;
-  pointer-events: none;
-}
-
-a.button.primary,
-button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
-}
-
-a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
-}
-
-a.button.primary[aria-disabled="true"],
-a.button.primary[aria-disabled="true"]:hover,
-a.button.primary[aria-disabled="true"]:focus-visible,
-button.button.primary:disabled,
-button.button.primary:disabled:hover,
-button.button.primary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary,
-button.button.secondary {
-  border-color: var(--text-color);
-  background-color: transparent;
-  color: var(--text-color);
-}
-
-a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-/* high-impact call-to-action */
-a.button.accent,
-button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: var(--background-color);
-}
-
-a.button.accent:hover,
-a.button.accent:focus-visible,
-button.button.accent:hover,
-button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
-}
-
-a.button.accent[aria-disabled="true"],
-a.button.accent[aria-disabled="true"]:hover,
-a.button.accent[aria-disabled="true"]:focus-visible,
-button.button.accent:disabled,
-button.button.accent:disabled:hover,
-button.button.accent:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-main img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
 }
 
 .icon {
@@ -295,31 +199,345 @@ main img {
   width: 100%;
 }
 
-/* sections */
+/* buttons (stock convention; no authored buttons on the gated pages) */
+p.button-wrapper {
+  margin: 12px 0;
+}
+
+a.button:any-link,
+button.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0;
+  border: 2px solid transparent;
+  padding: 0.5em 1.2em;
+  font: inherit;
+  line-height: 1.25;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.button.primary,
+a.button.accent,
+button.button.primary,
+button.button.accent {
+  border-color: var(--hub-red);
+  background-color: var(--hub-red);
+  color: #fff;
+}
+
+a.button.primary:hover,
+a.button.accent:hover,
+button.button.primary:hover,
+button.button.accent:hover {
+  border-color: var(--hub-red-hover);
+  background-color: var(--hub-red-hover);
+}
+
+a.button.secondary,
+button.button.secondary {
+  border-color: currentcolor;
+  background-color: transparent;
+  color: inherit;
+}
+
+/* sections: blocks own their layout, so the scaffold adds no spacing or cap */
 main > .section {
-  margin: 40px 0;
+  margin: 0;
 }
 
 main > .section > div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
-}
-
-main > .section:first-of-type {
-  margin-top: 0;
-}
-
-@media (width >= 900px) {
-  main > .section > div {
-    padding: 0 32px;
-  }
-}
-
-/* section metadata */
-main .section.light,
-main .section.highlight {
-  background-color: var(--light-color);
+  max-width: none;
   margin: 0;
-  padding: 40px 0;
+  padding: 0;
 }
+
+main .section:empty {
+  display: none;
+}
+
+/*
+ * Hub template page styles (moved from blocks/hub-hero/hub-hero.css at C-final):
+ * column reveal, feature sections (default content) and their rules, the terms dialog.
+ */
+body.hub main .hub-reveal {
+  opacity: 0;
+}
+
+body.hub main .hub-reveal.is-revealed {
+  opacity: 1;
+  transition: opacity 0.4s ease-out;
+}
+
+body.hub main .section.feature {
+  display: flow-root;
+  background-color: #fff;
+}
+
+body.hub main .section.feature > .default-content-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: var(--hub-text);
+  font-family: var(--font-light);
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+body.hub main .section.feature > .default-content-wrapper h3 {
+  margin: 0 0 10px;
+  color: var(--hub-ink);
+  font-family: var(--font-regular);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+body.hub main .section.feature > .default-content-wrapper p {
+  margin: 0 0 10px;
+}
+
+body.hub main .section.feature > .default-content-wrapper p:last-child {
+  margin-bottom: 0;
+}
+
+body.hub main .section.feature > .default-content-wrapper strong {
+  font-weight: inherit;
+}
+
+body.hub main .section.feature > .default-content-wrapper :is(a.button, strong > a):any-link {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 15px 40px;
+  border: 2px solid var(--hub-red);
+  border-radius: 99px;
+  background-color: var(--hub-red);
+  color: #fff;
+  font-family: var(--font-regular);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: center;
+  text-decoration: none;
+  white-space: pre-wrap;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+}
+
+body.hub main .section.feature > .default-content-wrapper :is(a.button, strong > a):hover {
+  border-color: var(--hub-red-hover);
+  background-color: var(--hub-red-hover);
+}
+
+body.hub main .section.rule-before-spaced::before,
+body.hub main .section.rule-after::after,
+body.hub main .section.rule-after-spaced::after {
+  content: "";
+  display: block;
+  max-width: 1400px;
+  height: 1px;
+  background-color: var(--hub-rule);
+}
+
+body.hub main .section.rule-before-spaced::before,
+body.hub main .section.rule-after-spaced::after {
+  margin: 85px auto;
+}
+
+body.hub main .section.rule-after::after {
+  margin: 25px auto;
+}
+
+/* Frontify "Terms and conditions" dialog (showTermsDialog in hub-hero.js), outside the block */
+/* stylelint-disable no-descending-specificity */
+html.hub-terms-open {
+  overflow: hidden;
+}
+
+body.hub .hub-terms-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background-color: rgb(17 17 16 / 50%);
+}
+
+body.hub .hub-terms {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1001;
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  width: min(800px, calc(100vw - 32px));
+  max-height: calc(100vh - 32px);
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 3px 12px rgb(17 17 16 / 20%);
+  color: rgb(17 17 16);
+  font-family: var(--font-player);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  transform: translate(-50%, -50%);
+}
+
+body.hub .hub-terms:focus {
+  outline: none;
+}
+
+body.hub .hub-terms-side {
+  grid-area: 1 / 1 / 4 / 2;
+  background-color: rgb(86 86 86);
+}
+
+body.hub .hub-terms-head,
+body.hub .hub-terms-body,
+body.hub .hub-terms-foot {
+  grid-column: 2;
+}
+
+body.hub .hub-terms-head,
+body.hub .hub-terms-foot {
+  position: relative;
+  padding: 24px;
+}
+
+body.hub .hub-terms-head::after,
+body.hub .hub-terms-foot::before {
+  content: "";
+  position: absolute;
+  right: 24px;
+  left: 24px;
+  height: 1px;
+  background-color: rgb(234 234 234);
+}
+
+body.hub .hub-terms-head::after {
+  bottom: 0;
+}
+
+body.hub .hub-terms-foot::before {
+  top: 0;
+}
+
+body.hub .hub-terms-title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 500;
+}
+
+body.hub .hub-terms-title svg {
+  flex: none;
+}
+
+body.hub .hub-terms-title h2 {
+  margin: 0;
+  color: inherit;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+body.hub .hub-terms-body {
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+body.hub .hub-terms-scroll {
+  padding: 16px 24px;
+}
+
+body.hub .hub-terms-scroll p {
+  margin: 0;
+}
+
+body.hub .hub-terms-scroll span,
+body.hub .hub-terms-scroll a {
+  color: rgb(254 254 254);
+}
+
+body.hub .hub-terms-scroll .hub-terms-lead {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+body.hub .hub-terms-foot {
+  display: flex;
+  justify-content: flex-end;
+}
+
+body.hub .hub-terms-actions {
+  display: flex;
+  gap: 16px;
+}
+
+body.hub .hub-terms-actions button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 4px;
+  font-family: var(--font-player);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+body.hub .hub-terms-actions .hub-terms-decline {
+  background-color: rgb(225 225 219);
+  color: rgb(17 17 16);
+}
+
+body.hub .hub-terms-actions .hub-terms-accept {
+  background-color: rgb(17 17 16);
+  color: #fff;
+}
+/* stylelint-enable no-descending-specificity */
+
+/* Experience Workspace edit mode: repaint CTAs from their authored marks */
+/* stylelint-disable no-descending-specificity */
+.prosemirror-editor p > :is(strong, em) > a:any-link,
+.prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
+  display: inline-flex;
+  border: 2px solid transparent;
+  padding: 0.5em 1.2em;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.prosemirror-editor p > a:any-link > :is(strong, em) {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.prosemirror-editor p > strong > a:any-link,
+.prosemirror-editor p > a:any-link:has(> strong:only-child) {
+  border-color: var(--hub-red);
+  background-color: var(--hub-red);
+  color: #fff;
+}
+
+.prosemirror-editor p > em > a:any-link,
+.prosemirror-editor p > a:any-link:has(> em:only-child) {
+  border-color: currentcolor;
+  background-color: transparent;
+  color: inherit;
+}
+
+a .prosemirror-editor a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+/* stylelint-enable no-descending-specificity */

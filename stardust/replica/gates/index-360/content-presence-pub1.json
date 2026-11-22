@@ -1,0 +1,332 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-21T01:43:05.567Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://if-hub.de/",
+  "at": "2026-11-21T01:42:51.448Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 900,
+  "root": null,
+  "items": [
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.o-auth__box-content > div.o-auth__claim-and-logo-wrapper.js-o-auth__claim-and-logo-wrapper > img.o-auth__logo.js-o-auth__logo",
+    "x": 54,
+    "y": 54,
+    "w": 64,
+    "h": 80,
+    "text": "dsgv markenportal der sparkasse logo",
+    "file": "Bn4EX9DDsb9pocPP8s6E"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.o-auth__box.js-o-auth__box > div.o-auth__box-content > h1.o-auth__greeting.js-o-auth__greeting",
+    "x": 54,
+    "y": 174,
+    "w": 252,
+    "h": 56,
+    "level": 1,
+    "text": "herzlich willkommen im if- hub"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.o-auth__form.js-o-auth__form > div.tw-flex.tw-flex-col > span.o-auth__login-title",
+    "x": 54,
+    "y": 270,
+    "w": 252,
+    "h": 24,
+    "text": "Interne Benutzeranmeldung"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.o-auth__form.js-o-auth__form > div.tw-flex.tw-flex-col > a.js-o-auth__submit.o-auth__submit--oauth-and-saml",
+    "x": 54,
+    "y": 322,
+    "w": 252,
+    "h": 40,
+    "text": "anmelden über sso",
+    "href": "/api/thirdparty/oidc/auth"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.o-auth__disclaimer.js-o-auth__disclaimer > p.tw-break-words > a.tw-break-words.o-auth__link",
+    "x": 54,
+    "y": 466,
+    "w": 123,
+    "h": 18,
+    "text": "zugang beantragen",
+    "href": "/freischaltinfo/if-hub.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 4,
+    "controls": 2,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--8053f48d--aemcoder.aem.page/",
+  "at": "2026-11-21T01:43:05.461Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 900,
+  "root": "main",
+  "items": [
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.auth-login-logo > picture > img",
+    "x": 54,
+    "y": 54,
+    "w": 64,
+    "h": 80,
+    "text": "dsgv markenportal der sparkasse logo",
+    "file": "media_144ee0a52fb9ba442585c02644b8e035cc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.auth-login-content > div.auth-login-greeting > h1#herzlich-willkommen-im-if--hub",
+    "x": 54,
+    "y": 174,
+    "w": 252,
+    "h": 56,
+    "level": 1,
+    "text": "herzlich willkommen im if- hub"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.auth-login-form > div.auth-login-title > p",
+    "x": 54,
+    "y": 270,
+    "w": 252,
+    "h": 24,
+    "text": "Interne Benutzeranmeldung"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.auth-login-sso > p > a",
+    "x": 54,
+    "y": 322,
+    "w": 252,
+    "h": 40,
+    "text": "anmelden über sso",
+    "href": "/api/thirdparty/oidc/auth"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.auth-login-disclaimer > p > a",
+    "x": 54,
+    "y": 466,
+    "w": 123,
+    "h": 18,
+    "text": "zugang beantragen",
+    "href": "/freischaltinfo/if-hub.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 5,
+    "controls": 2,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "herzlich willkommen im if- hub",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 54,
+    "y": 175,
+    "w": 223,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 203,
+    "w": 110,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 273,
+    "w": 201,
+    "h": 17
+   },
+   {
+    "x": 118,
+    "y": 334,
+    "w": 124,
+    "h": 15
+   },
+   {
+    "x": 54,
+    "y": 467,
+    "w": 123,
+    "h": 15
+   }
+  ],
+  "eds": [
+   {
+    "x": 54,
+    "y": 175,
+    "w": 223,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 203,
+    "w": 110,
+    "h": 26
+   },
+   {
+    "x": 54,
+    "y": 273,
+    "w": 201,
+    "h": 17
+   },
+   {
+    "x": 118,
+    "y": 334,
+    "w": 124,
+    "h": 15
+   },
+   {
+    "x": 54,
+    "y": 467,
+    "w": 123,
+    "h": 15
+   }
+  ]
+ }
+}

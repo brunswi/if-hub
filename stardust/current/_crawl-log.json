@@ -1,0 +1,413 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 1,
+    "concurrency": 1
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://media.ffycdn.net/eu/sparkassenfinanzportal/9wnvijEiAiM9MyiBPQLF.png?width={width}",
+    "file": "assets/favicon.png"
+  },
+  "crawl": {
+    "failures": [],
+    "degraded": [],
+    "pageTimeoutMs": 60000
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 1,
+    "pagesWithSameSiteData": 1,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 0,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/csrf-token",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/csrf-token",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/session",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/session",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.frontify.com",
+        "path": "/locales/en.12d41535f7d23b7b.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.frontify.com/locales/en.12d41535f7d23b7b.json",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "if-hub.de",
+        "path": "/graphql-internal",
+        "query": [
+          "operationName"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/graphql-internal",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/context",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/context",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/dashboard/appearance",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/dashboard/appearance",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "sentryapp.appsupport.frontify.dev",
+        "path": "/api/{n}/envelope/",
+        "query": [
+          "sentry_client",
+          "sentry_key",
+          "sentry_version"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://sentryapp.appsupport.frontify.dev/api/51/envelope/",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal",
+        "query": [
+          "token"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/portal",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "if-hub.de",
+        "path": "/api/context",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/context",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/marketplace-app/importmap",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/marketplace-app/importmap",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/marketplace-app/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/marketplace-app/123",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal/{n}/footer",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/portal/110/footer",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal/{n}/font-families",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/portal/110/font-families",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal/{n}/font-styles",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/portal/110/font-styles",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/document/navigation/{n}",
+        "query": [
+          "language"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/document/navigation/110",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/ai-assistant/configuration/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/ai-assistant/configuration/110",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal/{n}/cover-page-template-asset",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/portal/110/cover-page-template-asset",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal/{n}/theme-asset/cover",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/portal/110/theme-asset/cover",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "if-hub.de",
+        "path": "/api/guideline-view-tracking",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/guideline-view-tracking",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal-navigation/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/portal-navigation/110",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/guideline-stylesheets/portal/{n}",
+        "query": [
+          "language"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/guideline-stylesheets/portal/110",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/portal/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/portal/110",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/hub/grid/{n}",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/hub/grid/110",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "if-hub.de",
+        "path": "/api/cross-search-guideline/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://if-hub.de/api/cross-search-guideline/110",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.frontify.com",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      },
+      {
+        "host": "frontify-artifacts.com",
+        "pages": 1,
+        "examples": [
+          "d-8fjlj4fun12p"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [],
+    "formTargets": []
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "/ redirects anonymous visitors to /auth/?referer=%2F — the IF-Hub login screen (logo, headline, SSO button, request-access link, full-bleed photo right half). Captured as served; not a bot wall."
+    },
+    {
+      "slug": "d-8fjlj4fun12p",
+      "verdict": "recaptured",
+      "notes": "first capture showed the Frontify Terms and conditions dialog over the page (headings = dialog only). Accepted once (cookie persisted in the shared live jar), recaptured: 19 headings, 7 imgs. Hero background is a looping mp4 video (NT4Cqvwes46oAW5bkkNc.mp4) not in cssBackgrounds. The page scrolls inside an inner container so the screenshot is viewport-height (1440x900)."
+    }
+  ],
+  "siblingCandidates": [],
+  "userChoice": "--pages (run scope fixed by site-plan: 2 pages)"
+}

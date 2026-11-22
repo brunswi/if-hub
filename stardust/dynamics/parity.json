@@ -1,0 +1,304 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-21T02:46:32Z",
+    "phase": "rollout D2 (dynamics Phases 4-5)",
+    "origin": "https://main--8053f48d--aemcoder.aem.live",
+    "scope": [
+      "/",
+      "/d/8fjlj4fun12p"
+    ]
+  },
+  "method": "Client-rendered Frontify content shipped as authored documents (settled-DOM snapshot); the terms dialog, header menus/drawer, header search overlay and hero video player rebuilt natively in blocks/header and blocks/hub-hero; the header search reads /query-index.json built from helix-query.yaml (committed in D2, both pages published live, index total 2); martech carried over with every contract part disabled (scripts/martech.js shipped, no CMP, no routes); owner-batch rows ship their interim tier with the decision named.",
+  "features": [
+    {
+      "id": "cr-hub-cover-content",
+      "feature": "hub cover page content (Frontify blockmanager slots)",
+      "class": "CR",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "live 1440/360: 3 h1/h2 headings in main, hub-cards + hub-hero rendered after settle; 0 page errors",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/d/8fjlj4fun12p",
+          "selector": "main h1, main h2, main h3",
+          "min": 3
+        },
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/d/8fjlj4fun12p"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cr-login-panel",
+      "feature": "login panel (headline, label, SSO link, request-access link)",
+      "class": "CR",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "live 1440/360: .auth-login block, 1 h1, SSO link and request-access link present; 0 page errors",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".auth-login a[href]",
+          "min": 2
+        },
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-frontify-platform-apis",
+      "feature": "Frontify platform APIs (csrf-token, context, graphql-internal, portal/*, hub/grid, …)",
+      "class": "A",
+      "pages": 2,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "verifiedBy": "21/21 first-party API paths host-bound (404 on target); no consumer on the migrated pages — their only consumer was the Frontify renderer, whose output is authored content",
+      "owner": "Confirm nothing outside the Frontify renderer consumes the Frontify platform APIs.",
+      "checks": []
+    },
+    {
+      "id": "a-session",
+      "feature": "session + account APIs (/api/session, /api/account/metadata)",
+      "class": "A",
+      "pages": 2,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "verifiedBy": "session-bound on the source; both pages are served publicly on the new host (interim tier)",
+      "owner": "Decide access control / IdP protection for the new host (the source gates the hub behind SSO login).",
+      "checks": []
+    },
+    {
+      "id": "f-login-sso",
+      "feature": "login form behaviour: 'Anmelden über SSO' → source OIDC endpoint; hidden e-mail form not rebuilt",
+      "class": "F",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "verifiedBy": "live 1440/360: 1 SSO link to https://if-hub.de/api/thirdparty/oidc/auth?referer=%2F (interim target kept); the source's e-mail/password form is disabled for the domain ('Die Anmeldung mit E-Mail/Passwort ist … deaktiviert'), so no form-flow is replayable",
+      "owner": "Name the SSO / IdP endpoint for the new host.",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "a[href*='/api/thirdparty/oidc/auth']",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "m-terms-dialog",
+      "feature": "'Terms and conditions' dialog before hub content (Accept / Decline)",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "live 1440/360: role=dialog .hub-terms shown on first load with heading 'Terms and conditions', Accept [data-test-id=save-selection-button] closes it and stores localStorage hub-terms-accepted=1 (dialog absent after reload)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/d/8fjlj4fun12p",
+          "selector": ".hub-terms[role='dialog'] [data-test-id='save-selection-button']",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "m-header-menus",
+      "feature": "header menus and mobile drawer",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "live: header bar with search + burger (burger visible at 360, hidden at 1440); drawer per stardust/chrome/header-contract.json",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/d/8fjlj4fun12p",
+          "selector": "header .hub-header-burger",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "chrome-search",
+      "feature": "header search overlay over /query-index.json",
+      "class": "S",
+      "pages": 1,
+      "disposition": "index-backed",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "live 1440/360: /query-index.json 200 total 2 (/, /d/8fjlj4fun12p); overlay opens from .hub-header-search, 'hub' → 1 result 'Start - IF-Hub', 'sparkasse' → 1 result 'Log in - DSGV Markenportal der Sparkasse', Escape closes. Replay note: a click-dialog replay times out because the modal terms dialog (m-terms-dialog, source behaviour) covers the header on a fresh profile and the check has no pre-dismiss step; the open/type/Escape flow is recorded from the D2 Playwright probe (accept terms → click → type) at 1440 and 360. One replay (run 2 of 3) saw a single transient 401 on /query-index.json from the CDN; curl and the next full replay answered 200 (18/18).",
+      "environmentLimit": "Search-count parity not measurable: the source search (/api/cross-search-guideline/{n}) is Frontify host-bound and session-gated behind SSO, so no source count/titles were recorded; no search-query check is faked. The migrated corpus is 2 pages (smaller corpus = parity note).",
+      "checks": [
+        {
+          "type": "fetch-json",
+          "url": "/query-index.json",
+          "minRows": 2
+        },
+        {
+          "type": "dom-count",
+          "path": "/d/8fjlj4fun12p",
+          "selector": "header .hub-header-search, .hub-search[role='dialog'] input.hub-search-input",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "v-hero-video",
+      "feature": "looping hero background video (autoplay muted loop)",
+      "class": "V",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "live 1440/360: native <video> /media/hub/nt4cqvwes46oaw5bkknc.mp4 not paused, currentTime advancing (20.3 s @1440, 2.1 s @360 at sample)",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/d/8fjlj4fun12p",
+          "videoSelector": ".hub-hero video"
+        }
+      ]
+    },
+    {
+      "id": "v-mediacenter-embed",
+      "feature": "embedded Sparkassen Media-Center player (iframe, autoplay=false) — part of the hub cover content (row 1, draft row 40 mod-pb-video)",
+      "class": "V",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "live 1440: .hub-embed iframe (lazy) → sparkassen-mediacenter.de player document 200, player getData fetch, HLS master.m3u8 from cdn.sparkassen-mediacenter.de; same third-party player as the source",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/d/8fjlj4fun12p",
+          "iframeSelector": ".hub-embed iframe",
+          "playbackHost": "cdn.sparkassen-mediacenter.de"
+        }
+      ]
+    },
+    {
+      "id": "t-media-cdn",
+      "feature": "media.ffycdn.net images/video served from the new host",
+      "class": "T",
+      "pages": 2,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "hub images + video served from the EDS origin (media_* / /media/hub/); no media.ffycdn.net request",
+      "checks": [
+        {
+          "type": "consent-gate",
+          "path": "/d/8fjlj4fun12p",
+          "forbiddenHosts": [
+            "media.ffycdn.net"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t-frontify-runtime",
+      "feature": "Frontify runtime + error monitoring (cdn.frontify.com, frontify-artifacts.com, sentryapp.appsupport.frontify.dev)",
+      "class": "T",
+      "pages": 2,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "verifiedBy": "not carried (platform runtime, not site tags); no request to those hosts on either page",
+      "owner": "Confirm the Frontify runtime / Sentry monitoring is not wanted on the new host.",
+      "checks": [
+        {
+          "type": "consent-gate",
+          "path": "/d/8fjlj4fun12p",
+          "forbiddenHosts": [
+            "cdn.frontify.com",
+            "frontify-artifacts.com",
+            "sentryapp.appsupport.frontify.dev"
+          ]
+        },
+        {
+          "type": "consent-gate",
+          "path": "/",
+          "forbiddenHosts": [
+            "cdn.frontify.com",
+            "frontify-artifacts.com",
+            "sentryapp.appsupport.frontify.dev"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t-mediacenter-fonts",
+      "feature": "sparkassen-mediacenter webfonts self-hosted",
+      "class": "T",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "page fonts served from /fonts on the origin; the main frame requests no sparkassen-mediacenter host on either page. On the hub, sparkassen-mediacenter.de / cdn.sparkassen-mediacenter.de requests (incl. its own woff fonts) come only from the embedded Media-Center player iframe — row v-mediacenter-embed — so the replayable gate runs on /",
+      "checks": [
+        {
+          "type": "consent-gate",
+          "path": "/",
+          "forbiddenHosts": [
+            "cdn.sparkassen-mediacenter.de",
+            "sparkassen-mediacenter.de"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "martech",
+      "feature": "analytics / tags / consent carried over, every contract part disabled",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "verifiedBy": "scripts/martech.js shipped (200 on the live origin, imported by scripts.js); stardust/martech-contract.json: cmp null, 0 routes, 0 tag managers — nothing enabled, so no tag host is requested",
+      "owner": "Martech batch (stardust/martech-handoff.md): no CMP and no tag manager found on the source; enable a CMP/route in the contract only if the owner names one.",
+      "checks": [
+        {
+          "type": "martech",
+          "path": "/",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "www.googletagmanager.com",
+            "assets.adobedtm.com",
+            "cdn.cookielaw.org"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/d/8fjlj4fun12p",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "www.googletagmanager.com",
+            "assets.adobedtm.com",
+            "cdn.cookielaw.org"
+          ]
+        }
+      ]
+    }
+  ]
+}

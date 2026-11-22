@@ -1,0 +1,75 @@
+{
+  "a": "stardust/replica/gates/d-8fjlj4fun12p-1440/live.png",
+  "b": "stardust/replica/gates/d-8fjlj4fun12p-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 900,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 64174,
+  "pct": 4.95,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/d-8fjlj4fun12p-1440/diff-iter1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.2
+    },
+    {
+      "y0": 500,
+      "y1": 900,
+      "pct": 9.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 4.95,
+    "differingPixels": 64174,
+    "compared": {
+      "width": 1440,
+      "height": 900,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.2,
+        "unaligned": 1.2
+      },
+      {
+        "y0": 500,
+        "y1": 900,
+        "pct": 9.6,
+        "unaligned": 9.6
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 4.95,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null
+}

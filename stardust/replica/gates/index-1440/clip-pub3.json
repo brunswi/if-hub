@@ -1,0 +1,58 @@
+{
+ "url": "https://main--8053f48d--aemcoder.aem.page/",
+ "at": "2026-11-21T01:41:23.936Z",
+ "width": 1440,
+ "status": 200,
+ "settlePasses": 2,
+ "docH": 900,
+ "pageW": 1440,
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 0,
+  "offPage": 0,
+  "textNodes": 5,
+  "controls": 2,
+  "total": 0
+ },
+ "findings": [],
+ "textBoxes": [
+  {
+   "x": 175,
+   "y": 376,
+   "w": 354,
+   "h": 42
+  },
+  {
+   "x": 175,
+   "y": 420,
+   "w": 175,
+   "h": 42
+  },
+  {
+   "x": 175,
+   "y": 505,
+   "w": 201,
+   "h": 17
+  },
+  {
+   "x": 298,
+   "y": 566,
+   "w": 124,
+   "h": 15
+  },
+  {
+   "x": 175,
+   "y": 699,
+   "w": 123,
+   "h": 15
+  }
+ ],
+ "groups": [],
+ "tier": "chrome"
+}

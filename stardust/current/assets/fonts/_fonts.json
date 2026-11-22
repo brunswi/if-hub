@@ -1,0 +1,141 @@
+[
+ {
+  "page": "https://if-hub.de/d/8fJLj4FUN12p",
+  "url": "https://cdn.frontify.com/fonts/ABCDiatypeVariable.woff2",
+  "file": "7999e7bf.woff2",
+  "bytes": 302956,
+  "ct": "binary/octet-stream"
+ },
+ {
+  "page": "https://if-hub.de/d/8fJLj4FUN12p",
+  "url": "https://cdn.frontify.com/fonts/MierB-Book.woff2",
+  "file": "66a5d3cc.woff2",
+  "bytes": 45740,
+  "ct": "binary/octet-stream"
+ },
+ {
+  "page": "https://if-hub.de/d/8fJLj4FUN12p",
+  "url": "https://if-hub.de/api/font-file/37561?format=woff&project_id=221",
+  "file": "c07af2a9.woff",
+  "bytes": 30668,
+  "ct": "font/woff"
+ },
+ {
+  "page": "https://if-hub.de/d/8fJLj4FUN12p",
+  "url": "https://if-hub.de/api/font-file/88523?format=woff&project_id=319",
+  "file": "c07af2a9.woff",
+  "bytes": 30668,
+  "ct": "font/woff"
+ },
+ {
+  "page": "https://if-hub.de/d/8fJLj4FUN12p",
+  "url": "https://if-hub.de/api/font-file/88519?format=woff&project_id=319",
+  "file": "2df97632.woff",
+  "bytes": 41472,
+  "ct": "font/woff"
+ },
+ {
+  "page": "https://if-hub.de/d/8fJLj4FUN12p",
+  "url": "https://if-hub.de/api/font-file/88516?format=woff&project_id=319",
+  "file": "e13d092f.woff",
+  "bytes": 31016,
+  "ct": "font/woff"
+ },
+ {
+  "page": "https://if-hub.de/d/8fJLj4FUN12p",
+  "url": "https://sparkassen-mediacenter.de/intern/fonts/SparkasseHead_web_Rg.woff",
+  "file": "318c1d7c.woff",
+  "bytes": 26076,
+  "ct": "font/woff"
+ },
+ {
+  "page": "https://if-hub.de/d/8fJLj4FUN12p",
+  "url": "https://sparkassen-mediacenter.de/intern/fonts/Sparkasse_web_Lt.woff",
+  "file": "ed2d1e5a.woff",
+  "bytes": 24804,
+  "ct": "font/woff"
+ },
+ {
+  "page": "https://if-hub.de/d/8fJLj4FUN12p",
+  "url": "https://sparkassen-mediacenter.de/intern/fonts/Sparkasse_web_Rg.woff",
+  "file": "278d6e0d.woff",
+  "bytes": 25076,
+  "ct": "font/woff"
+ },
+ {
+  "page": "https://if-hub.de/d/8fJLj4FUN12p",
+  "url": "https://sparkassen-mediacenter.de/intern/fonts/Sparkasse_web_Md.woff",
+  "file": "a3e87692.woff",
+  "bytes": 25248,
+  "ct": "font/woff"
+ },
+ {
+  "page": "https://if-hub.de/d/8fJLj4FUN12p",
+  "loadedFaces": [
+   {
+    "family": "Diatype",
+    "weight": "1 999",
+    "style": "normal"
+   },
+   {
+    "family": "Mier B",
+    "weight": "400",
+    "style": "normal"
+   },
+   {
+    "family": "Sparkasse Light",
+    "weight": "300",
+    "style": "normal"
+   },
+   {
+    "family": "Sparkasse Light",
+    "weight": "300",
+    "style": "normal"
+   },
+   {
+    "family": "Sparkasse Medium",
+    "weight": "500",
+    "style": "normal"
+   },
+   {
+    "family": "Sparkasse Regular",
+    "weight": "400",
+    "style": "normal"
+   },
+   {
+    "family": "Sparkasse Light",
+    "weight": "300",
+    "style": "normal"
+   }
+  ]
+ },
+ {
+  "page": "https://if-hub.de/",
+  "url": "https://cdn.frontify.com/fonts/ABCDiatypeVariable.woff2",
+  "file": "7999e7bf.woff2",
+  "bytes": 302956,
+  "ct": "binary/octet-stream"
+ },
+ {
+  "page": "https://if-hub.de/",
+  "url": "https://if-hub.de/api/font-file/5782?format=ttf&project_id=76",
+  "file": "118de50e.ttf",
+  "bytes": 114056,
+  "ct": "font/ttf"
+ },
+ {
+  "page": "https://if-hub.de/",
+  "loadedFaces": [
+   {
+    "family": "Diatype",
+    "weight": "1 999",
+    "style": "normal"
+   },
+   {
+    "family": "Sparkasse_Rg",
+    "weight": "400",
+    "style": "normal"
+   }
+  ]
+ }
+]

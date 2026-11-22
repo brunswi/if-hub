@@ -1,0 +1,568 @@
+[live-session] waiting to pace live navigations to main--8053f48d--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 177 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/d-8fjlj4fun12p-1440/vdiff-pub1/
+
+build red flags (advisory): 
+  • CONTENT GAP: source 22 headings / 11 content-boxes / main 4213px vs build 19 / 7 / 4213px. Heading/box/height shortfall vs the source — likely dropped or duplicated content.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4213,
+  "textLen": 3241,
+  "images": [
+   {
+    "src": "h52apBMkJBRJKJWJ7iyW.png?width={width}",
+    "natural": "176x275",
+    "rendered": "43x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "arrow.svg",
+    "natural": "55x71",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rPNYk2kRNVSEhV2LkAFm.png?width={width}",
+    "natural": "960x720",
+    "rendered": "715x536",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "gL8hhGB2W2aRDWGsPBdr.webp?width={width}&rect=29.472776555022,0,318.66666666667,239&reference_width=800",
+    "natural": "319x239",
+    "rendered": "410x307",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "TpzzJrkyGis3152ekCUL.webp?width={width}&rect=0,0,318.66666666667,239&reference_width=800",
+    "natural": "319x239",
+    "rendered": "410x307",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "DMoYV8aec2czCim7TqfK.jpg?width={width}&rect=39.833333333333,0,637.33333333333,478&reference_width=717",
+    "natural": "637x478",
+    "rendered": "410x307",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hQKdjW6wXL8esQAfs4xo.jpg?width={width}",
+    "natural": "640x426",
+    "rendered": "225x150",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Welcome to your cover page",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "46px",
+    "family": "Sparkasse Medium",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Herzlich willkommen im IF-Hub",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "54px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IF-Wissen",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Redaktions-Guidelines",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Technik-Guidelines",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Das neue Redaktionelle Regelwerk",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Erklär-Podcast",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Oft gesucht",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "28px",
+    "family": "Sparkasse Medium",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "News & Hinweise",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Support für die Internet-Filiale",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Plattformen & Systeme",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "BFSG Infos",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "28px",
+    "family": "Sparkasse Medium",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Weitere Services",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "28px",
+    "family": "Sparkasse Medium",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "App-Shop",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Media-Center",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "UI-Guidelines",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IF-Schulungsprogramm",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Content-Service",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Info-Mail-Datenbank",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Title",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sie haben die Antwort auf Ihre F",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "p-row",
+    "width": 1430,
+    "left": 0
+   },
+   {
+    "sel": "pb-text-image__text-inner",
+    "width": 1330,
+    "left": 50
+   },
+   {
+    "sel": "p-row",
+    "width": 1380,
+    "left": 25
+   },
+   {
+    "sel": "po-brandportal__row-container",
+    "width": 1430,
+    "left": 0
+   },
+   {
+    "sel": "po-brandportal__row-container",
+    "width": 1430,
+    "left": 0
+   },
+   {
+    "sel": "pb-text-image__text-inner",
+    "width": 1400,
+    "left": 15
+   },
+   {
+    "sel": "p-row",
+    "width": 1400,
+    "left": 15
+   },
+   {
+    "sel": "pb-text-image__text-inner",
+    "width": 1400,
+    "left": 15
+   },
+   {
+    "sel": "p-row",
+    "width": 1400,
+    "left": 15
+   },
+   {
+    "sel": "p-row",
+    "width": 1400,
+    "left": 15
+   },
+   {
+    "sel": "p-row",
+    "width": 900,
+    "left": 265
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4213,
+  "textLen": 3148,
+  "images": [
+   {
+    "src": "media_1e923467e24151867db6f56d55bd096346b062def.png?width=2000&format=webply&optimize=medium",
+    "natural": "176x275",
+    "rendered": "43x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1b4af9de79e9ce6192b18dc75f8de33c1cd722c53.png?width=2000&format=webply&optimize=medium",
+    "natural": "960x720",
+    "rendered": "715x536",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17baf4239973f52f3eac1eb68299bcbf77e39a3d1.webp?width=2000&format=webply&optimize=medium",
+    "natural": "319x239",
+    "rendered": "410x307",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1675281820024c19b6c8d260dd7236d38a6a1b750.webp?width=2000&format=webply&optimize=medium",
+    "natural": "319x239",
+    "rendered": "410x307",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f5812691ad525a8731ae97a6b439348fdb8e7140.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "717x478",
+    "rendered": "410x307",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1d0d0ae79dbadf159b65796577b1de3cc418cbac6.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "640x426",
+    "rendered": "225x150",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Herzlich willkommenim IF-Hub",
+    "color": "rgb(253, 249, 249)",
+    "fontSize": "54px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IF-Wissen",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Redaktions-Guidelines",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Technik-Guidelines",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Das neue Redaktionelle Regelwerk",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Erklär-Podcast",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Oft gesucht",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "28px",
+    "family": "Sparkasse Medium",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "News & Hinweise",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Support für dieInternet-Filiale",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Plattformen & Systeme",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "BFSG Infos",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Weitere Services",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "28px",
+    "family": "Sparkasse Medium",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "App-Shop",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Media-Center",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "UI-Guidelines",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IF-Schulungsprogramm",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Content-Service",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Info-Mail-Datenbank",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sie haben die Antwort auf Ihre F",
+    "color": "rgb(41, 41, 41)",
+    "fontSize": "24px",
+    "family": "Sparkasse Regular",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "hub-hero-grid",
+    "width": 1430,
+    "left": 0
+   },
+   {
+    "sel": "tiles-grid",
+    "width": 1380,
+    "left": 25
+   },
+   {
+    "sel": "hub-embed",
+    "width": 960,
+    "left": 235
+   },
+   {
+    "sel": "hub-cards-grid",
+    "width": 1400,
+    "left": 15
+   },
+   {
+    "sel": "services-grid",
+    "width": 1400,
+    "left": 15
+   },
+   {
+    "sel": "services-grid",
+    "width": 1400,
+    "left": 15
+   },
+   {
+    "sel": "support-col",
+    "width": 900,
+    "left": 265
+   }
+  ]
+ }
+}

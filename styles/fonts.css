@@ -1,36 +1,57 @@
-/* stylelint-disable max-line-length */
+/*
+ * FONT LICENSING REQUIRED BEFORE GOING LIVE (register R-01) - see fonts/LICENSING.md.
+ * Sparkasse Light / Regular / Medium / Rg: DSGV corporate faces (proprietary).
+ * Diatype: ABC Dinamo (proprietary). Mier B: Atipo foundry (proprietary).
+ * Self-hosted as captured for fidelity; the owner must confirm the web licence covers this host.
+ */
+
 @font-face {
-  font-family: roboto-condensed;
+  font-family: "Sparkasse Light";
+  src: url("../fonts/sparkasse-light-300.woff2") format("woff2");
+  font-weight: 300;
   font-style: normal;
-  font-weight: 700;
   font-display: swap;
-  src: url('../fonts/roboto-condensed-bold.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
-  font-family: roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('../fonts/roboto-bold.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url('../fonts/roboto-medium.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: roboto;
-  font-style: normal;
+  font-family: "Sparkasse Regular";
+  src: url("../fonts/sparkasse-regular-400.woff2") format("woff2");
   font-weight: 400;
+  font-style: normal;
   font-display: swap;
-  src: url('../fonts/roboto-regular.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Sparkasse Medium";
+  src: url("../fonts/sparkasse-medium-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* sign-in page face (source: if-hub.de/auth, font-file 5782) */
+@font-face {
+  font-family: "Sparkasse_Rg";
+  src: url("../fonts/sparkasse-rg-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* hub video player controls */
+@font-face {
+  font-family: Diatype;
+  src: url("../fonts/abc-diatype-variable.woff2") format("woff2");
+  font-weight: 1 999;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* hub footer (the source footer names Sparkasse_web_Lt, which never loads; Mier B renders) */
+@font-face {
+  font-family: "Mier B";
+  src: url("../fonts/mier-b-book.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }

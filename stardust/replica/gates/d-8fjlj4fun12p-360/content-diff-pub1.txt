@@ -1,0 +1,157 @@
+
+Content diff @ 360px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 96 text nodes — 20 headings, 0 eyebrows, 18 CTAs, 58 body; 7 img
+  build: 61 text nodes — 19 headings, 0 eyebrows, 19 CTAs, 23 body; 5 img
+  editable texts (outermost h*/p/ul/ol): source 56 / build 53
+  attributes (placeholder/aria-label/title): source 31 / build 32; icons: source 39 / build 7
+  accepted (invisible, nothing lost): 1 ROLE UPGRADE body → heading — "Herzlich willkommen im IF-Hub"
+root "header"
+  source: 6 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 6 body; 1 img
+  build: 9 text nodes — 0 headings, 0 eyebrows, 8 CTAs, 1 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 2
+  attributes (placeholder/aria-label/title): source 8 / build 13; icons: source 9 / build 10
+root "footer" — source: absent (no <footer> / [role="contentinfo"] outside the main root(s)) — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 5 text nodes — 0 headings, 0 eyebrows, 4 CTAs, 1 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 3
+  attributes (placeholder/aria-label/title): source 0 / build 2; icons: source 0 / build 1
+
+Findings: 136 (12 structural 🔴)
+Tiers: looks-same 🔴 12 · nothing-lost 🟡 17 · accepted 🟢 1 (owner 0, auto 1) · advisory 107
+  🔴 MISSING HEADING [main]: source heading "Welcome to your cover page" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING HEADING [main]: source heading "Title" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA [main]: source cta "Call To Action" → http://www.frontify.com has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 ROLE SWAP [header]: "IF-Wissen" is a body in the source but a cta in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP [header]: "Redaktions-Guidelines" is a body in the source but a cta in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP [header]: "Bewegtbild-Guidelines" is a body in the source but a cta in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP [header]: "Kontakt" is a body in the source but a cta in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ICON DIFF [header]: source image h52apBMkJBRJKJWJ7iyW.png (20×32) vs build image media_1e923467e24151867db6f56d55bd096346b062def.png (20×32) at "/d/8fjlj4fun12p". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [header]: source inline svg 0 0 21 21 / 2 shape(s) (24×24) vs build inline svg 0 0 21 21 / 1 shape(s) (24×24) at "search". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [header]: source inline svg 0 0 21 21 / 2 shape(s) (0×0) vs build inline svg 0 0 21 21 / 1 shape(s) (0×0) at "search". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟠 EXTRA [main]: build cta "/media/hub/nt4cqvwes46oaw5bkknc.mp4" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Embedded content" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "IF-Wissen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Redaktions-Guidelines" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Bewegtbild-Guidelines" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Kontakt" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Nutzungshinweise" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Impressum" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Kontakt" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Go to login page" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [main]: source body "Let's get started by adding your first content b"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "00:06 / 00:55"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Your text here…"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add image"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Add existing"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [main]: build body "00:27 / 00:55" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EDITABLE COUNT [main]: build has 53 outermost editable element(s) vs 56 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING ARIA-LABEL [main]: source <svg> aria-label="spinner interaction icon" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label (build <input> aria-labels: "volume"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA TITLE [main]: build <a> title="/media/hub/nt4cqvwes46oaw5bkknc.mp4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Weiter" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Weiter" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Weiter" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Zum Redaktionellen Regelwerk" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Alle Podcast-Folgen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Embedded content" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Weiter" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Weiter" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Weiter" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Weiter" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="App-Shop besuchen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Media-Center besuchen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="UI-Guidelines besuchen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="IF-Schulungsprogramm besuchen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Content-Service besuchen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Info-Mail-Datenbank besuchen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Support für die Internet-Filiale" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING ICON [main]: source inline svg spinner interaction icon (0×0) at "00:06 / 00:55 normal slow (0.5x) normal " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON MOVED [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" is at "play/pause" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING BODY [header]: source body "Search"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Main" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <div> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA PLACEHOLDER [header]: build <input> placeholder="Search guidelines, images, and videos" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <input> aria-label="Search guidelines, images, and videos" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ICON [header]: build inline svg 0 0 21 21 / 1 shape(s) (0×0) at "if-wissen redaktions-guidelines bewegtbi" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA [footer]: build body "© S-Communication Services GmbH 2024" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA ARIA-LABEL [footer]: build <a> aria-label="Go to login page" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Go to login page" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ICON [footer]: build inline svg 0 0 24 24 / 1 shape(s) (20×20) at "go to login page" has no source source. Build-only icon — confirm it is intended.

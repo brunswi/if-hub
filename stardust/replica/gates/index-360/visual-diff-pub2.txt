@@ -1,0 +1,107 @@
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/index-360/vdiff-pub2/
+
+build red flags (advisory): 
+  • HEADING FACE: <h1> "Herzlich willkommen im IF- Hub" is 24px Liberation Sans in build vs 24px Sparkasse_Rg in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 1000,
+  "textLen": 105,
+  "images": [
+   {
+    "src": "Bn4EX9DDsb9pocPP8s6E.svg?width={width}",
+    "natural": "120x150",
+    "rendered": "64x80",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Herzlich willkommen im IF- Hub",
+    "color": "rgb(17, 17, 16)",
+    "fontSize": "24px",
+    "family": "Sparkasse_Rg",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "o-auth__disclaimer",
+    "width": 252,
+    "left": 54
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 1000,
+  "textLen": 108,
+  "images": [
+   {
+    "src": "media_1e04d5b2c9ad1e161b342437d9cb521aaa80d7d83.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x526",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_144ee0a52fb9ba442585c02644b8e035cc574577b.svg?width=750&format=webply&optimize=medium",
+    "natural": "120x150",
+    "rendered": "64x80",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Herzlich willkommen im IF- Hub",
+    "color": "rgb(17, 17, 16)",
+    "fontSize": "24px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "auth-login-greeting",
+    "width": 252,
+    "left": 54
+   },
+   {
+    "sel": "auth-login-title",
+    "width": 252,
+    "left": 54
+   },
+   {
+    "sel": "auth-login-sso",
+    "width": 252,
+    "left": 54
+   },
+   {
+    "sel": "auth-login-alt",
+    "width": 252,
+    "left": 54
+   },
+   {
+    "sel": "auth-login-disclaimer",
+    "width": 252,
+    "left": 54
+   }
+  ]
+ }
+}

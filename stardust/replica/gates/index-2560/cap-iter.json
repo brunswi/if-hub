@@ -1,0 +1,205 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-21T00:35:50.355Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://if-hub.de/",
+      "http://localhost:8791/index-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://if-hub.de/",
+    "http://localhost:8791/index-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "div.tw-size-full > div.fondue-theme-provider.web-app-content > div > div.mod.mod-o-auth",
+      "isBody": false,
+      "leaves": 7,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 370,
+        "via": "max-width",
+        "selector": "div > div.mod.mod-o-auth > div.o-auth__box.js-o-auth__box > div.o-auth__box-content",
+        "tier": 2,
+        "share": 1,
+        "section": -1,
+        "w1": 370,
+        "maxWidth": "370px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "div.mod.mod-o-auth > div.o-auth__box.js-o-auth__box > div.o-auth__box-content > div.o-auth__vertical-filler",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "div.mod.mod-o-auth > div.o-auth__box.js-o-auth__box > div.o-auth__box-content > div.o-auth__claim-and-logo-wrapper",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "div.mod.mod-o-auth > div.o-auth__box.js-o-auth__box > div.o-auth__box-content > h1.o-auth__greeting.js-o-auth__greeting",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 3,
+        "selector": "div.mod.mod-o-auth > div.o-auth__box.js-o-auth__box > div.o-auth__box-content > div.o-auth__form.js-o-auth__form",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 4,
+        "selector": "div.mod.mod-o-auth > div.o-auth__box.js-o-auth__box > div.o-auth__box-content > div.o-auth__disclaimer.js-o-auth__disclaimer",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 5,
+        "selector": "div.mod.mod-o-auth > div.o-auth__box.js-o-auth__box > div.o-auth__box-content > div.o-auth__vertical-filler",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": 370,
+    "contentMaxWidth": 370,
+    "contentFrom": "shell",
+    "maxCap": 370,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 20
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main",
+      "isBody": false,
+      "leaves": 7,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 370,
+        "via": "max-width",
+        "selector": "#main > div.o-auth__box > div.o-auth__box-content",
+        "tier": 2,
+        "share": 1,
+        "section": -1,
+        "w1": 370,
+        "maxWidth": "370px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#main > div.o-auth__box > div.o-auth__box-content > div.o-auth__filler",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#main > div.o-auth__box > div.o-auth__box-content > div.o-auth__logo-wrap",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#main > div.o-auth__box > div.o-auth__box-content > h1.o-auth__greeting",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 3,
+        "selector": "#main > div.o-auth__box > div.o-auth__box-content > div.o-auth__form",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 4,
+        "selector": "#main > div.o-auth__box > div.o-auth__box-content > div.o-auth__disclaimer",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 5,
+        "selector": "#main > div.o-auth__box > div.o-auth__box-content > div.o-auth__filler",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": 370,
+    "contentMaxWidth": 370,
+    "contentFrom": "shell",
+    "maxCap": 370,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 15
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "wrapper cap",
+        "detail": "live 370px = build 370px (±20)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/6",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/6",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/6",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/6",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/6",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/6",
+        "detail": "full-bleed on both",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/index-2560/cap-iter.json"
+}

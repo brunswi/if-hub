@@ -1,0 +1,114 @@
+{
+ "source": "file:///workspace/8053f48d/stardust/.work/deploy/probes/index-sectioned.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "auth-login",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Herzlich willkommen im IF- Hub"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Log in"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Interne Benutzeranmeldung"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Anmelden über SSO",
+     "href": "https://if-hub.de/api/thirdparty/oidc/auth?referer=%2F"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "​"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "E-Mail:"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Bitte geben Sie Ihre E-Mail-Adresse ein."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Diese E-Mail-Adresse ist ungültig."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Passwort:"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Bitte geben Sie Ihr Passwort ein."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Die Anmeldung mit E-Mail/Passwort ist für diesen Benutzer/Domäne deaktiviert. Bitte melden Sie sich über SSO an."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Falsche Anmeldeinformationen."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Zu viele fehlgeschlagene Anmeldeversuche. Bitte warten Sie einige Minuten und versuchen Sie es erneut."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Leider ist etwas schiefgelaufen. Laden Sie die Seite neu und versuchen Sie es erneut."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Anmelden"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "​"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Zugang beantragen",
+     "href": "https://portal.dsv-gruppe.de/freischaltinfo/if-hub.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

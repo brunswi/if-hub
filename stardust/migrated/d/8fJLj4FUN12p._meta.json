@@ -1,0 +1,136 @@
+{
+  "slug": "d-8fjlj4fun12p",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hub-hero",
+    "tiles",
+    "cards",
+    "services",
+    "support"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "cp-editor",
+    "cp-row",
+    "cp-row",
+    "cp-row",
+    "cp-row",
+    "cp-row",
+    "cp-row",
+    "cp-row",
+    "cp-row",
+    "cp-row",
+    "cp-row",
+    "cp-row",
+    "cp-row",
+    "cp-row",
+    "cp-row",
+    "cp-row"
+  ],
+  "canonShas": {
+    "header": "4ca56c4a104e",
+    "footer": "1abc10115681",
+    "css": "e3eb60946ab8"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Start - IF-Hub",
+    "description": "A Powerful Brand Powered by Frontify",
+    "canonical": null,
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Start - IF-Hub",
+    "description": "A Powerful Brand Powered by Frontify",
+    "url": "https://if-hub.de/d/8fJLj4FUN12p"
+  },
+  "migratedAt": "2026-11-21T01:19:11Z",
+  "designMdSha": "729fed00422c",
+  "designJsonSha": "6ae4ff46be75",
+  "sourceCurrentSha": "cb203b7ad475",
+  "sourceProposedSha": "04ced070196d",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 16,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/d/8fJLj4FUN12p/if-wissen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/d/8fJLj4FUN12p/redaktions-guidelines",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/d/8fJLj4FUN12p/bewegtbild-guidelines",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/d/8fJLj4FUN12p/kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/r/V3G101QvJeBekTNhxe2ceYyPCT4c22WOWKC3KE_8cN8",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/r/ucDy5Xr2RsLtIvZOZT7kn8BxFyxvunZWSjjftR5JmV4",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://if-hub.de/document/525",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://if-hub.de/document/528#/erklaer-podcast-neu/alle-podcast-folgen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/r/2q9Re259nrB8znUH2oJzu8PxUQUdbWQzfy7DQ330ks0",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/r/Ro7HHQUle9y2Mdxxkvdog8vk-ScAeaSNUhsP5m4aqys",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/r/d75CaHmoVJ7QuYnFUzxUysOvef8i8X7Oceapnfp0YIc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/r/JUKRKgORoB2Vr6AhBCa_mP6UTui5VQeDQvMXQeTKmxw",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/r/3VFwUuoIys05Gk6e35GaxTbAFGYxiOyUWzyWlMjn9jQ",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://if-hub.de/document/528#/statistik-service-support/content-service",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/r/Ro7HHQUle9y2Mdxxkvdog8vk-ScAeaSNUhsP5m4aqys",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/auth?referer=%2Fd%2F8fJLj4FUN12p",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "d/8fJLj4FUN12p.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "d/8fJLj4FUN12p._meta.json",
+  "driverVersion": "1"
+}

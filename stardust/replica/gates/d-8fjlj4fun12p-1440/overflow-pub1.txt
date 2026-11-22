@@ -1,0 +1,9 @@
+measure: consent dismissed via button:has-text("Accept")
+measure  https://main--8053f48d--aemcoder.aem.page/d/8fjlj4fun12p
+  widths 1440 · 1 selector(s) · 1 props · first match
+
+@ 1440px
+  root  scrollWidth  1440  viewport 1440  scrollHeight   4407
+  html
+       x     0  y      0  w  1440  h  4407  vis  "IF-Wissen Redaktions-Guidelines Bewegtb…"
+      display: block

@@ -1,0 +1,94 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-21T01:15:15.444Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 19,
+   "horizontal": 0,
+   "offPage": 0,
+   "textNodes": 26,
+   "controls": 14,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT SCROLL-HIDDEN",
+    "advisory": true,
+    "n": 3,
+    "clipper": "div.hub-viewport",
+    "path": "div.cp-grid.cp-grid--gutter > div.cp-col.cp-col--4 > div.cp-text > h3",
+    "text": "if-wissen",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "TEXT SCROLL-HIDDEN",
+    "advisory": true,
+    "n": 3,
+    "clipper": "div.hub-viewport",
+    "path": "div.cp-grid.cp-grid--gutter > div.cp-col.cp-col--4 > div.cp-text > p",
+    "text": "entdecken sie hilfreiche informationen, die ihre arbeit im i",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "CONTROL SCROLL-HIDDEN",
+    "advisory": true,
+    "n": 3,
+    "clipper": "div.hub-viewport",
+    "path": "div.cp-col.cp-col--4 > div.cp-text > p > a.cp-btn.cp-btn--primary",
+    "text": "weiter",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "TEXT SCROLL-HIDDEN",
+    "advisory": true,
+    "n": 3,
+    "clipper": "div.hub-viewport",
+    "path": "div.cp-col.cp-col--4 > div.cp-text > p > a.cp-btn.cp-btn--primary",
+    "text": "weiter",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "CONTROL SCROLL-HIDDEN",
+    "advisory": true,
+    "n": 3,
+    "clipper": "div.hub-viewport",
+    "path": "ul.hub-footer__links > li > p > a",
+    "text": "nutzungshinweise",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "TEXT SCROLL-HIDDEN",
+    "advisory": true,
+    "n": 3,
+    "clipper": "div.hub-viewport",
+    "path": "ul.hub-footer__links > li > p > a",
+    "text": "nutzungshinweise",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "TEXT SCROLL-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.hub-viewport",
+    "path": "div.hub-viewport > footer.hub-footer > div.hub-footer__inner > p.hub-footer__copyright",
+    "text": "© s-communication services gmbh 2024",
+    "cutMin": null,
+    "cutMax": null
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ }
+}

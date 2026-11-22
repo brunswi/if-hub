@@ -1,0 +1,15 @@
+{
+ "pages": 2,
+ "vendors": [
+  {
+   "host": "cdn.frontify.com",
+   "pages": 2,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  }
+ ],
+ "inline": {},
+ "cspHosts": []
+}

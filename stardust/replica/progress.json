@@ -1,0 +1,213 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica phase 3-4 (index, hands-off)",
+    "writtenAt": "2026-11-21T01:13:33.262Z"
+  },
+  "types": {
+    "index": {
+      "pageType": "form",
+      "archetype": "index",
+      "liveUrl": "https://if-hub.de/",
+      "finalUrl": "https://if-hub.de/auth/?referer=%2F",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "contentRoot": ".o-auth",
+      "breakpoints": {
+        "360": {
+          "iterations": 1,
+          "result": {
+            "structuralRed": 0,
+            "nothingLostYellow": 0,
+            "visualFlags": "1 justified (advisory)",
+            "pixelPct": 0,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": false,
+            "pass": true
+          },
+          "fullRounds": {
+            "iter1": "exit 1 (chrome-parity no verdict only) — content-diff 0/0, clipped 0, pixel 0.00%",
+            "iter2": "pixel round, exit 0, 0.00%, |dh| 0"
+          },
+          "justified": [
+            {
+              "probe": "visual",
+              "flag": "HEADING FACE h1 reported as Liberation Sans in build vs Sparkasse_Rg",
+              "why": "probe resolves the stack against a 400-only @font-face at weight 700 (synthetic bold, same as live's single 400 face); the brand face loads ('every declared face loaded') and pixel diff is 0.00%"
+            },
+            {
+              "probe": "chrome-parity",
+              "flag": "NO VERDICT (exit 4): no header/footer on either side",
+              "why": "chromeless split-screen login; chrome-parity N/A — this exit 4 makes gate.sh --full exit 1 (unrecorded), so verdict rounds were pixel rounds"
+            }
+          ],
+          "residuals": [],
+          "captureState": []
+        },
+        "1440": {
+          "iterations": 2,
+          "result": {
+            "structuralRed": 0,
+            "nothingLostYellow": 0,
+            "visualFlags": "1 justified (advisory)",
+            "pixelPct": 0,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": false,
+            "pass": true
+          },
+          "fullRounds": {
+            "iter1": "exit 2 — content-diff 2 red (hidden e-mail form placeholders) + 1 yellow; pixel 0.00%; fixed by carrying the hidden form verbatim",
+            "iter2": "exit 1 (chrome-parity no verdict only) — content-diff 0/0, clipped 0, pixel 0.00%",
+            "iter3": "pixel round, exit 0, 0.00%, |dh| 0"
+          },
+          "justified": [
+            {
+              "probe": "visual",
+              "flag": "HEADING FACE h1 reported as Liberation Sans in build vs Sparkasse_Rg",
+              "why": "probe resolves the stack against a 400-only @font-face at weight 700 (synthetic bold, same as live's single 400 face); the brand face loads ('every declared face loaded') and pixel diff is 0.00%"
+            },
+            {
+              "probe": "chrome-parity",
+              "flag": "NO VERDICT (exit 4): no header/footer on either side",
+              "why": "chromeless split-screen login; chrome-parity N/A — this exit 4 makes gate.sh --full exit 1 (unrecorded), so verdict rounds were pixel rounds"
+            }
+          ],
+          "residuals": [],
+          "captureState": []
+        }
+      },
+      "capProbe": {
+        "verdict": "PASS",
+        "probeWidth": 2560,
+        "wrapperCap": "370px = 370px",
+        "evidence": "stardust/replica/gates/index-2560/cap-iter.json"
+      },
+      "chromeParity": "N/A — no header or footer on live or build",
+      "motion": {
+        "observed": "hover on SSO pill: background rgb(238,0,0)->rgb(218,0,0), transition background-color/color/border 0.15s linear; no animations, no class mutations, no videos, no scroll behaviour",
+        "implemented": "SSO pill :hover background rgb(218,0,0) + transition background-color 0.15s linear, color 0.15s linear, border 0.15s linear (motion-compare: 2 parity, 0 missing, 0 extra)",
+        "dead": [
+          "hover on 'Zugang beantragen' link — no measured change on live"
+        ],
+        "evidence": [
+          "stardust/replica/motion/index-live.json",
+          "stardust/replica/motion/index-proto.json"
+        ]
+      }
+    },
+    "d-8fjlj4fun12p": {
+      "pageType": "landing",
+      "archetype": "d-8fjlj4fun12p",
+      "liveUrl": "https://if-hub.de/d/8fJLj4FUN12p",
+      "finalUrl": "https://if-hub.de/d/8fJLj4FUN12p",
+      "prototype": "stardust/prototypes/d-8fjlj4fun12p-proposed.html",
+      "contentRoot": "main",
+      "captureFlags": "--main main --consent '[data-test-id=\"save-selection-button\"]'; GATE_CHROME_REGION='footer=[data-test-id=\"guideline-theme-custom-footer\"]|footer' (live <footer id=theme-footer> is empty; the visible footer is a custom div)",
+      "innerScroller": "Source scrolls inside a radix scroll-area viewport (html/body 100dvh, overflow:scroll, 10px stable right gutter). The document reports scrollHeight 900, so stitch-shot captures ONE viewport (no stall error) and the pixel probe covers only y 0-900 on both sides. Prototype mirrors the model (.hub-viewport 100dvh overflow-y:scroll, padding-right 10px, hidden scrollbar) so both sides are symmetric. Below-fold fidelity verified by layout instruments instead: source-spec compare 0 offset at both widths (all 16 row sections Δh 0 at 1440/360), measure.mjs live boxes vs prototype (h3/h2/CTA/iframe/footer rects equal at 1440 and 360, Δ0 at 2560), content-diff covers the whole DOM.",
+      "breakpoints": {
+        "360": {
+          "iterations": 5,
+          "result": {
+            "structuralRed": 0,
+            "nothingLostYellow": 0,
+            "visualFlags": "0",
+            "clipped": 0,
+            "overflow": false,
+            "pixelPct": 4.36,
+            "heightDelta": 0,
+            "headerCrop": "3.00% FAIL (bar 2%)",
+            "pass": true
+          },
+          "rounds": {
+            "iter1": "full, exit 2 — 9 red (mobile header renders a drawer with non-link items, not the inline nav) + 2 yellow; pixel 8.93%",
+            "iter2": "full, exit 0 — 0/0, pixel 8.93%",
+            "iter3": "pixel, exit 0 — 4.36%",
+            "iter4": "pixel, exit 0 — 4.36% (thinner burger glyph, no change)",
+            "iter5": "full confirmation, exit 0 — 0/0, visual 0, chrome-parity quiet, clipped 0, pixel 4.36%, |dh| 0"
+          },
+          "justified": [
+            {
+              "probe": "content-diff advisory",
+              "flag": "video time label differs",
+              "why": "live player state"
+            }
+          ],
+          "residuals": [
+            "header crop-compare 3.00% at 360 (bar 2%): burger glyph is a Frontify fondue icon not present in the 1440 DOM capture — approximated; chrome-parity header quiet",
+            "pixel 4.36%: hero video frame/controls band y 500-900 6.3%"
+          ],
+          "captureState": []
+        },
+        "1440": {
+          "iterations": 4,
+          "result": {
+            "structuralRed": 0,
+            "nothingLostYellow": 0,
+            "visualFlags": "0",
+            "clipped": 0,
+            "overflow": false,
+            "pixelPct": 2.84,
+            "heightDelta": 0,
+            "headerCrop": "0.69% PASS",
+            "pass": true
+          },
+          "rounds": {
+            "iter1": "full, exit 2 — content-diff 8 red (hidden Frontify video-player/dropzone icons) + 23 yellow; pixel 4.95%",
+            "iter2": "full, exit 0 — 0/0, pixel 4.95%, clipped 0",
+            "iter3": "pixel, exit 0 — 2.84% (paused-video controls + tile crops)",
+            "iter4": "full confirmation, exit 0 — 0/0, visual 0 flags, chrome-parity quiet, clipped 0, pixel 2.84%, |dh| 0"
+          },
+          "justified": [
+            {
+              "probe": "content-diff advisory",
+              "flag": "video time label differs (e.g. 00:05 vs 00:03 / 00:55); ICON MOVED on hidden placeholders; footer copyright EXTRA",
+              "why": "time label is live player state; footer root on live resolves to the empty footer#theme-footer"
+            }
+          ],
+          "residuals": [
+            "pixel 2.84% concentrated in hero video frame/controls (y 500-900 band 4.9%)"
+          ],
+          "captureState": []
+        }
+      },
+      "capProbe": {
+        "verdict": "FAIL (instrument structure mismatch)",
+        "probeWidth": 2560,
+        "detail": "live resolves 0 top-level sections under main (wrapper divs + empty theme footer) so reports fluid; build's 15 sections carry the same module caps the live row-wraps have (1400/1520/960/900/800). measure.mjs --against at 2560: every main h3/h2/CTA/iframe Δx Δy Δw Δh 0; video lifted max-height calc(100vh - 60px) from .cm-video. Not forced by DOM-mimicry.",
+        "evidence": "stardust/replica/gates/d-8fjlj4fun12p-2560/cap-iter.json"
+      },
+      "chromeParity": {
+        "360": "quiet (header 3/3 icons incl. 'Navigation Menu'; footer 4/4)",
+        "1440": "quiet (header 4/4 texts 2/2 icons; footer 4/4 texts)"
+      },
+      "motion": {
+        "observed": "1440: hero video autoplays (muted, loop); player controls fade in on pointer move (opacity 0.2s) and hide again (state-hidden), shown while paused; progress bar width 0.25s; nav links hover color rgba(255,255,255,.8)->#fff; .btn hover bg 0.2s ease-in-out (#e00->#d10000, secondary #565656->#acacac, tertiary white->#565656); login button hover opacity .8 (0.15s cubic-bezier(.4,0,.2,1)); columns fade in when entering the inner scroller (velocity). 360: burger click shows red drawer (class toggle th-flex, no transition). Header static (no scroll morph).",
+        "implemented": "video autoplay muted loop playsinline + custom controls (play/pause, ±5 s, time, speed menu, mute/volume, fullscreen), controls shown on mousemove/focus and while paused, idle-hide 2.5 s; progress width 0.25s; button/nav/login hovers with the observed timings; IntersectionObserver column reveal (root = scroll viewport, opacity 0.4s); mobile drawer swap (<768px: nav replaced by burger + drawer from <template>, as the source renders). motion-compare 1440: 10 parity, 'missing' = class-name differences only (state-hidden, velocity-animating), opacity longest 400 vs 200ms (reveal duration not observable on live — velocity default kept); 360: 2 parity, missing = Tailwind class names of the drawer toggle.",
+        "dead": [
+          "header scroll-morph (static on both)",
+          "hover on video container: no style diff (controls driven by mousemove/class)",
+          "burger widget frames: no sampled track/scroll change"
+        ],
+        "evidence": [
+          "stardust/replica/motion/d-8fjlj4fun12p-live-1440.json",
+          "stardust/replica/motion/d-8fjlj4fun12p-proto-1440.json",
+          "stardust/replica/motion/d-8fjlj4fun12p-live-360.json",
+          "stardust/replica/motion/d-8fjlj4fun12p-proto-360.json"
+        ]
+      },
+      "assets": {
+        "added": [
+          "stardust/prototypes/assets/media/crop/gL8hhGB2W2aRDWGsPBdr.webp",
+          "stardust/prototypes/assets/media/crop/TpzzJrkyGis3152ekCUL.webp (CDN rect-cropped renditions as served live; JPEG bytes)"
+        ]
+      },
+      "fonts": [
+        "Sparkasse Light 300 (sparkasse-light-300.woff)",
+        "Sparkasse Regular 400",
+        "Sparkasse Medium 500 (h2)",
+        "Mier B 400 (footer: Sparkasse_web_Lt is not declared on this page, live falls back to Mier B)",
+        "Diatype (video controls)"
+      ]
+    }
+  }
+}

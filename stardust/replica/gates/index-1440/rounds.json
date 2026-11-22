@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-21T00:32:19.860Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-21T00:37:08.539Z",
+          "verdict": "pass",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-21T01-35-16-415Z",
+          "at": "2026-11-21T01:35:16.415Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-21T01-44-14-794Z",
+          "at": "2026-11-21T01:44:14.794Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T02-36-42-043Z",
+          "at": "2026-11-21T02:36:42.044Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    },
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-21T01:37:37.253Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-21T01:38:59.470Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-21T01:41:49.182Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pixel 0.03% PASS all 3 rounds; remaining 5 looks-same reds: 4 source close-icon svgs inside the source's hidden notification markup (dropped by the gated prototype, never rendered) + skip link (foundation request filed, archetype-index)",
+          "at": "2026-11-21T01:41:58.591Z",
+          "counted": 3
+        }
+      ]
+    }
+  }
+}

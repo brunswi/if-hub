@@ -1,0 +1,978 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-21T01:20:32.673Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": "https://main--8053f48d--aemcoder.aem.page",
+  "migrated": "stardust/migrated",
+  "knowledge": null,
+  "chrome": "stardust/chrome/header-contract.json"
+ },
+ "rows": [
+  {
+   "id": "a-unknown-third-party-host-cdn-frontify-com",
+   "class": "A",
+   "feature": "unknown third-party host cdn.frontify.com",
+   "pages": 2,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "cdn.frontify.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-sentryapp-appsupport-frontify-dev",
+   "class": "A",
+   "feature": "unknown third-party host sentryapp.appsupport.frontify.dev",
+   "pages": 2,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "sentryapp.appsupport.frontify.dev"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-first-party-api-get-api-csrf-token",
+   "class": "A",
+   "feature": "first-party API GET /api/csrf-token",
+   "pages": 2,
+   "probed": 2,
+   "reach": {
+    "pages": 2,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/csrf-token → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-session",
+   "class": "A",
+   "feature": "first-party API GET /api/session",
+   "pages": 2,
+   "probed": 2,
+   "reach": {
+    "pages": 2,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/session → 200"
+   ],
+   "pattern": "decided-out",
+   "disposition": "data-fed",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "none (session-bound off-origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-post-graphql-internal",
+   "class": "A",
+   "feature": "first-party API POST /graphql-internal",
+   "pages": 2,
+   "probed": 2,
+   "reach": {
+    "pages": 2,
+    "of": 2
+   },
+   "evidence": [
+    "POST /graphql-internal?operationName → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-context",
+   "class": "A",
+   "feature": "first-party API GET /api/context",
+   "pages": 2,
+   "probed": 2,
+   "reach": {
+    "pages": 2,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/context → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-dashboard-appearance",
+   "class": "A",
+   "feature": "first-party API GET /api/dashboard/appearance",
+   "pages": 2,
+   "probed": 2,
+   "reach": {
+    "pages": 2,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/dashboard/appearance → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-post-api-context",
+   "class": "A",
+   "feature": "first-party API POST /api/context",
+   "pages": 2,
+   "probed": 2,
+   "reach": {
+    "pages": 2,
+    "of": 2
+   },
+   "evidence": [
+    "POST /api/context?referer → 200",
+    "POST /api/context → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-account-metadata",
+   "class": "A",
+   "feature": "first-party API GET /api/account/metadata",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/account/metadata → 200"
+   ],
+   "pattern": "decided-out",
+   "disposition": "data-fed",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "none (session-bound off-origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-unknown-third-party-host-sparkassen-mediacenter-de",
+   "class": "A",
+   "feature": "unknown third-party host sparkassen-mediacenter.de",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "sparkassen-mediacenter.de"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "delivered-by-capture",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row",
+   "alreadyDelivered": "output already carries \"sparkassen-mediacenter.de\""
+  },
+  {
+   "id": "a-unknown-third-party-host-cdn-sparkassen-mediacenter-de",
+   "class": "A",
+   "feature": "unknown third-party host cdn.sparkassen-mediacenter.de",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "cdn.sparkassen-mediacenter.de"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-first-party-api-get-api-portal",
+   "class": "A",
+   "feature": "first-party API GET /api/portal",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/portal?token → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-document-navigation-n",
+   "class": "A",
+   "feature": "first-party API GET /api/document/navigation/{n}",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/document/navigation/{n}?language → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-marketplace-app-n",
+   "class": "A",
+   "feature": "first-party API GET /api/marketplace-app/{n}",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/marketplace-app/{n} → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-marketplace-app-importmap",
+   "class": "A",
+   "feature": "first-party API GET /api/marketplace-app/importmap",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/marketplace-app/importmap → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-portal-n-footer",
+   "class": "A",
+   "feature": "first-party API GET /api/portal/{n}/footer",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/portal/{n}/footer → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-portal-n-font-families",
+   "class": "A",
+   "feature": "first-party API GET /api/portal/{n}/font-families",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/portal/{n}/font-families → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-portal-n-font-styles",
+   "class": "A",
+   "feature": "first-party API GET /api/portal/{n}/font-styles",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/portal/{n}/font-styles → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-ai-assistant-configuration-n",
+   "class": "A",
+   "feature": "first-party API GET /api/ai-assistant/configuration/{n}",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/ai-assistant/configuration/{n} → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-portal-n-cover-page-template-asset",
+   "class": "A",
+   "feature": "first-party API GET /api/portal/{n}/cover-page-template-asset",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/portal/{n}/cover-page-template-asset → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-portal-n-theme-asset-cover",
+   "class": "A",
+   "feature": "first-party API GET /api/portal/{n}/theme-asset/cover",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/portal/{n}/theme-asset/cover → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-post-api-guideline-view-tracking",
+   "class": "A",
+   "feature": "first-party API POST /api/guideline-view-tracking",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "POST /api/guideline-view-tracking → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-guideline-stylesheets-portal-n",
+   "class": "A",
+   "feature": "first-party API GET /api/guideline-stylesheets/portal/{n}",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/guideline-stylesheets/portal/{n}?language → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-portal-navigation-n",
+   "class": "A",
+   "feature": "first-party API GET /api/portal-navigation/{n}",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/portal-navigation/{n} → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-portal-n",
+   "class": "A",
+   "feature": "first-party API GET /api/portal/{n}",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/portal/{n}?language → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-hub-grid-n",
+   "class": "A",
+   "feature": "first-party API GET /api/hub/grid/{n}",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/hub/grid/{n} → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "cr-client-rendered-slot-o-auth-box-js-o-auth-box",
+   "class": "CR",
+   "feature": "client-rendered slot o-auth__box js-o-auth__box",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "Herzlich willkommen im IF- HubLog inInterne Benutzeranmeldun"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-o-auth-form-js-o-auth-form",
+   "class": "CR",
+   "feature": "client-rendered slot o-auth__form js-o-auth__form",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "Log inInterne BenutzeranmeldungAnmelden über SSO​E-Mail:Bitt"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-o-auth-form-email-js-o-auth-form-ema",
+   "class": "CR",
+   "feature": "client-rendered slot o-auth__form-email js-o-auth__form-email tw-mb-7",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "E-Mail:Bitte geben Sie Ihre E-Mail-Adresse ein.Diese E-Mail-"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-root-71r9v-4",
+   "class": "CR",
+   "feature": "client-rendered slot _root_71r9v_4",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "data-component=scroll-area"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-js-skiptomaincontent-target",
+   "class": "CR",
+   "feature": "client-rendered slot js-skiptomaincontent__target",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "Welcome to your cover pageLet's get started by adding your f"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-mod-mod-brandportal-po-brandportal",
+   "class": "CR",
+   "feature": "client-rendered slot mod mod-brandportal po-brandportal",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "Welcome to your cover pageLet's get started by adding your f"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-po-brandportal-grid-js-po-brandporta",
+   "class": "CR",
+   "feature": "client-rendered slot po-brandportal__grid js-po-brandportal__grid state-zero-margin",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "Welcome to your cover pageLet's get started by adding your f"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-js-po-brandportal-row-po-brandportal",
+   "class": "CR",
+   "feature": "client-rendered slot js-po-brandportal__row po-brandportal__add-row-container po-brandportal__add-row-container-initial",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "Welcome to your cover pageLet's get started by adding your f"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-po-brandportal-row-container-cm-bloc",
+   "class": "CR",
+   "feature": "client-rendered slot po-brandportal__row-container cm-blockmanager__section js-cm-blockmanager__section",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "Herzlich willkommen im IF-Hub News, Tipps und Anleitungen ru"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-p-col-p-col-6-js-po-brandportal-col",
+   "class": "CR",
+   "feature": "client-rendered slot p-col p-col--6 js-po-brandportal__col",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "Herzlich willkommen im IF-Hub News, Tipps und Anleitungen ru",
+    "00:08 / 00:55NormalSlow (0.5x) NormalFast (1.25x) Faster (1."
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-mod-mod-pb-text-image-pb-text-image",
+   "class": "CR",
+   "feature": "client-rendered slot mod mod-pb-text-image pb-text-image",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "Herzlich willkommen im IF-Hub News, Tipps und Anleitungen ru"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot",
+   "class": "CR",
+   "feature": "client-rendered slot \n  ",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "Herzlich willkommen im IF-Hub News, Tipps und Anleitungen ru"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-pb-text-image-text-inner-js-pb-text-",
+   "class": "CR",
+   "feature": "client-rendered slot pb-text-image__text-inner js-pb-text-image__editor state-visible",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "Herzlich willkommen im IF-Hub News, Tipps und Anleitungen ru"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-mod-mod-pb-video-pb-video",
+   "class": "CR",
+   "feature": "client-rendered slot mod mod-pb-video pb-video",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "00:08 / 00:55NormalSlow (0.5x) NormalFast (1.25x) Faster (1."
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-main-empty-at-load-filled-after-client-rendered-page",
+   "class": "CR",
+   "feature": "main empty at load, filled after (client-rendered page)",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "text at load 0 → settled 3099"
+   ],
+   "pattern": "client-rendered-page",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "human-browser capture; never migrate blank"
+  },
+  {
+   "id": "f-form-o-auth-form-email-origin-2-fields",
+   "class": "F",
+   "feature": "form \"o-auth__form-email\" → origin / (2 fields)",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "email:email,password:password"
+   ],
+   "pattern": "forms",
+   "disposition": "rebuild-native",
+   "target": "block",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "forms",
+   "decision": "production endpoint; interim capture ships now"
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-target-outside-dom-at-capture",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup → target outside DOM at capture",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 2,
+    "of": 2
+   },
+   "evidence": [
+    "More"
+   ],
+   "pattern": "modal-loader",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none"
+  },
+  {
+   "id": "s-first-party-api-get-api-cross-search-guideline-n",
+   "class": "S",
+   "feature": "first-party API GET /api/cross-search-guideline/{n}",
+   "pages": 1,
+   "probed": 2,
+   "reach": {
+    "pages": 1,
+    "of": 2
+   },
+   "evidence": [
+    "GET /api/cross-search-guideline/{n} → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "datasource ownership / same-origin routing on production",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "t-unknown-third-party-host-media-ffycdn-net",
+   "class": "T",
+   "feature": "unknown third-party host media.ffycdn.net",
+   "pages": 2,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "media.ffycdn.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-frontify-artifacts-com",
+   "class": "T",
+   "feature": "unknown third-party host frontify-artifacts.com",
+   "pages": 1,
+   "probed": 2,
+   "reach": null,
+   "evidence": [
+    "frontify-artifacts.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "chrome-search",
+   "source": "header-contract",
+   "class": "S",
+   "feature": "header search: Search (chrome only)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "390 click/key",
+    "1440 click/key"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (results from the query index; overlay and typeahead per the contract)"
+  },
+  {
+   "id": "chrome-drawer",
+   "source": "header-contract",
+   "class": "M",
+   "feature": "header drawer: Open navigation (chrome only)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "390 click/key"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
+  }
+ ]
+}

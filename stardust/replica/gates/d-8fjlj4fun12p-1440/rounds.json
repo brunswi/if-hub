@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-21T00:55:20.286Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-21T01:05:13.145Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-21T01:07:07.359Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "iter4",
+          "at": "2026-11-21T01:12:00.932Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-21T01-43-28-026Z",
+          "at": "2026-11-21T01:43:28.027Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-21T01-57-28-169Z",
+          "at": "2026-11-21T01:57:28.169Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T02-36-42-043Z",
+          "at": "2026-11-21T02:36:42.044Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    },
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-21T01:47:50.543Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-21T02:17:44.208Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-21T02:33:19.405Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "C-final foundation unit: pixel 2.84% PASS all 3 pub rounds (unchanged); height waived (inner scroller, gates/all-1440/overrides.json); remaining 5 looks-same reds are source-only Frontify editor leftovers in main (Welcome to your cover page / Title / Call To Action / 2 add-image icons); chrome-parity header quiet, footer 2 = fixed login shortcut outside the source footer region (chrome-parity-pub3-rerun.txt; pub3 in-gate chrome-parity was a page.goto timeout)",
+          "at": "2026-11-21T02:33:56.880Z",
+          "counted": 3
+        }
+      ]
+    }
+  }
+}

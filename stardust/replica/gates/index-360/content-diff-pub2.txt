@@ -1,0 +1,60 @@
+[live-session] waiting to pace live navigations to if-hub.de (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+[live-session] waiting to pace live navigations to main--8053f48d--aemcoder.aem.page (2000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 1187 ms
+
+Content diff @ 360px (profile "generic", roots: .o-auth, .auth-login, header, footer)
+⚠ root ".o-auth": source has it, build fell back to <main> — both sides measured at <body> (aligned; source has no <main>)
+root ".o-auth" — source: ".o-auth" absent, fell back to <body>
+  source: 18 text nodes — 1 headings, 0 eyebrows, 3 CTAs, 14 body; 1 img
+  build: 20 text nodes — 1 headings, 0 eyebrows, 3 CTAs, 16 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 18
+  attributes (placeholder/aria-label/title): source 11 / build 5; icons: source 4 / build 0
+root ".auth-login" — source: absent (".auth-login") — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 19 text nodes — 1 headings, 0 eyebrows, 2 CTAs, 16 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 18
+  attributes (placeholder/aria-label/title): source 0 / build 5; icons: source 0 / build 0
+root "header": absent on both sides (no <header> / [role="banner"] outside the main root(s)) — not compared
+root "footer": absent on both sides (no <footer> / [role="contentinfo"] outside the main root(s)) — not compared
+
+Findings: 40 (4 structural 🔴)
+Tiers: looks-same 🔴 4 · nothing-lost 🟡 4 · accepted 🟢 0 (owner 0, auto 0) · advisory 32
+  🔴 MISSING ICON [.o-auth]: source inline svg 0 0 24 24 / 1 shape(s) (20×20) at "close" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [.o-auth]: source inline svg 0 0 24 24 / 1 shape(s) (20×20) at "close" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [.o-auth]: source inline svg 0 0 24 24 / 1 shape(s) (14×14) at "close" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [.o-auth]: source inline svg 0 0 24 24 / 1 shape(s) (20×20) at "close" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟠 EXTRA [.auth-login]: build heading "Herzlich willkommen im IF- Hub" has no source source — Unexpected node with no source.
+  🟠 EXTRA [.auth-login]: build cta "Anmelden über SSO" has no source source — Unexpected node with no source.
+  🟠 EXTRA [.auth-login]: build cta "Zugang beantragen" has no source source — Unexpected node with no source.
+  🟡 EXTRA [.o-auth]: build body "mail@mail.de" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.o-auth]: build body "Bitte geben Sie Ihr Passwort ein." has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING ARIA-LABEL [.o-auth]: source <button> aria-label="Close" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [.o-auth]: source <button> title="Close" has no build <button> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [.o-auth]: source <button> aria-label="Close" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [.o-auth]: source <button> title="Close" has no build <button> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [.o-auth]: source <button> aria-label="Close" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [.o-auth]: source <button> title="Close" has no build <button> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [.o-auth]: source <button> aria-label="Close" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [.o-auth]: source <button> title="Close" has no build <button> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA TITLE [.o-auth]: build <a> title="Anmelden über SSO" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [.o-auth]: build <a> title="Zugang beantragen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA [.auth-login]: build body "Log in" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.auth-login]: build body "Interne Benutzeranmeldung" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.auth-login]: build body "​" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.auth-login]: build body "E-Mail:" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.auth-login]: build body "mail@mail.de" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.auth-login]: build body "Bitte geben Sie Ihre E-Mail-Adresse ein." has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.auth-login]: build body "Diese E-Mail-Adresse ist ungültig." has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.auth-login]: build body "Passwort:" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.auth-login]: build body "Bitte geben Sie Ihr Passwort ein." has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.auth-login]: build body "Bitte geben Sie Ihr Passwort ein." has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.auth-login]: build body "Die Anmeldung mit E-Mail/Passwort ist für diesen" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.auth-login]: build body "Falsche Anmeldeinformationen." has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.auth-login]: build body "Zu viele fehlgeschlagene Anmeldeversuche. Bitte " has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.auth-login]: build body "Leider ist etwas schiefgelaufen. Laden Sie die S" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.auth-login]: build body "Anmelden" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.auth-login]: build body "​" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA TITLE [.auth-login]: build <a> title="Anmelden über SSO" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.auth-login]: build <form> aria-label="Log in" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA PLACEHOLDER [.auth-login]: build <input> placeholder="mail@mail.de" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA PLACEHOLDER [.auth-login]: build <input> placeholder="Bitte geben Sie Ihr Passwort ein." has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [.auth-login]: build <a> title="Zugang beantragen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
