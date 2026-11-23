@@ -1,0 +1,8 @@
+measure  https://main--8053f48d--aemcoder.aem.page/
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   360  viewport 360  scrollHeight    900
+  html
+       x     0  y      0  w   360  h   900  vis  "Skip to main content Herzlich willkomme…"
+      display: block

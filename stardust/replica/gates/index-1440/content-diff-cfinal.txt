@@ -1,0 +1,61 @@
+/workspace/8053f48d/stardust/.work/replica/bg/index-cd1440-cfinal.log: 60 lines
+run-bg: index-cd1440-cfinal launched 2026-11-21T02:34:03.329Z (timeout 900s): node stardust/scripts/diff/content-diff.mjs https://if-hub.de/ https://main--8053f48d--aemcoder.aem.page/ --main .o-auth, .auth-login --width 1440
+
+Content diff @ 1440px (profile "eds", roots: .o-auth, .auth-login, header, footer)
+⚠ root ".o-auth": proto has it, EDS fell back to <main> — both sides measured at <body> (aligned; proto has no <main>)
+root ".o-auth" — proto: ".o-auth" absent, fell back to <body>
+  proto: 18 text nodes — 1 headings, 0 eyebrows, 3 CTAs, 14 body; 1 img
+  EDS: 20 text nodes — 1 headings, 0 eyebrows, 3 CTAs, 16 body; 2 img
+  editable texts (outermost h*/p/ul/ol): proto 3 / EDS 18
+  attributes (placeholder/aria-label/title): proto 11 / EDS 5; icons: proto 4 / EDS 0
+root ".auth-login" — proto: absent (".auth-login") — measured as empty
+  proto: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  EDS: 19 text nodes — 1 headings, 0 eyebrows, 2 CTAs, 16 body; 2 img
+  editable texts (outermost h*/p/ul/ol): proto 0 / EDS 18
+  attributes (placeholder/aria-label/title): proto 0 / EDS 5; icons: proto 0 / EDS 0
+root "header": absent on both sides (no <header> / [role="banner"] outside the main root(s)) — not compared
+root "footer": absent on both sides (no <footer> / [role="contentinfo"] outside the main root(s)) — not compared
+
+Findings: 40 (4 structural 🔴)
+Tiers: looks-same 🔴 4 · nothing-lost 🟡 4 · accepted 🟢 0 (owner 0, auto 0) · advisory 32
+  🔴 MISSING ICON [.o-auth]: proto inline svg 0 0 24 24 / 1 shape(s) (20×20) at "close" has no EDS icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [.o-auth]: proto inline svg 0 0 24 24 / 1 shape(s) (20×20) at "close" has no EDS icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [.o-auth]: proto inline svg 0 0 24 24 / 1 shape(s) (14×14) at "close" has no EDS icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [.o-auth]: proto inline svg 0 0 24 24 / 1 shape(s) (20×20) at "close" has no EDS icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟠 EXTRA [.auth-login]: EDS heading "Herzlich willkommen im IF- Hub" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [.auth-login]: EDS cta "Anmelden über SSO" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [.auth-login]: EDS cta "Zugang beantragen" has no proto source — Unexpected node with no proto source.
+  🟡 EXTRA [.o-auth]: EDS body "mail@mail.de" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.o-auth]: EDS body "Bitte geben Sie Ihr Passwort ein." has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 MISSING ARIA-LABEL [.o-auth]: proto <button> aria-label="Close" has no EDS <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [.o-auth]: proto <button> title="Close" has no EDS <button> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [.o-auth]: proto <button> aria-label="Close" has no EDS <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [.o-auth]: proto <button> title="Close" has no EDS <button> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [.o-auth]: proto <button> aria-label="Close" has no EDS <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [.o-auth]: proto <button> title="Close" has no EDS <button> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [.o-auth]: proto <button> aria-label="Close" has no EDS <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [.o-auth]: proto <button> title="Close" has no EDS <button> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA TITLE [.o-auth]: EDS <a> title="Anmelden über SSO" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [.o-auth]: EDS <a> title="Zugang beantragen" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA [.auth-login]: EDS body "Log in" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.auth-login]: EDS body "Interne Benutzeranmeldung" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.auth-login]: EDS body "​" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.auth-login]: EDS body "E-Mail:" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.auth-login]: EDS body "mail@mail.de" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.auth-login]: EDS body "Bitte geben Sie Ihre E-Mail-Adresse ein." has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.auth-login]: EDS body "Diese E-Mail-Adresse ist ungültig." has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.auth-login]: EDS body "Passwort:" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.auth-login]: EDS body "Bitte geben Sie Ihr Passwort ein." has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.auth-login]: EDS body "Bitte geben Sie Ihr Passwort ein." has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.auth-login]: EDS body "Die Anmeldung mit E-Mail/Passwort ist für diesen" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.auth-login]: EDS body "Falsche Anmeldeinformationen." has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.auth-login]: EDS body "Zu viele fehlgeschlagene Anmeldeversuche. Bitte " has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.auth-login]: EDS body "Leider ist etwas schiefgelaufen. Laden Sie die S" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.auth-login]: EDS body "Anmelden" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [.auth-login]: EDS body "​" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA TITLE [.auth-login]: EDS <a> title="Anmelden über SSO" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.auth-login]: EDS <form> aria-label="Log in" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA PLACEHOLDER [.auth-login]: EDS <input> placeholder="mail@mail.de" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA PLACEHOLDER [.auth-login]: EDS <input> placeholder="Bitte geben Sie Ihr Passwort ein." has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [.auth-login]: EDS <a> title="Zugang beantragen" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+run-bg: index-cd1440-cfinal ended exit=0

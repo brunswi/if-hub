@@ -1,0 +1,110 @@
+measure  https://if-hub.de/
+  widths 1440, 360 · 17 selector(s) · 26 props · first match
+
+@ 1440px
+  root  scrollWidth  1440  viewport 1440  scrollHeight    900
+  .o-auth
+       x     0  y      0  w  1440  h   900  vis  "Herzlich willkommen im IF- Hub Log in I…"
+      display: flex; position: static; boxSizing: border-box; width: 1440px; height: 900px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: center; backgroundColor: rgb(255, 255, 255); backgroundImage: url(…/c95yUqCmLCeZMGDtT37D.jpg); backgroundSize: cover; backgroundPosition: 50% 50%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__box
+       x     0  y      0  w   720  h   900  vis  "Herzlich willkommen im IF- Hub Log in I…"
+      display: flex; position: static; boxSizing: content-box; width: 720px; height: 900px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: column; justifyContent: center; alignItems: normal; backgroundColor: rgb(255, 255, 255); backgroundImage: none; backgroundSize: 184px 405px; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__box-content
+       x   175  y    130  w   370  h   639  vis  "Herzlich willkommen im IF- Hub Log in I…"
+      display: block; position: static; boxSizing: content-box; width: 370px; height: 639.406px; maxWidth: 370px; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__vertical-filler [1 of 2]
+       x   175  y    130  w   370  h    54  vis  ""
+      display: block; position: static; boxSizing: content-box; width: 370px; height: 54px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__claim-and-logo-wrapper
+       x   175  y    184  w   370  h    80  vis  ""
+      display: block; position: static; boxSizing: content-box; width: 370px; height: 80px; maxWidth: none; margin: 0px 0px 28px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: left; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__logo
+       x   175  y    184  w    64  h    80  vis  ""  img 120×150 …/Bn4EX9DDsb9pocPP8s6E.svg
+      display: inline; position: static; boxSizing: content-box; width: 64px; height: 80px; maxWidth: 100%; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(255, 255, 255); fontFamily: Sparkasse_Rg; fontSize: 36px; fontWeight: 400; lineHeight: 36px; letterSpacing: normal; textAlign: left; textDecoration: none; borderRadius: 0px; border: 0px none rgb(255, 255, 255)
+  .o-auth__greeting
+       x   175  y    375  w   370  h    88  vis  "Herzlich willkommen im IF- Hub"
+      display: block; position: static; boxSizing: content-box; width: 370px; height: 88px; maxWidth: none; margin: 110.742px 0px 38.6719px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 38px; fontWeight: 700; lineHeight: 44px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__form
+       x   175  y    502  w   370  h   168  vis  "Log in Interne Benutzeranmeldung Anmeld…"
+      display: block; position: static; boxSizing: content-box; width: 370px; height: 168px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__form > div
+       x   175  y    502  w   370  h   168  vis  "Log in Interne Benutzeranmeldung Anmeld…"
+      display: flex; position: static; boxSizing: border-box; width: 370px; height: 168px; maxWidth: none; margin: 0px; padding: 0px; gap: 28px; flexDirection: column; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__login-title
+       x   175  y    502  w   370  h    24  vis  "Interne Benutzeranmeldung"
+      display: block; position: static; boxSizing: content-box; width: 370px; height: 24px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__form a
+       x   175  y    554  w   370  h    40  vis  "Anmelden über SSO"
+      display: block; position: static; boxSizing: border-box; width: 370px; height: 40px; maxWidth: none; margin: 0px; padding: 10px 20px; gap: normal; flexDirection: row; justifyContent: center; alignItems: center; backgroundColor: rgb(238, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(255, 255, 255); fontFamily: Sparkasse_Rg; fontSize: 14px; fontWeight: 500; lineHeight: 18px; letterSpacing: normal; textAlign: center; textDecoration: none; borderRadius: 30px; border: 1px solid rgba(135, 135, 129, 0.5)
+  .o-auth__link-external-login
+       x   175  y    622  w   370  h    24  vis  "​"
+      display: block; position: static; boxSizing: border-box; width: 370px; height: 24px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: center; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(103, 103, 99); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(103, 103, 99)
+  .o-auth__toggle-external-login
+       x   175  y    626  w     0  h    18  vis  "​"
+      display: inline-block; position: static; boxSizing: content-box; width: 0px; height: 18px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0px 0px; color: rgb(0, 0, 0); fontFamily: Sparkasse_Rg; fontSize: 12px; fontWeight: 400; lineHeight: 18px; letterSpacing: normal; textAlign: left; textDecoration: underline; borderRadius: 0px; border: 0px none rgb(0, 0, 0)
+  .o-auth__links
+       x   175  y    646  w   370  h    24  vis  "​"
+      display: block; position: static; boxSizing: border-box; width: 370px; height: 24px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: column; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__disclaimer
+       x   175  y    698  w   370  h    18  vis  "Zugang beantragen"
+      display: block; position: static; boxSizing: content-box; width: 370px; height: 18px; maxWidth: none; margin: 28px 0px 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 13px; fontWeight: 400; lineHeight: 18px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__disclaimer p
+       x   175  y    698  w   370  h    18  vis  "Zugang beantragen"
+      display: block; position: static; boxSizing: border-box; width: 370px; height: 18px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 14px; fontWeight: 400; lineHeight: 18px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__disclaimer a
+       x   175  y    698  w   123  h    18  vis  "Zugang beantragen"
+      display: inline-block; position: static; boxSizing: border-box; width: 122.953px; height: 18px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0px 0px; color: rgb(0, 0, 0); fontFamily: Sparkasse_Rg; fontSize: 14px; fontWeight: 400; lineHeight: 18px; letterSpacing: normal; textAlign: left; textDecoration: underline; borderRadius: 0px; border: 0px none rgb(0, 0, 0)
+
+@ 360px
+  root  scrollWidth   360  viewport 360  scrollHeight    900
+  .o-auth
+       x     0  y      0  w   360  h   900  vis  "Herzlich willkommen im IF- Hub Log in I…"
+      display: flex; position: static; boxSizing: border-box; width: 360px; height: 900px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: center; backgroundColor: rgb(255, 255, 255); backgroundImage: none; backgroundSize: cover; backgroundPosition: 50% 50%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__box
+       x     0  y      0  w   360  h   900  vis  "Herzlich willkommen im IF- Hub Log in I…"
+      display: flex; position: static; boxSizing: content-box; width: 360px; height: 900px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: column; justifyContent: center; alignItems: normal; backgroundColor: rgb(255, 255, 255); backgroundImage: none; backgroundSize: 184px 405px; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__box-content
+       x    54  y      0  w   252  h   900  vis  "Herzlich willkommen im IF- Hub Log in I…"
+      display: block; position: static; boxSizing: content-box; width: 252px; height: 900px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__vertical-filler [1 of 2]
+       x    54  y      0  w   252  h    54  vis  ""
+      display: block; position: static; boxSizing: content-box; width: 252px; height: 54px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__claim-and-logo-wrapper
+       x    54  y     54  w   252  h    80  vis  ""
+      display: block; position: static; boxSizing: content-box; width: 252px; height: 80px; maxWidth: none; margin: 0px 0px 28px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: left; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__logo
+       x    54  y     54  w    64  h    80  vis  ""  img 120×150 …/Bn4EX9DDsb9pocPP8s6E.svg
+      display: inline; position: static; boxSizing: content-box; width: 64px; height: 80px; maxWidth: 100%; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(255, 255, 255); fontFamily: Sparkasse_Rg; fontSize: 36px; fontWeight: 400; lineHeight: 36px; letterSpacing: normal; textAlign: left; textDecoration: none; borderRadius: 0px; border: 0px none rgb(255, 255, 255)
+  .o-auth__greeting
+       x    54  y    174  w   252  h    56  vis  "Herzlich willkommen im IF- Hub"
+      display: block; position: static; boxSizing: content-box; width: 252px; height: 56px; maxWidth: none; margin: 40px 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 24px; fontWeight: 700; lineHeight: 28px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__form
+       x    54  y    270  w   252  h   168  vis  "Log in Interne Benutzeranmeldung Anmeld…"
+      display: block; position: static; boxSizing: content-box; width: 252px; height: 168px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__form > div
+       x    54  y    270  w   252  h   168  vis  "Log in Interne Benutzeranmeldung Anmeld…"
+      display: flex; position: static; boxSizing: border-box; width: 252px; height: 168px; maxWidth: none; margin: 0px; padding: 0px; gap: 28px; flexDirection: column; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__login-title
+       x    54  y    270  w   252  h    24  vis  "Interne Benutzeranmeldung"
+      display: block; position: static; boxSizing: content-box; width: 252px; height: 24px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__form a
+       x    54  y    322  w   252  h    40  vis  "Anmelden über SSO"
+      display: block; position: static; boxSizing: border-box; width: 252px; height: 40px; maxWidth: none; margin: 0px; padding: 10px 20px; gap: normal; flexDirection: row; justifyContent: center; alignItems: center; backgroundColor: rgb(238, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(255, 255, 255); fontFamily: Sparkasse_Rg; fontSize: 14px; fontWeight: 500; lineHeight: 18px; letterSpacing: normal; textAlign: center; textDecoration: none; borderRadius: 30px; border: 1px solid rgba(135, 135, 129, 0.5)
+  .o-auth__link-external-login
+       x    54  y    390  w   252  h    24  vis  "​"
+      display: block; position: static; boxSizing: border-box; width: 252px; height: 24px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: center; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(103, 103, 99); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(103, 103, 99)
+  .o-auth__toggle-external-login
+       x    54  y    394  w     0  h    18  vis  "​"
+      display: inline-block; position: static; boxSizing: content-box; width: 0px; height: 18px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0px 0px; color: rgb(0, 0, 0); fontFamily: Sparkasse_Rg; fontSize: 12px; fontWeight: 400; lineHeight: 18px; letterSpacing: normal; textAlign: left; textDecoration: underline; borderRadius: 0px; border: 0px none rgb(0, 0, 0)
+  .o-auth__links
+       x    54  y    414  w   252  h    24  vis  "​"
+      display: block; position: static; boxSizing: border-box; width: 252px; height: 24px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: column; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__disclaimer
+       x    54  y    466  w   252  h    18  vis  "Zugang beantragen"
+      display: block; position: static; boxSizing: content-box; width: 252px; height: 18px; maxWidth: none; margin: 28px 0px 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 13px; fontWeight: 400; lineHeight: 18px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__disclaimer p
+       x    54  y    466  w   252  h    18  vis  "Zugang beantragen"
+      display: block; position: static; boxSizing: border-box; width: 252px; height: 18px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0% 0%; color: rgb(17, 17, 16); fontFamily: Sparkasse_Rg; fontSize: 14px; fontWeight: 400; lineHeight: 18px; letterSpacing: normal; textAlign: start; textDecoration: none; borderRadius: 0px; border: 0px solid rgb(17, 17, 16)
+  .o-auth__disclaimer a
+       x    54  y    466  w   123  h    18  vis  "Zugang beantragen"
+      display: inline-block; position: static; boxSizing: border-box; width: 122.953px; height: 18px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; flexDirection: row; justifyContent: normal; alignItems: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; backgroundSize: auto; backgroundPosition: 0px 0px; color: rgb(0, 0, 0); fontFamily: Sparkasse_Rg; fontSize: 14px; fontWeight: 400; lineHeight: 18px; letterSpacing: normal; textAlign: left; textDecoration: underline; borderRadius: 0px; border: 0px none rgb(0, 0, 0)

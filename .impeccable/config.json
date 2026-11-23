@@ -1,0 +1,31 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "sparkasse medium",
+        "createdAt": "2026-11-21T00:49:37.000Z",
+        "reason": "replica of live if-hub.de cover page: face measured in the source's computed styles (h2 / footer); same-design migration copies source fonts"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "mier b",
+        "createdAt": "2026-11-21T00:49:37.007Z",
+        "reason": "replica of live if-hub.de cover page: face measured in the source's computed styles (h2 / footer); same-design migration copies source fonts"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "sparkasse_web_lt",
+        "createdAt": "2026-11-21T00:49:37.014Z",
+        "reason": "replica of live if-hub.de cover page: face measured in the source's computed styles (h2 / footer); same-design migration copies source fonts"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "diatype",
+        "createdAt": "2026-11-21T01:18:04.875Z"
+      }
+    ]
+  }
+}

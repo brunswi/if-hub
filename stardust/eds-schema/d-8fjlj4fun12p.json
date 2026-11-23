@@ -1,0 +1,726 @@
+{
+ "source": "http://localhost:8791/d-8fjlj4fun12p-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "cp-row",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Herzlich willkommen im IF-Hub"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "News, Tipps und Anleitungen rund um Ihre Internet-Filiale: Finden Sie auf inen Blick alles, um die Online-Präsenz Ihrer Sparkasse auf dem neuesten Stand zu halten."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "00:07 / 00:55"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Normal",
+     "href": "javascript:;"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Slow (0.5x)"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Normal"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Fast (1.25x)"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Faster (1.5x)"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Ludicrous (2x)"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cp-col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "cp-row",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Add existing"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Kundenorientiert und leicht verständlich: Finden Sie hier das Wichtigste, um ihre Online-Texte modern zu gestalten - und zugleich alle gesetzlichen Anforderungen im Blick zu behalten. Nur einen Klick entfernt finden Programmierer und Agenturen die wichtigsten Komponenten der Internet-Filiale zum Runterladen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "cp-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "IF-Wissen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Entdecken Sie hilfreiche Informationen, die Ihre Arbeit im IF-CMS erleichtern. Wir freuen uns über neue Themen und wachsen gerne gemeinsam mit Ihnen!"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Weiter",
+     "href": "/r/V3G101QvJeBekTNhxe2ceYyPCT4c22WOWKC3KE_8cN8"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Redaktions-Guidelines"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Das Redaktionelle Regelwerk: Vorgaben für eine überzeugende und barrierearme Sprache in der Internet-Filiale. Die neue Fassung von Juli 2025 ist jetzt verfügbar."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Weiter",
+     "href": "/r/ucDy5Xr2RsLtIvZOZT7kn8BxFyxvunZWSjjftR5JmV4"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Technik-Guidelines"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Man muss das Rad nicht immer neu erfinden: Von allgemeinen Vorgaben bis hin zum einsatzbereitem Code - wir unterstützen Sie und Ihre Partner gerne."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Weiter",
+     "href": "https://styleguide.sparkasse.de/document/531#/uebersicht/it-guidelines-coming-soon"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cp-col",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "cp-row",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Add existing"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Das neue Redaktionelle Regelwerk für die Internet-Filiale ist online"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Die neue Fassung von Juli 2025 finden Sie unter Redaktions-Guidelines. Das Redaktionelle Regelwerk enthält Vorgaben für eine überzeugende und barrierearme Sprache in der IF. Es wurde sowohl strukturell als auch der inhaltlich umfassend überarbeitet. Sie finden in der neuen Version also neue Informationen und Vorgaben. Und Sie finden sie jetzt schneller."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Zum Redaktionellen Regelwerk",
+     "href": "https://if-hub.de/document/525"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "cp-row",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Add existing"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Erklär-Podcast"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "In \"IF Talk\" und \"IF News2Use\" halten Sie Laura Knöll und Tobias Budde gemeinsam mit Expertinnen und Experten aus der S-Finanzgruppe immer auf dem Laufenden. Erfahren Sie alles Wichtige zu Updates, Neuerungen und relevanten Themen – direkt aus unserem Bewegtbild-Studio in Düsseldorf. Hier finden Sie alle Folgen auf einen Blick:"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Alle Podcast-Folgen",
+     "href": "https://if-hub.de/document/528#/erklaer-podcast-neu/alle-podcast-folgen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "cp-row",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Add existing"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Oft gesucht"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "cp-row",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Add existing"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "News & Hinweise"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Hier finden Sie aktuelle Informationen, Updates und wichtige Hinweise rund um die Internet-Filiale, damit Sie jederzeit bestens informiert sind."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Weiter",
+     "href": "/r/2q9Re259nrB8znUH2oJzu8PxUQUdbWQzfy7DQ330ks0"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Add existing"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Support für die Internet-Filiale"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Wir helfen Ihnen schnell und effizient bei Fragen oder Störungen."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Weiter",
+     "href": "/r/Ro7HHQUle9y2Mdxxkvdog8vk-ScAeaSNUhsP5m4aqys"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Add existing"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Plattformen & Systeme"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Hier finden Sie nützliche Plattformen für die tägliche Arbeit, wie z. B. das Extranet und das Media-Center."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Weiter",
+     "href": "/r/d75CaHmoVJ7QuYnFUzxUysOvef8i8X7Oceapnfp0YIc"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Add existing"
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "BFSG Infos"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Immer Up-to-date: Neue Gesetze und Vorschriften rund um das Thema Barrierefreiheitsstärkungsgesetz."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Weiter",
+     "href": "/r/JUKRKgORoB2Vr6AhBCa_mP6UTui5VQeDQvMXQeTKmxw"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 12,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cp-col",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "cp-row",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Add existing"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Weitere Services"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "cp-row",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Add existing"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "App-Shop"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Das gewisse Extra für Ihre Internet-Filiale."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "App-Shop besuchen",
+     "href": "https://apps.sparkasse.de/splash"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Add existing"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Media-Center"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Die zentrale Plattform für alle Online-Medien."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Media-Center besuchen",
+     "href": "https://sparkassen-mediacenter.de/"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Add existing"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "UI-Guidelines"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Für konsistentes Design und aktuelle Komponenten-Nutzung"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "UI-Guidelines besuchen",
+     "href": "https://if-styleguide.sparkasse.de/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cp-col",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "cp-row",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Add existing"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "IF-Schulungsprogramm"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Fit für die Internet-Filiale. Aktuelles Schulungsprogramm."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "IF-Schulungsprogramm besuchen",
+     "href": "/r/3VFwUuoIys05Gk6e35GaxTbAFGYxiOyUWzyWlMjn9jQ"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Add existing"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Content-Service"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Regelmäßige oder gelegentliche Unterstützung für Ihre Internet-Filiale."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Content-Service besuchen",
+     "href": "https://if-hub.de/document/528#/statistik-service-support/content-service"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Add existing"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Info-Mail-Datenbank"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Der Pool für alle Info-Mails rund um Ihre Internet-Filiale."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Info-Mail-Datenbank besuchen",
+     "href": "https://public.centerdevice.de/e5861710-8090-4642-a0be-fadba5063523"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cp-col",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "cp-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Title"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Your text here…"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Call To Action",
+     "href": "http://www.frontify.com"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Add image"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Add existing"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Sie haben die Antwort auf Ihre Frage nicht gefunden?"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Support für die Internet-Filiale",
+     "href": "/r/Ro7HHQUle9y2Mdxxkvdog8vk-ScAeaSNUhsP5m4aqys"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cp-col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

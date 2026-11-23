@@ -1,0 +1,21 @@
+{
+  "live": "https://if-hub.de/",
+  "width": 1440,
+  "probe": 3,
+  "liveCache": "stardust/replica/gates/index-1440/chrome-live.json",
+  "probedAt": "2026-11-21T00:27:03.890Z",
+  "regions": {
+    "header": {
+      "found": false,
+      "sel": "header landmark",
+      "unresolved": "no header resolved (no landmark, no <header>, nothing auto-detected)",
+      "rejected": []
+    },
+    "footer": {
+      "found": false,
+      "sel": "footer landmark",
+      "unresolved": "no footer resolved (no landmark, no <footer>, nothing auto-detected)",
+      "rejected": []
+    }
+  }
+}

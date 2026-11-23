@@ -1,0 +1,22 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://if-hub.de/d/8fJLj4FUN12p (live side from cache stardust/replica/gates/d-8fjlj4fun12p-360/chrome-live.json, probed 2026-11-21T00:59:56.620Z — delete the file to re-probe)
+  build: https://main--8053f48d--aemcoder.aem.page/d/8fjlj4fun12p
+
+■ header: 3 delta(s) — 0 paired of 0/0 texts, 3/3 icons
+  region live:  header.th-relative.th-z-20 — outermost <header>, box 0,0 350×90; selector #classic-theme > div:nth-of-type(1) > header
+  region build: header.header-wrapper — outermost <header>, box 0,0 350×90; selector body > header
+  REGION STYLE position relative → static (fixed/sticky chrome must stay fixed/sticky — seam symmetry)
+  EXTRA        "Search"  build aria-label "Search" on <button> has no live source in any channel
+  ICON         "Search"  icon #1 near "Search": signature "viewBox=0 0 21 21 paths=2" → "viewBox=0 0 21 21 paths=1"
+
+■ footer: 6 delta(s) — 4 paired of 4/5 texts, 0/1 icons
+  region live:  [data-test-id="guideline-theme-custom-footer"] — given by --region, box 0,8585 350×210
+  region build: footer — given by --region, box 0,8585 350×210
+  PAIR         "Nutzungshinweise"  fontFamily sparkasse_web_lt → mier b; Δh +3px (21→24)
+  PAIR         "Impressum"  fontFamily sparkasse_web_lt → mier b; Δh +3px (21→24)
+  PAIR         "Kontakt"  fontFamily sparkasse_web_lt → mier b; Δh +3px (21→24)
+  PAIR         "© S-Communication Services GmbH 2024"  fontFamily sparkasse_web_lt → mier b
+  EXTRA        "Go to login page"  build <a> "Go to login page" has no live source
+  ICONS        0 live vs 1 build (svg/img) — harvest the live vectors verbatim (recreation-procedure.md § Asset harvest), never approximate
+
+✗ 9 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

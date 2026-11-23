@@ -1,0 +1,18 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://if-hub.de/
+  shell      370px  max-width div > div.mod.mod-o-auth > div.o-auth__box.js-o-auth__box > div.o-auth__box-content  (tier 2, holds 100% of the text)
+  modules  6 sections: none capped · full-bleed ×6
+  contentMaxWidth 370px (shell) · shellMaxWidth 370px · root div.tw-size-full > div.fondue-theme-provider.web-app-content > div > div.mod.mod-o-auth
+build  http://localhost:8791/index-proposed.html
+  shell      370px  max-width #main > div.o-auth__box > div.o-auth__box-content  (tier 2, holds 100% of the text)
+  modules  6 sections: none capped · full-bleed ×6
+  contentMaxWidth 370px (shell) · shellMaxWidth 370px · root #main
+rows
+  ✓ wrapper cap: live 370px = build 370px (±20)
+  ✓ module 1/6: full-bleed on both
+  ✓ module 2/6: full-bleed on both
+  ✓ module 3/6: full-bleed on both
+  ✓ module 4/6: full-bleed on both
+  ✓ module 5/6: full-bleed on both
+  ✓ module 6/6: full-bleed on both
+cap-probe: PASS at 2560 — 0 of 7 rows failed (evidence stardust/replica/gates/index-2560/cap-iter.json)

@@ -1,0 +1,25 @@
+/* canon.css — auto-bootstrap (rollout A-inventory, 2026-11-21): union of the two approved
+   replica prototypes' :root tokens (namespaced --hub-* / --auth-*, no collisions). */
+:root {
+  --hub-red: rgb(238, 0, 0);
+  --hub-red-hover: rgb(209, 0, 0);
+  --hub-ink: rgb(41, 41, 41);
+  --hub-text: rgb(86, 86, 86);
+  --hub-intro: rgb(68, 68, 68);
+  --hub-rule: rgb(221, 221, 221);
+  --hub-card-border: rgb(227, 227, 227);
+  --hub-fallback: "Space Grotesk Frontify", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-light: "Sparkasse Light", var(--hub-fallback);
+  --font-regular: "Sparkasse Regular", var(--hub-fallback);
+  --font-medium: "Sparkasse Medium", var(--hub-fallback);
+}
+:root {
+  --auth-text: rgb(17 17 16);
+  --auth-link: rgb(0 0 0);
+  --auth-cta-bg: rgb(238 0 0);
+  --auth-cta-bg-hover: rgb(218 0 0);
+  --auth-cta-border: rgb(135 135 129 / 50%);
+  --auth-gap: 28px;
+  --auth-filler: 54px;
+  --auth-font: Sparkasse_Rg, Arimo, "Liberation Sans", sans-serif;
+}

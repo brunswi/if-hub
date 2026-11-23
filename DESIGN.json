@@ -1,0 +1,344 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-21T00:16:03.532Z",
+    "stardustVersion": "0.43.3",
+    "mode": "descriptive"
+  },
+  "name": "IF-Hub (DSGV Markenportal der Sparkasse)",
+  "description": "Internal brand and knowledge hub for Sparkasse Internet-Filiale editors and agencies",
+  "colors": {
+    "sparkasse-red": "#ee0000",
+    "sparkasse-red-hover": "#d10000",
+    "white": "#ffffff",
+    "ink": "#292929",
+    "grey-dark": "#565656",
+    "grey-light": "#e3e3e3",
+    "ink-deep": "#111110",
+    "black": "#000000"
+  },
+  "typography": {
+    "display": {
+      "fontFamily": "\"Sparkasse Regular\", sans-serif",
+      "fontSize": "54px",
+      "fontWeight": 400
+    },
+    "h1": {
+      "fontFamily": "\"Sparkasse_Rg\", sans-serif",
+      "fontSize": "38px",
+      "fontWeight": 700
+    },
+    "h2": {
+      "fontFamily": "\"Sparkasse Regular\", sans-serif",
+      "fontSize": "28px",
+      "fontWeight": 400
+    },
+    "h3": {
+      "fontFamily": "\"Sparkasse Regular\", sans-serif",
+      "fontSize": "24px",
+      "fontWeight": 400
+    },
+    "body": {
+      "fontFamily": "\"Sparkasse Light\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": 300
+    },
+    "button": {
+      "fontFamily": "\"Sparkasse Regular\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": 400
+    },
+    "small": {
+      "fontFamily": "\"Sparkasse_Rg\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": 400
+    }
+  },
+  "rounded": {
+    "sm": "4px",
+    "md": "10px",
+    "lg": "30px",
+    "pill": "99px"
+  },
+  "spacing": {},
+  "components": {
+    "button-primary": {
+      "backgroundColor": "{colors.sparkasse-red}",
+      "textColor": "{colors.white}",
+      "rounded": "{rounded.pill}",
+      "typography": "{typography.button}"
+    },
+    "button-primary-hover": {
+      "backgroundColor": "{colors.sparkasse-red-hover}"
+    },
+    "button-secondary": {
+      "backgroundColor": "{colors.grey-dark}",
+      "textColor": "{colors.white}",
+      "rounded": "{rounded.pill}"
+    },
+    "header-bar": {
+      "backgroundColor": "{colors.sparkasse-red}",
+      "textColor": "{colors.white}"
+    }
+  },
+  "extensions": {
+    "componentStyle": [
+      {
+        "id": "pill-button",
+        "evidence": "aggregate.motifs.radius mode 99px (32 elements)"
+      },
+      {
+        "id": "hover-darken",
+        "evidence": "aggregate.hover: #ee0000→#d10000; white→#565656"
+      }
+    ],
+    "motifs": [
+      "red header bar",
+      "full-bleed video hero with white headline",
+      "image tile grid with Weiter pill CTA",
+      "split-screen login (form left, photo right)"
+    ],
+    "voice": {
+      "language": "de",
+      "register": "internal-professional",
+      "samples": [
+        "Herzlich willkommen im IF-Hub",
+        "Kundenorientiert und leicht verständlich"
+      ]
+    },
+    "fonts": [
+      {
+        "family": "Sparkasse Light",
+        "weight": 300,
+        "file": "stardust/current/assets/fonts/sparkasse-light-300.woff",
+        "url": "https://if-hub.de/api/font-file/88523?format=woff&project_id=319",
+        "license": "proprietary"
+      },
+      {
+        "family": "Sparkasse Regular",
+        "weight": 400,
+        "file": "stardust/current/assets/fonts/sparkasse-regular-400.woff",
+        "url": "https://if-hub.de/api/font-file/88519?format=woff&project_id=319",
+        "license": "proprietary"
+      },
+      {
+        "family": "Sparkasse Medium",
+        "weight": 500,
+        "file": "stardust/current/assets/fonts/sparkasse-medium-500.woff",
+        "url": "https://if-hub.de/api/font-file/88516?format=woff&project_id=319",
+        "license": "proprietary"
+      },
+      {
+        "family": "Sparkasse_Rg",
+        "weight": 400,
+        "file": "stardust/current/assets/fonts/sparkasse-rg-400.ttf",
+        "url": "https://if-hub.de/api/font-file/5782?format=ttf&project_id=76",
+        "license": "proprietary"
+      },
+      {
+        "family": "SparkasseHead_web_Rg",
+        "file": "stardust/current/assets/fonts/SparkasseHead_web_Rg.woff",
+        "url": "https://sparkassen-mediacenter.de/intern/fonts/SparkasseHead_web_Rg.woff",
+        "license": "proprietary"
+      },
+      {
+        "family": "Sparkasse_web_Lt",
+        "file": "stardust/current/assets/fonts/Sparkasse_web_Lt.woff",
+        "url": "https://sparkassen-mediacenter.de/intern/fonts/Sparkasse_web_Lt.woff",
+        "license": "proprietary"
+      },
+      {
+        "family": "Sparkasse_web_Rg",
+        "file": "stardust/current/assets/fonts/Sparkasse_web_Rg.woff",
+        "url": "https://sparkassen-mediacenter.de/intern/fonts/Sparkasse_web_Rg.woff",
+        "license": "proprietary"
+      },
+      {
+        "family": "Sparkasse_web_Md",
+        "file": "stardust/current/assets/fonts/Sparkasse_web_Md.woff",
+        "url": "https://sparkassen-mediacenter.de/intern/fonts/Sparkasse_web_Md.woff",
+        "license": "proprietary"
+      },
+      {
+        "family": "Diatype",
+        "file": "stardust/current/assets/fonts/ABCDiatypeVariable.woff2",
+        "url": "https://cdn.frontify.com/fonts/ABCDiatypeVariable.woff2",
+        "license": "proprietary (Frontify platform UI)"
+      },
+      {
+        "family": "Mier B",
+        "file": "stardust/current/assets/fonts/MierB-Book.woff2",
+        "url": "https://cdn.frontify.com/fonts/MierB-Book.woff2",
+        "license": "proprietary (Frontify platform UI)"
+      }
+    ],
+    "modules": [
+      {
+        "id": "candidate-hub-tile",
+        "name": "teaser tile (image, h3, text, Weiter pill)",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image"
+          },
+          {
+            "name": "title",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "text",
+            "type": "text"
+          },
+          {
+            "name": "cta",
+            "type": "link"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "d-8fjlj4fun12p",
+            "selector": "IF-Wissen / Redaktions-Guidelines / Technik-Guidelines / News & Hinweise / Support / Plattformen / BFSG"
+          }
+        ],
+        "status": "candidate",
+        "confidence": "within-page repeat (7)"
+      },
+      {
+        "id": "candidate-service-card",
+        "name": "service card (h3, two-line text, \"… besuchen\" CTA)",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image"
+          },
+          {
+            "name": "title",
+            "type": "text"
+          },
+          {
+            "name": "text",
+            "type": "text"
+          },
+          {
+            "name": "cta",
+            "type": "link"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "d-8fjlj4fun12p",
+            "selector": "Weitere Services grid (6)"
+          }
+        ],
+        "status": "candidate",
+        "confidence": "within-page repeat (6)"
+      },
+      {
+        "id": "candidate-video-hero",
+        "name": "video hero",
+        "slots": [
+          {
+            "name": "video",
+            "type": "media"
+          },
+          {
+            "name": "headline",
+            "type": "text"
+          },
+          {
+            "name": "lede",
+            "type": "text"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "d-8fjlj4fun12p",
+            "selector": "cover hero"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-login-split",
+        "name": "split login panel",
+        "slots": [
+          {
+            "name": "logo",
+            "type": "image"
+          },
+          {
+            "name": "headline",
+            "type": "text"
+          },
+          {
+            "name": "label",
+            "type": "text"
+          },
+          {
+            "name": "cta",
+            "type": "link"
+          },
+          {
+            "name": "secondary-link",
+            "type": "link"
+          },
+          {
+            "name": "image",
+            "type": "image"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": "auth page"
+          }
+        ],
+        "status": "candidate"
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "370px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 370,
+          "via": "max-width",
+          "selector": "div > div.mod.mod-o-auth > div.o-auth__box.js-o-auth__box > div.o-auth__box-content",
+          "pages": [
+            "https://if-hub.de/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://if-hub.de/",
+          "section": 0,
+          "selector": "body.tw-antialiased.tw-font-primary > div.mod.mod-skip-to-main-content",
+          "px": null
+        },
+        {
+          "url": "https://if-hub.de/",
+          "section": 1,
+          "selector": "body.tw-antialiased.tw-font-primary > div.main-content",
+          "px": 370
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: fluid (https://if-hub.de/d/8fJLj4FUN12p), 370 (https://if-hub.de/) — decide per template in the inconsistency register",
+        "module cap 370px on a single section (div > div.mod.mod-o-auth > div.o-auth__box.js-o-auth__box > div.o-auth__box-content, https://if-hub.de/) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-21T00:16:06.657Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://if-hub.de/d/8fJLj4FUN12p",
+          "https://if-hub.de/"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-21T01:19:36.052Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-21T01:58:19.292Z",
+  "blocks": [
+    {
+      "id": "auth-login",
+      "label": "auth-login",
+      "kind": "module",
+      "signature": "module:auth-login",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "auth-login",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cards",
+      "label": "cards",
+      "kind": "module",
+      "signature": "module:cards",
+      "source": null,
+      "usedByTemplates": [
+        "d-8fjlj4fun12p"
+      ],
+      "usedByPages": [
+        "d-8fjlj4fun12p"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hub-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hub-hero",
+      "label": "hub-hero",
+      "kind": "module",
+      "signature": "module:hub-hero",
+      "source": null,
+      "usedByTemplates": [
+        "d-8fjlj4fun12p"
+      ],
+      "usedByPages": [
+        "d-8fjlj4fun12p"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hub-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "services",
+      "label": "services",
+      "kind": "module",
+      "signature": "module:services",
+      "source": null,
+      "usedByTemplates": [
+        "d-8fjlj4fun12p"
+      ],
+      "usedByPages": [
+        "d-8fjlj4fun12p"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "services",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "support",
+      "label": "support",
+      "kind": "module",
+      "signature": "module:support",
+      "source": null,
+      "usedByTemplates": [
+        "d-8fjlj4fun12p"
+      ],
+      "usedByPages": [
+        "d-8fjlj4fun12p"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "support",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "tiles",
+      "label": "tiles",
+      "kind": "module",
+      "signature": "module:tiles",
+      "source": null,
+      "usedByTemplates": [
+        "d-8fjlj4fun12p"
+      ],
+      "usedByPages": [
+        "d-8fjlj4fun12p"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "tiles",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

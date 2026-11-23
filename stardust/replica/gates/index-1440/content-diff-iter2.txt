@@ -1,0 +1,13 @@
+[live-session] waiting to pace live navigations to if-hub.de (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 939 ms
+
+Content diff @ 1440px (profile "generic", roots: .o-auth, header, footer)
+root ".o-auth"
+  source: 17 text nodes — 1 headings, 0 eyebrows, 2 CTAs, 14 body; 1 img
+  build: 17 text nodes — 1 headings, 0 eyebrows, 2 CTAs, 14 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 3 / build 3; icons: source 0 / build 0
+root "header": absent on both sides (no <header> / [role="banner"] outside the main root(s)) — not compared
+root "footer": absent on both sides (no <footer> / [role="contentinfo"] outside the main root(s)) — not compared
+
+Findings: none — content + roles match
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 0

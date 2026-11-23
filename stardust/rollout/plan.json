@@ -1,0 +1,62 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-21T01:58:25.291Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-21T01:58:25.291Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "d-8fjlj4fun12p",
+    "index"
+  ],
+  "steps": [
+    {
+      "slug": "d-8fjlj4fun12p",
+      "path": "/d/8fJLj4FUN12p",
+      "templateId": "d-8fjlj4fun12p",
+      "status": "deployed",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hub-hero",
+          "edsBlockName": "hub-hero"
+        },
+        {
+          "id": "tiles",
+          "edsBlockName": "tiles"
+        },
+        {
+          "id": "cards",
+          "edsBlockName": "hub-cards"
+        },
+        {
+          "id": "services",
+          "edsBlockName": "services"
+        },
+        {
+          "id": "support",
+          "edsBlockName": "support"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "deployed",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "auth-login",
+          "edsBlockName": "auth-login"
+        }
+      ],
+      "reuse": []
+    }
+  ]
+}

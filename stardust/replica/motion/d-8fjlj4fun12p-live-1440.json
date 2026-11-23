@@ -1,0 +1,665 @@
+{
+  "url": "https://if-hub.de/d/8fJLj4FUN12p",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": ".cm-video__item",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.cm-video__progressbar-thumbnail-image.js-cm-video__progressbar-thumbnail-image",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "span.ca-icon.ca-icon--md",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "span.ca-icon.ca-icon--md",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "span.ca-icon.ca-icon--md",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.js-cm-btn-dropdown__toggle",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.cm-video__progressbar-thumbnail-image.js-cm-video__progressbar-thumbnail-image",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "span.ca-icon.ca-icon--md",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "span.ca-icon.ca-icon--md",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "span.ca-icon.ca-icon--md",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.js-cm-btn-dropdown__toggle",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "header nav a",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".btn",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(238, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(209, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s ease-in-out"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "[data-test-id=\"login-button-icon\"]",
+      "changed": [
+        "self.opacity"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(238, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(238, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "0.8",
+          "transition": "opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [
+      {
+        "src": "https://media.ffycdn.net/eu/sparkassenfinanzportal/NT4Cqvwes46oAW5bkkNc.mp4?width={width}&format=mp4",
+        "autoplay": false,
+        "loop": true,
+        "muted": false,
+        "paused": false,
+        "currentTime": 7.802713,
+        "readyState": 4,
+        "inViewport": true,
+        "currentTimeAfter": 9.308776,
+        "playing": true
+      }
+    ],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.mod.mod-pb-video.pb-video > div.pb-video__container.js-pb-video__container > div.mod.mod-c-video.cm-video > div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.mod.mod-pb-video.pb-video > div.pb-video__container.js-pb-video__container > div.mod.mod-c-video.cm-video > div.cm-video__item.js-cm-video__item > div.cm-video__controls-background-gradient.js-cm-video__controls-background-gradient",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.mod.mod-pb-video.pb-video > div.pb-video__container.js-pb-video__container > div.mod.mod-c-video.cm-video > div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.mod.mod-pb-video.pb-video > div.pb-video__container.js-pb-video__container > div.mod.mod-c-video.cm-video > div.cm-video__item.js-cm-video__item > div.cm-video__controls-background-gradient.js-cm-video__controls-background-gradient.state-hidden",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.pb-text-image__content.js-pb-text-image__content.layout-topbottom > div.pb-text-image__text > div.pb-text-image__text-inner.js-pb-text-image__editor.state-visible > p > a.btn.btn-primary",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.pb-text-image__content.js-pb-text-image__content.layout-topbottom > div.pb-text-image__text > div.pb-text-image__text-inner.js-pb-text-image__editor.state-visible > p > a.btn.btn-primary",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.pb-text-image__content.js-pb-text-image__content.layout-topbottom > div.pb-text-image__text > div.pb-text-image__text-inner.js-pb-text-image__editor.state-visible > p > a.btn.btn-primary",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.pb-text-image__content.js-pb-text-image__content.layout-topbottom > div.pb-text-image__text > div.pb-text-image__text-inner.js-pb-text-image__editor.state-visible > p > a.btn.btn-primary",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.pb-text-image__content.js-pb-text-image__content.layout-topbottom > div.pb-text-image__text > div.pb-text-image__text-inner.js-pb-text-image__editor.state-visible > p > a.btn.btn-primary",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.pb-text-image__content.js-pb-text-image__content.layout-topbottom > div.pb-text-image__text > div.pb-text-image__text-inner.js-pb-text-image__editor.state-visible > p > a.btn.btn-primary",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.pb-text-image__content.js-pb-text-image__content.layout-topbottom > div.pb-text-image__text > div.pb-text-image__text-inner.js-pb-text-image__editor.state-visible > p > a.btn.btn-primary",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.pb-text-image__content.js-pb-text-image__content.layout-topbottom > div.pb-text-image__text > div.pb-text-image__text-inner.js-pb-text-image__editor.state-visible > p > a.btn.btn-primary",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.pb-text-image__content.js-pb-text-image__content.layout-topbottom > div.pb-text-image__text > div.pb-text-image__text-inner.js-pb-text-image__editor.state-visible > p > a.btn.btn-primary",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.pb-text-image__content.js-pb-text-image__content.layout-topbottom > div.pb-text-image__text > div.pb-text-image__text-inner.js-pb-text-image__editor.state-visible > p > a.btn.btn-primary",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div._root_71r9v_4 > div._viewport_71r9v_12 > div > div.tw-fixed.tw-group.tw-z-20 > a.tw-block.tw-w-10.tw-h-10",
+        "y": 0,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div._root_71r9v_4 > div._viewport_71r9v_12 > div > div.tw-fixed.tw-group.tw-z-20 > a.tw-block.tw-w-10.tw-h-10",
+        "y": 0,
+        "dur": "0.15s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "state-hidden"
+        ],
+        "el": "div.mod.mod-pb-video.pb-video > div.pb-video__container.js-pb-video__container > div.mod.mod-c-video.cm-video > div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls",
+        "y": 0
+      },
+      {
+        "added": [
+          "state-hidden"
+        ],
+        "el": "div.mod.mod-pb-video.pb-video > div.pb-video__container.js-pb-video__container > div.mod.mod-c-video.cm-video > div.cm-video__item.js-cm-video__item > div.cm-video__controls-background-gradient.js-cm-video__controls-background-gradient.state-hidden",
+        "y": 0
+      },
+      {
+        "added": [
+          "velocity-animating"
+        ],
+        "el": "div.po-brandportal__grid.js-po-brandportal__grid.state-zero-margin > div.po-brandportal__row-container.cm-blockmanager__section.js-cm-blockmanager__section > div.po-brandportal__row-wrap > div.p-row > div.p-col.p-col--12.js-po-brandportal__col",
+        "y": 0
+      },
+      {
+        "added": [
+          "velocity-animating"
+        ],
+        "el": "div.po-brandportal__grid.js-po-brandportal__grid.state-zero-margin > div.po-brandportal__row-container.cm-blockmanager__section.js-cm-blockmanager__section > div.po-brandportal__row-wrap > div.p-row > div.p-col.p-col--12.js-po-brandportal__col",
+        "y": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+
+Content diff @ 360px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 96 text nodes — 20 headings, 0 eyebrows, 18 CTAs, 58 body; 7 img
+  build: 96 text nodes — 20 headings, 0 eyebrows, 18 CTAs, 58 body; 6 img
+  editable texts (outermost h*/p/ul/ol): source 56 / build 56
+  attributes (placeholder/aria-label/title): source 31 / build 31; icons: source 39 / build 39
+root "header"
+  source: 6 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 6 body; 1 img
+  build: 6 text nodes — 0 headings, 0 eyebrows, 4 CTAs, 2 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 8 / build 3; icons: source 9 / build 4
+root "footer" — source: absent (no <footer> / [role="contentinfo"] outside the main root(s)) — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 4 text nodes — 0 headings, 0 eyebrows, 3 CTAs, 1 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+
+Findings: 28 (9 structural 🔴)
+Tiers: looks-same 🔴 9 · nothing-lost 🟡 2 · accepted 🟢 0 (owner 0, auto 0) · advisory 17
+  🔴 ROLE SWAP [header]: "IF-Wissen" is a body in the source but a cta in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP [header]: "Redaktions-Guidelines" is a body in the source but a cta in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP [header]: "Bewegtbild-Guidelines" is a body in the source but a cta in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP [header]: "Kontakt" is a body in the source but a cta in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING ICON [header]: source inline svg 0 0 21 21 / 2 shape(s) (0×0) at "search" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg 0 0 15 15 / 1 shape(s) (0×0) at "if-wissen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg 0 0 15 15 / 1 shape(s) (0×0) at "redaktions-guidelines" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg 0 0 15 15 / 1 shape(s) (0×0) at "bewegtbild-guidelines" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg 0 0 15 15 / 1 shape(s) (0×0) at "kontakt" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟠 EXTRA [footer]: build cta "Nutzungshinweise" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Impressum" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Kontakt" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [main]: source body "00:06 / 00:55"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [main]: build body "00:02 / 00:55" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 ICON MOVED [main]: source inline svg spinner interaction icon (0×0) at "00:06 / 00:55 normal slow (0.5x) normal " is at "00:02 / 00:55 normal slow (0.5x) normal " in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image add existing" is at "add image" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image add existing" is at "add existing" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 MISSING BODY [header]: source body "Search"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [header]: build body "More" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Close navigation" has no build <button> with that aria-label (build <button> aria-labels: "Open navigation"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <nav> aria-label="Document" has no build <nav> with that aria-label (build <nav> aria-labels: "Main"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <p> title="IF-Wissen" has no build <p> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <p> title="Redaktions-Guidelines" has no build <p> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <p> title="Bewegtbild-Guidelines" has no build <p> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <p> title="Kontakt" has no build <p> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Main" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [header]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "close navigation" is at "more" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EXTRA [footer]: build body "© S-Communication Services GmbH 2024" has no source source — Build copy with no source — invented/placeholder; confirm intended.

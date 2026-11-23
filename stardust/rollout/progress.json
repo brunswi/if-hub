@@ -1,0 +1,117 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "form",
+        "landing"
+      ],
+      "startedAt": "2026-11-21T01:21:28.125Z",
+      "endedAt": "2026-11-21T01:29:16.340Z",
+      "blocks": 2,
+      "pages": 0,
+      "gates": {
+        "note": "structural only: header 90px at 1440/390, nav inline 1440, search+burger 390; pixel/crop/chrome gates run on the hub archetype preview (first page using the shell)"
+      },
+      "verdict": "foundation: nav/footer live, header+footer blocks, fonts 6, styles, commit 6d13a5c pushed, preview /nav ok"
+    },
+    "archetype-index": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "form"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-21T01:29:25.623Z",
+      "endedAt": "2026-11-21T01:45:50.083Z",
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "archetype": "0.00%",
+          "dh": 0
+        },
+        "1440": {
+          "archetype": "0.03%",
+          "dh": 0
+        },
+        "crop": "n/a (no chrome on auth template)",
+        "chrome": "n/a"
+      },
+      "verdict": "archetype-index: page live, blocks 1, gate 1440 0.03% / 360 0.00%, requests 2"
+    },
+    "archetype-d-8fjlj4fun12p": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-21T01:29:25.623Z",
+      "endedAt": "2026-11-21T01:59:28.170Z",
+      "blocks": 6,
+      "gates": {
+        "360": {
+          "archetype": "4.37%",
+          "dh": "waived"
+        },
+        "1440": {
+          "archetype": "2.84%",
+          "dh": "waived (inner scroller, footer y equal 4303)"
+        },
+        "crop": "header 0.69%/3.00% (360 over 2% bar: frozen burger icon), footer 0.73%/1.48%",
+        "chrome": "12/9 deltas in frozen header/footer → foundation-requests; header contract compare exit 2 (17 errors) → C-final"
+      },
+      "verdict": "archetype-d-8fjlj4fun12p: page live, blocks 6, gate 1440 2.84% / 360 4.37%, requests 4"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-21T02:34:59.712Z",
+      "templates": [
+        "index",
+        "d-8fjlj4fun12p"
+      ],
+      "pages": 2,
+      "blocks": 7,
+      "gates": {
+        "360": {
+          "index": "0% Δh0",
+          "d-8fjlj4fun12p": "4.37% Δh-7895 (height override)"
+        },
+        "1440": {
+          "index": "0.03% Δh0",
+          "d-8fjlj4fun12p": "2.84% Δh-3507 (height override: inner scroller)"
+        },
+        "wide": "2560: index 0.05%, hub 8.4% Δh -3833 (report)"
+      },
+      "endedAt": "2026-11-21T02:40:41.092Z",
+      "verdict": "gate-all: 2/2 delivered on the published origin (1 pass + 1 documented height override) at 1440 and 360; wide 2560px: 1 page(s) over 10% or off in height — d-8fjlj4fun12p 8.4% Δh -3833px; coverage --gate 0 flips"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-21T02:00:12.052Z",
+      "templates": [
+        "index",
+        "d-8fjlj4fun12p"
+      ],
+      "pages": 2,
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "d-8fjlj4fun12p": "4.37% pub3",
+          "index": "0.00% pub2"
+        },
+        "1440": {
+          "d-8fjlj4fun12p": "2.84% pub3",
+          "index": "0.03% (closed, accept-residual)"
+        },
+        "crop": "header/footer chrome-parity clean except fixed login button",
+        "chrome": "hub 1440 12→2, 360 9→2; header contract 17/14 → 6/0"
+      },
+      "endedAt": "2026-11-21T02:34:50.275Z",
+      "verdict": "final: 6/6 foundation requests applied (skip link, auth font token, hub page styles → styles.css, header glyphs/position/spans, footer line box, header keyboard+geometry), gates unchanged hub 2.84%/4.37% index 0.00%; residuals: IF-Wissen submenu not in nav doc, host-bound typeahead, open-state crop shape; refrozen"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "index",
+  "type": "form",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "auth-login"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "o-auth__box"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": null,
+    "css": "e3eb60946ab8"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Log in - DSGV Markenportal der Sparkasse",
+    "description": null,
+    "canonical": null,
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Log in - DSGV Markenportal der Sparkasse",
+    "url": "https://if-hub.de/"
+  },
+  "migratedAt": "2026-11-21T01:19:10Z",
+  "designMdSha": "729fed00422c",
+  "designJsonSha": "6ae4ff46be75",
+  "sourceCurrentSha": "ada5e7e1aa36",
+  "sourceProposedSha": "7ec693d13a1b",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://if-hub.de/api/thirdparty/oidc/auth?referer=%2F",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,1527 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-21T01:20:01.929Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://if-hub.de/",
+   "https://if-hub.de/d/8fJLj4FUN12p"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://if-hub.de/",
+   "status": 200,
+   "host": "if-hub.de",
+   "title": "Log in - DSGV Markenportal der Sparkasse",
+   "forms": [
+    {
+     "name": "o-auth__form-email",
+     "action": "https://if-hub.de/",
+     "method": "post",
+     "role": "",
+     "inChrome": false,
+     "fields": 2,
+     "signature": [
+      "email:email",
+      "password:password"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 16,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [
+    {
+     "cls": "o-auth__box js-o-auth__box",
+     "attrs": [],
+     "text": "Herzlich willkommen im IF- HubLog inInterne Benutzeranmeldun"
+    },
+    {
+     "cls": "o-auth__form js-o-auth__form",
+     "attrs": [],
+     "text": "Log inInterne BenutzeranmeldungAnmelden über SSO​E-Mail:Bitt"
+    },
+    {
+     "cls": "o-auth__form-email js-o-auth__form-email tw-mb-7",
+     "attrs": [],
+     "text": "E-Mail:Bitte geben Sie Ihre E-Mail-Adresse ein.Diese E-Mail-"
+    }
+   ],
+   "listingCandidates": [],
+   "inlineScripts": 0,
+   "inlineFetch": false,
+   "mainText": 124,
+   "domAddedAfterLoad": 59,
+   "hosts": {
+    "if-hub.de": 14,
+    "cdn.frontify.com": 40,
+    "media.ffycdn.net": 3,
+    "sentryapp.appsupport.frontify.dev": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.frontify.com",
+    "media.ffycdn.net",
+    "sentryapp.appsupport.frontify.dev"
+   ],
+   "scripts": [
+    "https://cdn.frontify.com/js/frontify-runtime.6a50b827b4be9579.js",
+    "https://cdn.frontify.com/js/frontify-bootstrap.7a281731712e34fe.js",
+    "https://cdn.frontify.com/js/frontify-vendors.04b63404e57332bd.js",
+    "https://cdn.frontify.com/js/frontify-47639.20cea322d49af468.js",
+    "https://cdn.frontify.com/js/frontify-35005.ce77f6fd3abc03c4.js",
+    "https://cdn.frontify.com/js/frontify-terrific-module-cbtndropdown.7fc49144dbaf93ac.js",
+    "https://cdn.frontify.com/js/frontify-terrific-module-skiptomaincontent.21534cddec6bfed4.js",
+    "https://cdn.frontify.com/js/frontify-96843.d30364f32c1c2a5b.js",
+    "https://cdn.frontify.com/js/frontify-terrific-module-coutstandingpayment.ed32fe5506c172ca.js",
+    "https://cdn.frontify.com/js/frontify-12881.d7d2669c647989fd.js",
+    "https://cdn.frontify.com/js/frontify-35187.f0a0a07983b959a8.js",
+    "https://cdn.frontify.com/js/frontify-terrific-module-cpayment.68d4467f3a3c58d7.js",
+    "https://cdn.frontify.com/js/frontify-terrific-module-cswal.70953b9f1412ea54.js",
+    "https://cdn.frontify.com/js/frontify-terrific-module-cdownloader.6436f735f6a15e01.js",
+    "https://cdn.frontify.com/js/frontify-terrific-module-emailchangerequest.682fe2f30313488b.js",
+    "https://cdn.frontify.com/js/frontify-90517.1e7cde0732cca758.js",
+    "https://cdn.frontify.com/js/frontify-95855.5f172affabda7e73.js",
+    "https://cdn.frontify.com/js/frontify-76366.a61f1a1bacfb425c.js",
+    "https://cdn.frontify.com/js/frontify-28682.861d9caf1a5693f0.js",
+    "https://cdn.frontify.com/js/frontify-59118.2e357444b88be982.js",
+    "https://cdn.frontify.com/js/frontify-53925.c31748bf6b2b51af.js",
+    "https://cdn.frontify.com/js/frontify-44175.d1b5ca498ae44d16.js",
+    "https://cdn.frontify.com/js/frontify-14509.742c2c9b984e5915.js",
+    "https://cdn.frontify.com/js/frontify-64314.25d5bf561d895648.js",
+    "https://cdn.frontify.com/js/frontify-8420.fa0686aeea476040.js",
+    "https://cdn.frontify.com/js/frontify-35582.6353ce52ad574339.js",
+    "https://cdn.frontify.com/js/frontify-20259.9e7b9aef6a50e8f3.js",
+    "https://cdn.frontify.com/js/frontify-1372.59ad3acbaa364dd4.js",
+    "https://cdn.frontify.com/js/frontify-9708.195f099fbe0e572f.js",
+    "https://cdn.frontify.com/js/frontify-947.53f9ab555a485cd2.js",
+    "https://cdn.frontify.com/js/frontify-90039.087f51f9be25e4b6.js",
+    "https://cdn.frontify.com/js/frontify-30238.324cb589eb30eb05.js",
+    "https://cdn.frontify.com/js/frontify-terrific-module-oauth.98aa349de498958b.js",
+    "https://cdn.frontify.com/js/frontify-auth-page.3888e0c718500dad.js",
+    "https://cdn.frontify.com/js/frontify-13974.97002f51fb544ad8.js",
+    "https://cdn.frontify.com/js/frontify-root-layout.ca11cc6cf346ea53.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/csrf-token",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/csrf-token"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/session",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/session"
+    },
+    {
+     "method": "POST",
+     "host": "if-hub.de",
+     "path": "/graphql-internal",
+     "query": [
+      "operationName"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/graphql-internal"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/context",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/context"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/dashboard/appearance",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/dashboard/appearance"
+    },
+    {
+     "method": "POST",
+     "host": "if-hub.de",
+     "path": "/api/context",
+     "query": [
+      "referer"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/context"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/account/metadata",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/account/metadata"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.frontify.com/locales/en.12d41535f7d23b7b.json",
+    "POST sentryapp.appsupport.frontify.dev/api/51/envelope/"
+   ],
+   "postBodies": [
+    {
+     "url": "https://if-hub.de/graphql-internal?operationName=ThirdPartySettings",
+     "body": "{\"query\":\"query ThirdPartySettings {\\n  thirdPartySettings {\\n    amplitude {\\n      accountId\\n      accountPlan\\n      amplitudeId\\n      enterpriseId\\n      isLoginTrackingEnabled\\n      isTrackingEnabled\\n      region\\n      subscriptionStatus\\n      user {\\n        creatorId\\n        id\\n        landing\\n        referrerUrl\\n        signUpDate\\n      }\\n    }\\n    intercom {\\n      configurat"
+    },
+    {
+     "url": "https://if-hub.de/graphql-internal?operationName=Account",
+     "body": "{\"query\":\"query Account {\\n  account {\\n    globalObjectId: id\\n    isEnterpriseEnabled\\n    organization\\n    currentUserPermissions {\\n      isSuperUser\\n      isOwner\\n    }\\n  }\\n} \"}"
+    },
+    {
+     "url": "https://if-hub.de/graphql-internal?operationName=CurrentUser",
+     "body": "{\"query\":\"query CurrentUser {\\n  currentUser {\\n    globalObjectId: id\\n    ... on AccountUser {\\n      email\\n      emailVerifiedAt\\n      name\\n      avatar\\n      organization\\n      language\\n      permissions {\\n        analyticsDashboard {\\n          canView\\n        }\\n        facialRecognition {\\n          accessLevel\\n        }\\n      }\\n      createdAt\\n    }\\n  }\\n} \"}"
+    },
+    {
+     "url": "https://if-hub.de/graphql-internal?operationName=Flags",
+     "body": "{\"query\":\"query Flags {\\n  accountFlags {\\n    developmentFlags\\n    productFlags\\n    featureFlags\\n  }\\n} \"}"
+    },
+    {
+     "url": "https://sentryapp.appsupport.frontify.dev/api/51/envelope/?sentry_version=7&sentry_key=07efd26759d575d252eb3fb4f5539d3d&sentry_client=sentry.javascript.react%2F11.9.0",
+     "body": "{\"sent_at\":\"2026-11-21T01:20:03.875Z\",\"sdk\":{\"name\":\"sentry.javascript.react\",\"version\":\"11.9.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"c4f4ad3f29894375addaddc939ac515c\",\"init\":true,\"started\":\"2026-11-21T01:20:03.853Z\",\"timestamp\":\"2026-11-21T01:20:03.859Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"web-app-2026-11-20T14-54-16Z-7604792f\",\"environment\":\"production\",\"ip_address\":\"{{auto}}\",\"user_agent\":\"Moz"
+    },
+    {
+     "url": "https://if-hub.de/api/context?referer=%2F",
+     "body": "{\"route\":[\"\",\"auth\",\"\",\"\"],\"view\":\"auth\",\"route_initial\":false}"
+    }
+   ],
+   "textAtLoad": 0,
+   "mainEmptyAtLoad": false
+  },
+  "/d/8fJLj4FUN12p": {
+   "url": "https://if-hub.de/d/8fJLj4FUN12p",
+   "status": 200,
+   "host": "if-hub.de",
+   "title": "Start - IF-Hub",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "More",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Terms and conditions",
+     "textLen": 836,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 18,
+   "media": [
+    {
+     "tag": "video",
+     "src": "https://media.ffycdn.net/eu/sparkassenfinanzportal/NT4Cqvwes46oAW5bkkNc.mp4?width={width}&format=mp4",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://sparkassen-mediacenter.de/intern/mediacenter/mediathek/player/extern?id=0_prgkgedz&blz=99999001&autoplay=false",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://sparkassen-mediacenter.de/intern/mediacenter/mediathek/player/extern?id=0_prgkgedz&blz=99999001&autoplay=false",
+     "title": "Embedded content",
+     "w": 960,
+     "h": 540
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [
+    {
+     "cls": "_root_71r9v_4",
+     "attrs": [
+      "data-component=scroll-area"
+     ],
+     "text": "[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-o"
+    },
+    {
+     "cls": "js-skiptomaincontent__target",
+     "attrs": [],
+     "text": "Welcome to your cover pageLet's get started by adding your f"
+    },
+    {
+     "cls": "mod mod-brandportal po-brandportal",
+     "attrs": [],
+     "text": "Welcome to your cover pageLet's get started by adding your f"
+    },
+    {
+     "cls": "po-brandportal__grid js-po-brandportal__grid state-zero-margin",
+     "attrs": [],
+     "text": "Welcome to your cover pageLet's get started by adding your f"
+    },
+    {
+     "cls": "js-po-brandportal__row po-brandportal__add-row-container po-brandportal__add-row-container-initial",
+     "attrs": [],
+     "text": "Welcome to your cover pageLet's get started by adding your f"
+    },
+    {
+     "cls": "po-brandportal__row-container cm-blockmanager__section js-cm-blockmanager__section",
+     "attrs": [],
+     "text": "Herzlich willkommen im IF-Hub News, Tipps und Anleitungen ru"
+    },
+    {
+     "cls": "p-col p-col--6 js-po-brandportal__col",
+     "attrs": [],
+     "text": "Herzlich willkommen im IF-Hub News, Tipps und Anleitungen ru"
+    },
+    {
+     "cls": "mod mod-pb-text-image pb-text-image",
+     "attrs": [],
+     "text": "Herzlich willkommen im IF-Hub News, Tipps und Anleitungen ru"
+    },
+    {
+     "cls": "\n  ",
+     "attrs": [],
+     "text": "Herzlich willkommen im IF-Hub News, Tipps und Anleitungen ru"
+    },
+    {
+     "cls": "pb-text-image__text-inner js-pb-text-image__editor state-visible",
+     "attrs": [],
+     "text": "Herzlich willkommen im IF-Hub News, Tipps und Anleitungen ru"
+    },
+    {
+     "cls": "p-col p-col--6 js-po-brandportal__col",
+     "attrs": [],
+     "text": "00:08 / 00:55NormalSlow (0.5x) NormalFast (1.25x) Faster (1."
+    },
+    {
+     "cls": "mod mod-pb-video pb-video",
+     "attrs": [],
+     "text": "00:08 / 00:55NormalSlow (0.5x) NormalFast (1.25x) Faster (1."
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "p-row ",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 1,
+   "inlineFetch": false,
+   "mainText": 3099,
+   "domAddedAfterLoad": 213,
+   "hosts": {
+    "if-hub.de": 40,
+    "cdn.frontify.com": 113,
+    "media.ffycdn.net": 12,
+    "sentryapp.appsupport.frontify.dev": 1,
+    "frontify-artifacts.com": 2,
+    "fonts.googleapis.com": 2,
+    "sparkassen-mediacenter.de": 12,
+    "cdn.sparkassen-mediacenter.de": 3
+   },
+   "thirdPartyHosts": [
+    "cdn.frontify.com",
+    "media.ffycdn.net",
+    "sentryapp.appsupport.frontify.dev",
+    "frontify-artifacts.com",
+    "fonts.googleapis.com",
+    "sparkassen-mediacenter.de",
+    "cdn.sparkassen-mediacenter.de"
+   ],
+   "scripts": [
+    "https://cdn.frontify.com/js/frontify-runtime.6a50b827b4be9579.js",
+    "https://cdn.frontify.com/js/frontify-bootstrap.7a281731712e34fe.js",
+    "https://cdn.frontify.com/js/frontify-vendors.04b63404e57332bd.js",
+    "https://cdn.frontify.com/js/frontify-47639.20cea322d49af468.js",
+    "https://cdn.frontify.com/js/frontify-35005.ce77f6fd3abc03c4.js",
+    "https://cdn.frontify.com/js/frontify-terrific-module-cbtndropdown.7fc49144dbaf93ac.js",
+    "https://cdn.frontify.com/js/frontify-terrific-module-skiptomaincontent.21534cddec6bfed4.js",
+    "https://cdn.frontify.com/js/frontify-96843.d30364f32c1c2a5b.js",
+    "https://cdn.frontify.com/js/frontify-terrific-module-coutstandingpayment.ed32fe5506c172ca.js",
+    "https://cdn.frontify.com/js/frontify-12881.d7d2669c647989fd.js",
+    "https://cdn.frontify.com/js/frontify-terrific-module-cpayment.68d4467f3a3c58d7.js",
+    "https://cdn.frontify.com/js/frontify-35187.f0a0a07983b959a8.js",
+    "https://cdn.frontify.com/js/frontify-terrific-module-cswal.70953b9f1412ea54.js",
+    "https://cdn.frontify.com/js/frontify-terrific-module-cdownloader.6436f735f6a15e01.js",
+    "https://cdn.frontify.com/js/frontify-terrific-module-emailchangerequest.682fe2f30313488b.js",
+    "https://cdn.frontify.com/js/frontify-90517.1e7cde0732cca758.js",
+    "https://cdn.frontify.com/js/frontify-76366.a61f1a1bacfb425c.js",
+    "https://cdn.frontify.com/js/frontify-95855.5f172affabda7e73.js",
+    "https://cdn.frontify.com/js/frontify-53925.c31748bf6b2b51af.js",
+    "https://cdn.frontify.com/js/frontify-59118.2e357444b88be982.js",
+    "https://cdn.frontify.com/js/frontify-64314.25d5bf561d895648.js",
+    "https://cdn.frontify.com/js/frontify-14509.742c2c9b984e5915.js",
+    "https://cdn.frontify.com/js/frontify-8420.fa0686aeea476040.js",
+    "https://cdn.frontify.com/js/frontify-28682.861d9caf1a5693f0.js",
+    "https://cdn.frontify.com/js/frontify-44175.d1b5ca498ae44d16.js",
+    "https://cdn.frontify.com/js/frontify-9708.195f099fbe0e572f.js",
+    "https://cdn.frontify.com/js/frontify-20259.9e7b9aef6a50e8f3.js",
+    "https://cdn.frontify.com/js/frontify-90039.087f51f9be25e4b6.js",
+    "https://cdn.frontify.com/js/frontify-35582.6353ce52ad574339.js",
+    "https://cdn.frontify.com/js/frontify-1372.59ad3acbaa364dd4.js",
+    "https://cdn.frontify.com/js/frontify-30238.324cb589eb30eb05.js",
+    "https://cdn.frontify.com/js/frontify-947.53f9ab555a485cd2.js",
+    "https://cdn.frontify.com/js/frontify-89958.3b9adc3f55e5e515.js",
+    "https://cdn.frontify.com/js/frontify-29467.be6c911e5af897db.js",
+    "https://cdn.frontify.com/js/frontify-58670.b3aa83a3fdc12371.js",
+    "https://cdn.frontify.com/js/frontify-88048.e39fd050430cc797.js",
+    "https://cdn.frontify.com/js/frontify-9605.a7f3c9d672809d74.js",
+    "https://cdn.frontify.com/js/frontify-13974.97002f51fb544ad8.js",
+    "https://cdn.frontify.com/js/frontify-90684.407a22b6cdeb3f51.js",
+    "https://cdn.frontify.com/js/frontify-35976.6b171c7e8defee3e.js",
+    "https://cdn.frontify.com/js/frontify-84498.2a761e95b7d20492.js",
+    "https://cdn.frontify.com/js/frontify-39713.310b7fec30feda00.js",
+    "https://cdn.frontify.com/js/frontify-95360.42717e6c480bab51.js",
+    "https://cdn.frontify.com/js/frontify-625.4c3a02a882821db8.js",
+    "https://cdn.frontify.com/js/frontify-46138.f127b704cdddfeda.js",
+    "https://cdn.frontify.com/js/frontify-39469.9399ecbecf938dd8.js",
+    "https://cdn.frontify.com/js/frontify-34278.e7ef125b17ebd4b1.js",
+    "https://cdn.frontify.com/js/frontify-69112.03c9c48e4c75b58e.js",
+    "https://cdn.frontify.com/js/frontify-53677.8dbc81bad41d4ce0.js",
+    "https://cdn.frontify.com/js/frontify-80214.aa1f0b08206115a3.js",
+    "https://cdn.frontify.com/js/frontify-68421.51a031c8b16df065.js",
+    "https://cdn.frontify.com/js/frontify-63750.094354bda4356999.js",
+    "https://cdn.frontify.com/js/frontify-96007.c425b62316da6a79.js",
+    "https://cdn.frontify.com/js/frontify-24647.c822c309603fd5ea.js",
+    "https://cdn.frontify.com/js/frontify-71536.b85bd57b5bf00f94.js",
+    "https://cdn.frontify.com/js/frontify-18761.b3dff1c7b69e6395.js",
+    "https://cdn.frontify.com/js/frontify-29309.9fc2e5fdf14d2857.js",
+    "https://cdn.frontify.com/js/frontify-43553.0e97eae6609cc359.js",
+    "https://cdn.frontify.com/js/frontify-93284.57f9f0029c988794.js",
+    "https://cdn.frontify.com/js/frontify-44047.e750080d84032e37.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/csrf-token",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/csrf-token"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/session",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/session"
+    },
+    {
+     "method": "POST",
+     "host": "if-hub.de",
+     "path": "/graphql-internal",
+     "query": [
+      "operationName"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/graphql-internal"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/context",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/context"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/dashboard/appearance",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/dashboard/appearance"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/portal",
+     "query": [
+      "token"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/portal"
+    },
+    {
+     "method": "POST",
+     "host": "if-hub.de",
+     "path": "/api/context",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/context"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/document/navigation/{n}",
+     "query": [
+      "language"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/document/navigation/110"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/marketplace-app/{n}",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/marketplace-app/123"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/marketplace-app/importmap",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/marketplace-app/importmap"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/portal/{n}/footer",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/portal/110/footer"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/portal/{n}/font-families",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/portal/110/font-families"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/portal/{n}/font-styles",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/portal/110/font-styles"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/ai-assistant/configuration/{n}",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/ai-assistant/configuration/110"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/portal/{n}/cover-page-template-asset",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/portal/110/cover-page-template-asset"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/portal/{n}/theme-asset/cover",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/portal/110/theme-asset/cover"
+    },
+    {
+     "method": "POST",
+     "host": "if-hub.de",
+     "path": "/api/guideline-view-tracking",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/guideline-view-tracking"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/guideline-stylesheets/portal/{n}",
+     "query": [
+      "language"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/guideline-stylesheets/portal/110"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/portal-navigation/{n}",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/portal-navigation/110"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/portal/{n}",
+     "query": [
+      "language"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/portal/110"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/hub/grid/{n}",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/hub/grid/110"
+    },
+    {
+     "method": "GET",
+     "host": "if-hub.de",
+     "path": "/api/cross-search-guideline/{n}",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://if-hub.de/api/cross-search-guideline/110"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.frontify.com/locales/en.12d41535f7d23b7b.json",
+    "POST sentryapp.appsupport.frontify.dev/api/51/envelope/",
+    "GET sparkassen-mediacenter.de/intern/mediacenter/mediathek-intern/player/getData",
+    "GET sparkassen-mediacenter.de/intern/mediacenter/mediathek/player/statistic",
+    "GET cdn.sparkassen-mediacenter.de/hls/p/181/sp/18100/serveFlavor/entryId/0_tqe1yr9w/v/2/a.mp4/master.m3u8"
+   ],
+   "postBodies": [
+    {
+     "url": "https://if-hub.de/graphql-internal?operationName=ThirdPartySettings",
+     "body": "{\"query\":\"query ThirdPartySettings {\\n  thirdPartySettings {\\n    amplitude {\\n      accountId\\n      accountPlan\\n      amplitudeId\\n      enterpriseId\\n      isLoginTrackingEnabled\\n      isTrackingEnabled\\n      region\\n      subscriptionStatus\\n      user {\\n        creatorId\\n        id\\n        landing\\n        referrerUrl\\n        signUpDate\\n      }\\n    }\\n    intercom {\\n      configurat"
+    },
+    {
+     "url": "https://if-hub.de/graphql-internal?operationName=Account",
+     "body": "{\"query\":\"query Account {\\n  account {\\n    globalObjectId: id\\n    isEnterpriseEnabled\\n    organization\\n    currentUserPermissions {\\n      isSuperUser\\n      isOwner\\n    }\\n  }\\n} \"}"
+    },
+    {
+     "url": "https://if-hub.de/graphql-internal?operationName=CurrentUser",
+     "body": "{\"query\":\"query CurrentUser {\\n  currentUser {\\n    globalObjectId: id\\n    ... on AccountUser {\\n      email\\n      emailVerifiedAt\\n      name\\n      avatar\\n      organization\\n      language\\n      permissions {\\n        analyticsDashboard {\\n          canView\\n        }\\n        facialRecognition {\\n          accessLevel\\n        }\\n      }\\n      createdAt\\n    }\\n  }\\n} \"}"
+    },
+    {
+     "url": "https://if-hub.de/graphql-internal?operationName=Flags",
+     "body": "{\"query\":\"query Flags {\\n  accountFlags {\\n    developmentFlags\\n    productFlags\\n    featureFlags\\n  }\\n} \"}"
+    },
+    {
+     "url": "https://sentryapp.appsupport.frontify.dev/api/51/envelope/?sentry_version=7&sentry_key=07efd26759d575d252eb3fb4f5539d3d&sentry_client=sentry.javascript.react%2F11.9.0",
+     "body": "{\"sent_at\":\"2026-11-21T01:20:15.284Z\",\"sdk\":{\"name\":\"sentry.javascript.react\",\"version\":\"11.9.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"133ab2d9414f4ae2a599717fddaddfe0\",\"init\":true,\"started\":\"2026-11-21T01:20:15.269Z\",\"timestamp\":\"2026-11-21T01:20:15.274Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"web-app-2026-11-20T14-54-16Z-7604792f\",\"environment\":\"production\",\"ip_address\":\"{{auto}}\",\"user_agent\":\"Moz"
+    },
+    {
+     "url": "https://if-hub.de/api/context",
+     "body": "{\"locale\":\"\",\"slug\":\"\",\"route\":[\"\",\"d\",\"8fJLj4FUN12p\"],\"view\":\"d\",\"route_initial\":false}"
+    },
+    {
+     "url": "https://if-hub.de/graphql-internal?operationName=PortalFlags",
+     "body": "{\"query\":\"query PortalFlags($portalId: ID!) {\\n  node(id: $portalId) {\\n    ... on Guideline {\\n      flags\\n    }\\n  }\\n} \",\"variables\":{\"portalId\":\"eyJpZGVudGlmaWVyIjoxMTAsInR5cGUiOiJwb3J0YWwifQ==\"}}"
+    },
+    {
+     "url": "https://if-hub.de/graphql-internal?operationName=getGuidelineDesignSettings",
+     "body": "{\"query\":\"query getGuidelineDesignSettings($projectId: ID!) {\\n  node(id: $projectId) {\\n    ... on Guideline {\\n      __typename\\n      designSettings {\\n        mainFontFamily {\\n          ...designSettingsFontFamilyFields\\n        }\\n        typeStyles {\\n          ... on GuidelineDesignSettingsBlockTypeStyle {\\n            type: __typename\\n            key\\n            fontSize\\n            fo"
+    },
+    {
+     "url": "https://if-hub.de/graphql-internal?operationName=getListStyles",
+     "body": "{\"query\":\"query getListStyles($projectId: ID!) {\\n  node(id: $projectId) {\\n    ... on Guideline {\\n      __typename\\n      designSettings {\\n        listStyles {\\n          bulletListStyles {\\n            level\\n            shape\\n            size\\n            colors {\\n              color\\n              colorSchemeId\\n              isDefault\\n            }\\n          }\\n          numberedListSty"
+    },
+    {
+     "url": "https://if-hub.de/graphql-internal?operationName=GetCoverPageThemeSettings",
+     "body": "{\"query\":\"query GetCoverPageThemeSettings($guidelineId: ID!) {\\n  guideline: node(id: $guidelineId) {\\n    ... on Guideline {\\n      __typename\\n      theme {\\n        settings {\\n          cover\\n        }\\n      }\\n    }\\n  }\\n} \",\"variables\":{\"guidelineId\":\"eyJpZGVudGlmaWVyIjoyNzksInR5cGUiOiJndWlkZWxpbmUifQ==\"}}"
+    },
+    {
+     "url": "https://if-hub.de/api/guideline-view-tracking",
+     "body": "{\"portal_id\":110}"
+    },
+    {
+     "url": "https://if-hub.de/graphql-internal?operationName=RecordOperationMeasurement",
+     "body": "{\"query\":\"mutation RecordOperationMeasurement($input: RecordOperationMeasurementInput!) {\\n  recordOperationMeasurement(input: $input)\\n} \",\"variables\":{\"input\":{\"operation\":\"guideline.page_load\",\"durationMs\":2395,\"requestCount\":104,\"transferBytes\":131250,\"tags\":[{\"key\":\"navigation\",\"value\":\"cold\"},{\"key\":\"template\",\"value\":\"cover\"},{\"key\":\"mode\",\"value\":\"view\"}],\"measurements\":[{\"key\":\"largest_co"
+    }
+   ],
+   "textAtLoad": 0,
+   "mainEmptyAtLoad": true
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-cdn-frontify-com",
+   "class": "A",
+   "feature": "unknown third-party host cdn.frontify.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.frontify.com"
+   ],
+   "pages": [
+    "/",
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-sentryapp-appsupport-frontify-dev",
+   "class": "A",
+   "feature": "unknown third-party host sentryapp.appsupport.frontify.dev",
+   "hint": "inspect",
+   "evidence": [
+    "sentryapp.appsupport.frontify.dev"
+   ],
+   "pages": [
+    "/",
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-api-csrf-token",
+   "class": "A",
+   "feature": "first-party API GET /api/csrf-token",
+   "api": {
+    "method": "GET",
+    "path": "/api/csrf-token"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/csrf-token → 200"
+   ],
+   "pages": [
+    "/",
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-session",
+   "class": "A",
+   "feature": "first-party API GET /api/session",
+   "api": {
+    "method": "GET",
+    "path": "/api/session"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/session → 200"
+   ],
+   "pages": [
+    "/",
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-post-graphql-internal",
+   "class": "A",
+   "feature": "first-party API POST /graphql-internal",
+   "api": {
+    "method": "POST",
+    "path": "/graphql-internal"
+   },
+   "hint": "api",
+   "evidence": [
+    "POST /graphql-internal?operationName → 200"
+   ],
+   "pages": [
+    "/",
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-context",
+   "class": "A",
+   "feature": "first-party API GET /api/context",
+   "api": {
+    "method": "GET",
+    "path": "/api/context"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/context → 200"
+   ],
+   "pages": [
+    "/",
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-dashboard-appearance",
+   "class": "A",
+   "feature": "first-party API GET /api/dashboard/appearance",
+   "api": {
+    "method": "GET",
+    "path": "/api/dashboard/appearance"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/dashboard/appearance → 200"
+   ],
+   "pages": [
+    "/",
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-post-api-context",
+   "class": "A",
+   "feature": "first-party API POST /api/context",
+   "api": {
+    "method": "POST",
+    "path": "/api/context"
+   },
+   "hint": "api",
+   "evidence": [
+    "POST /api/context?referer → 200",
+    "POST /api/context → 200"
+   ],
+   "pages": [
+    "/",
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-account-metadata",
+   "class": "A",
+   "feature": "first-party API GET /api/account/metadata",
+   "api": {
+    "method": "GET",
+    "path": "/api/account/metadata"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/account/metadata → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-unknown-third-party-host-sparkassen-mediacenter-de",
+   "class": "A",
+   "feature": "unknown third-party host sparkassen-mediacenter.de",
+   "hint": "inspect",
+   "evidence": [
+    "sparkassen-mediacenter.de"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-cdn-sparkassen-mediacenter-de",
+   "class": "A",
+   "feature": "unknown third-party host cdn.sparkassen-mediacenter.de",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.sparkassen-mediacenter.de"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-api-portal",
+   "class": "A",
+   "feature": "first-party API GET /api/portal",
+   "api": {
+    "method": "GET",
+    "path": "/api/portal"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/portal?token → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-document-navigation-n",
+   "class": "A",
+   "feature": "first-party API GET /api/document/navigation/{n}",
+   "api": {
+    "method": "GET",
+    "path": "/api/document/navigation/{n}"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/document/navigation/{n}?language → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-marketplace-app-n",
+   "class": "A",
+   "feature": "first-party API GET /api/marketplace-app/{n}",
+   "api": {
+    "method": "GET",
+    "path": "/api/marketplace-app/{n}"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/marketplace-app/{n} → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-marketplace-app-importmap",
+   "class": "A",
+   "feature": "first-party API GET /api/marketplace-app/importmap",
+   "api": {
+    "method": "GET",
+    "path": "/api/marketplace-app/importmap"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/marketplace-app/importmap → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-portal-n-footer",
+   "class": "A",
+   "feature": "first-party API GET /api/portal/{n}/footer",
+   "api": {
+    "method": "GET",
+    "path": "/api/portal/{n}/footer"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/portal/{n}/footer → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-portal-n-font-families",
+   "class": "A",
+   "feature": "first-party API GET /api/portal/{n}/font-families",
+   "api": {
+    "method": "GET",
+    "path": "/api/portal/{n}/font-families"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/portal/{n}/font-families → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-portal-n-font-styles",
+   "class": "A",
+   "feature": "first-party API GET /api/portal/{n}/font-styles",
+   "api": {
+    "method": "GET",
+    "path": "/api/portal/{n}/font-styles"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/portal/{n}/font-styles → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-ai-assistant-configuration-n",
+   "class": "A",
+   "feature": "first-party API GET /api/ai-assistant/configuration/{n}",
+   "api": {
+    "method": "GET",
+    "path": "/api/ai-assistant/configuration/{n}"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/ai-assistant/configuration/{n} → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-portal-n-cover-page-template-asset",
+   "class": "A",
+   "feature": "first-party API GET /api/portal/{n}/cover-page-template-asset",
+   "api": {
+    "method": "GET",
+    "path": "/api/portal/{n}/cover-page-template-asset"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/portal/{n}/cover-page-template-asset → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-portal-n-theme-asset-cover",
+   "class": "A",
+   "feature": "first-party API GET /api/portal/{n}/theme-asset/cover",
+   "api": {
+    "method": "GET",
+    "path": "/api/portal/{n}/theme-asset/cover"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/portal/{n}/theme-asset/cover → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-post-api-guideline-view-tracking",
+   "class": "A",
+   "feature": "first-party API POST /api/guideline-view-tracking",
+   "api": {
+    "method": "POST",
+    "path": "/api/guideline-view-tracking"
+   },
+   "hint": "api",
+   "evidence": [
+    "POST /api/guideline-view-tracking → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-guideline-stylesheets-portal-n",
+   "class": "A",
+   "feature": "first-party API GET /api/guideline-stylesheets/portal/{n}",
+   "api": {
+    "method": "GET",
+    "path": "/api/guideline-stylesheets/portal/{n}"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/guideline-stylesheets/portal/{n}?language → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-portal-navigation-n",
+   "class": "A",
+   "feature": "first-party API GET /api/portal-navigation/{n}",
+   "api": {
+    "method": "GET",
+    "path": "/api/portal-navigation/{n}"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/portal-navigation/{n} → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-portal-n",
+   "class": "A",
+   "feature": "first-party API GET /api/portal/{n}",
+   "api": {
+    "method": "GET",
+    "path": "/api/portal/{n}"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/portal/{n}?language → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-hub-grid-n",
+   "class": "A",
+   "feature": "first-party API GET /api/hub/grid/{n}",
+   "api": {
+    "method": "GET",
+    "path": "/api/hub/grid/{n}"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/hub/grid/{n} → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "cr-client-rendered-slot-o-auth-box-js-o-auth-box",
+   "class": "CR",
+   "feature": "client-rendered slot o-auth__box js-o-auth__box",
+   "hint": "client-rendered",
+   "evidence": [
+    "Herzlich willkommen im IF- HubLog inInterne Benutzeranmeldun"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-o-auth-form-js-o-auth-form",
+   "class": "CR",
+   "feature": "client-rendered slot o-auth__form js-o-auth__form",
+   "hint": "client-rendered",
+   "evidence": [
+    "Log inInterne BenutzeranmeldungAnmelden über SSO​E-Mail:Bitt"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-o-auth-form-email-js-o-auth-form-ema",
+   "class": "CR",
+   "feature": "client-rendered slot o-auth__form-email js-o-auth__form-email tw-mb-7",
+   "hint": "client-rendered",
+   "evidence": [
+    "E-Mail:Bitte geben Sie Ihre E-Mail-Adresse ein.Diese E-Mail-"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-root-71r9v-4",
+   "class": "CR",
+   "feature": "client-rendered slot _root_71r9v_4",
+   "hint": "client-rendered",
+   "evidence": [
+    "data-component=scroll-area"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-js-skiptomaincontent-target",
+   "class": "CR",
+   "feature": "client-rendered slot js-skiptomaincontent__target",
+   "hint": "client-rendered",
+   "evidence": [
+    "Welcome to your cover pageLet's get started by adding your f"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-mod-mod-brandportal-po-brandportal",
+   "class": "CR",
+   "feature": "client-rendered slot mod mod-brandportal po-brandportal",
+   "hint": "client-rendered",
+   "evidence": [
+    "Welcome to your cover pageLet's get started by adding your f"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-po-brandportal-grid-js-po-brandporta",
+   "class": "CR",
+   "feature": "client-rendered slot po-brandportal__grid js-po-brandportal__grid state-zero-margin",
+   "hint": "client-rendered",
+   "evidence": [
+    "Welcome to your cover pageLet's get started by adding your f"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-js-po-brandportal-row-po-brandportal",
+   "class": "CR",
+   "feature": "client-rendered slot js-po-brandportal__row po-brandportal__add-row-container po-brandportal__add-row-container-initial",
+   "hint": "client-rendered",
+   "evidence": [
+    "Welcome to your cover pageLet's get started by adding your f"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-po-brandportal-row-container-cm-bloc",
+   "class": "CR",
+   "feature": "client-rendered slot po-brandportal__row-container cm-blockmanager__section js-cm-blockmanager__section",
+   "hint": "client-rendered",
+   "evidence": [
+    "Herzlich willkommen im IF-Hub News, Tipps und Anleitungen ru"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-p-col-p-col-6-js-po-brandportal-col",
+   "class": "CR",
+   "feature": "client-rendered slot p-col p-col--6 js-po-brandportal__col",
+   "hint": "client-rendered",
+   "evidence": [
+    "Herzlich willkommen im IF-Hub News, Tipps und Anleitungen ru",
+    "00:08 / 00:55NormalSlow (0.5x) NormalFast (1.25x) Faster (1."
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-mod-mod-pb-text-image-pb-text-image",
+   "class": "CR",
+   "feature": "client-rendered slot mod mod-pb-text-image pb-text-image",
+   "hint": "client-rendered",
+   "evidence": [
+    "Herzlich willkommen im IF-Hub News, Tipps und Anleitungen ru"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot",
+   "class": "CR",
+   "feature": "client-rendered slot \n  ",
+   "hint": "client-rendered",
+   "evidence": [
+    "Herzlich willkommen im IF-Hub News, Tipps und Anleitungen ru"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-pb-text-image-text-inner-js-pb-text-",
+   "class": "CR",
+   "feature": "client-rendered slot pb-text-image__text-inner js-pb-text-image__editor state-visible",
+   "hint": "client-rendered",
+   "evidence": [
+    "Herzlich willkommen im IF-Hub News, Tipps und Anleitungen ru"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-mod-mod-pb-video-pb-video",
+   "class": "CR",
+   "feature": "client-rendered slot mod mod-pb-video pb-video",
+   "hint": "client-rendered",
+   "evidence": [
+    "00:08 / 00:55NormalSlow (0.5x) NormalFast (1.25x) Faster (1."
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "cr-main-empty-at-load-filled-after-client-rendered-page",
+   "class": "CR",
+   "feature": "main empty at load, filled after (client-rendered page)",
+   "hint": "client-rendered-page",
+   "evidence": [
+    "text at load 0 → settled 3099"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "f-form-o-auth-form-email-origin-2-fields",
+   "class": "F",
+   "feature": "form \"o-auth__form-email\" → origin / (2 fields)",
+   "signature": [
+    "email:email",
+    "password:password"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "email:email,password:password"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-target-outside-dom-at-capture",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup → target outside DOM at capture",
+   "hint": "modal",
+   "evidence": [
+    "More"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 2
+   }
+  },
+  {
+   "id": "s-first-party-api-get-api-cross-search-guideline-n",
+   "class": "S",
+   "feature": "first-party API GET /api/cross-search-guideline/{n}",
+   "api": {
+    "method": "GET",
+    "path": "/api/cross-search-guideline/{n}"
+   },
+   "hint": "search",
+   "evidence": [
+    "GET /api/cross-search-guideline/{n} → 200"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 2
+   }
+  },
+  {
+   "id": "t-unknown-third-party-host-media-ffycdn-net",
+   "class": "T",
+   "feature": "unknown third-party host media.ffycdn.net",
+   "hint": "inspect",
+   "evidence": [
+    "media.ffycdn.net"
+   ],
+   "pages": [
+    "/",
+    "/d/8fJLj4FUN12p"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-frontify-artifacts-com",
+   "class": "T",
+   "feature": "unknown third-party host frontify-artifacts.com",
+   "hint": "inspect",
+   "evidence": [
+    "frontify-artifacts.com"
+   ],
+   "pages": [
+    "/d/8fJLj4FUN12p"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 2,
+  "of": 2,
+  "endpoints": {
+   "GET if-hub.de/api/csrf-token": 2,
+   "GET if-hub.de/api/session": 2,
+   "GET cdn.frontify.com/locales/en.12d41535f7d23b7b.json": 2,
+   "POST if-hub.de/graphql-internal": 2,
+   "GET if-hub.de/api/context": 2,
+   "GET if-hub.de/api/dashboard/appearance": 2,
+   "POST sentryapp.appsupport.frontify.dev/api/{n}/envelope/": 2,
+   "GET if-hub.de/api/portal": 1,
+   "POST if-hub.de/api/context": 2,
+   "GET if-hub.de/api/marketplace-app/importmap": 1,
+   "GET if-hub.de/api/marketplace-app/{n}": 1,
+   "GET if-hub.de/api/portal/{n}/footer": 1,
+   "GET if-hub.de/api/portal/{n}/font-families": 1,
+   "GET if-hub.de/api/portal/{n}/font-styles": 1,
+   "GET if-hub.de/api/document/navigation/{n}": 1,
+   "GET if-hub.de/api/ai-assistant/configuration/{n}": 1,
+   "GET if-hub.de/api/portal/{n}/cover-page-template-asset": 1,
+   "GET if-hub.de/api/portal/{n}/theme-asset/cover": 1,
+   "POST if-hub.de/api/guideline-view-tracking": 1,
+   "GET if-hub.de/api/portal-navigation/{n}": 1,
+   "GET if-hub.de/api/guideline-stylesheets/portal/{n}": 1,
+   "GET if-hub.de/api/portal/{n}": 1,
+   "GET if-hub.de/api/hub/grid/{n}": 1,
+   "GET if-hub.de/api/cross-search-guideline/{n}": 1,
+   "GET if-hub.de/api/account/metadata": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 0,
+  "triggerPages": {
+   "aria-haspopup": 2
+  }
+ }
+}

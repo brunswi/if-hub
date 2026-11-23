@@ -1,0 +1,30 @@
+{
+  "round": "iter3",
+  "width": 1440,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/d-8fjlj4fun12p-1440/diff-iter3.png",
+    "json": "stardust/replica/gates/d-8fjlj4fun12p-1440/pixel-iter3.json",
+    "pct": 2.84,
+    "alignedPct": 2.84,
+    "alignedUsed": false,
+    "totalShift": 0,
+    "steps": [],
+    "offsetBound": null,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-21T00:54:10.037Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {},
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-21T01:07:07.249Z"
+}

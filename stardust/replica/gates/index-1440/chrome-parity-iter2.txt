@@ -1,0 +1,15 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://if-hub.de/ (live side from cache stardust/replica/gates/index-1440/chrome-live.json, probed 2026-11-21T00:27:03.890Z — delete the file to re-probe)
+  build: http://localhost:8791/index-proposed.html
+
+■ header: INPUT ERROR — no verdict
+  region live:  unresolved — no header resolved (no landmark, no <header>, nothing auto-detected)
+  region build: unresolved — no header resolved (no landmark, no <header>, nothing auto-detected)
+  REGION       live: no header resolved (no landmark, no <header>, nothing auto-detected); build: no header resolved (no landmark, no <header>, nothing auto-detected) — input error, no parity verdict: pass --region header=<liveSel>|<buildSel>
+
+■ footer: INPUT ERROR — no verdict
+  region live:  unresolved — no footer resolved (no landmark, no <footer>, nothing auto-detected)
+  region build: unresolved — no footer resolved (no landmark, no <footer>, nothing auto-detected)
+  REGION       live: no footer resolved (no landmark, no <footer>, nothing auto-detected); build: no footer resolved (no landmark, no <footer>, nothing auto-detected) — input error, no parity verdict: pass --region footer=<liveSel>|<buildSel>
+
+⚠ input error (exit 4) — no parity verdict: header (live: no header resolved (no landmark, no <header>, nothing auto-detected); build: no header resolved (no landmark, no <header>, nothing auto-detected)); footer (live: no footer resolved (no landmark, no <footer>, nothing auto-detected); build: no footer resolved (no landmark, no <footer>, nothing auto-detected))

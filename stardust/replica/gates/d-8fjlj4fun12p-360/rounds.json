@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-21T01:00:00.263Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-21T01:05:49.501Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-21T01:07:25.665Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "iter4",
+          "at": "2026-11-21T01:08:07.901Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "iter5",
+          "at": "2026-11-21T01:12:38.096Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-21T01-45-19-585Z",
+          "at": "2026-11-21T01:45:19.585Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-21T01-58-14-220Z",
+          "at": "2026-11-21T01:58:14.220Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T02-38-20-360Z",
+          "at": "2026-11-21T02:38:20.361Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    },
+    "published": {
+      "rounds": [
+        {
+          "label": "pub1",
+          "at": "2026-11-21T01:50:47.289Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "pub2",
+          "at": "2026-11-21T02:17:50.003Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "pub3",
+          "at": "2026-11-21T02:27:52.937Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "C-final foundation unit: pixel 4.37% PASS all 3 pub rounds (unchanged); height waived (inner scroller); 10 looks-same reds = 5 source-only Frontify editor leftovers in main + 4 ROLE SWAP (source drawer rows are accordion buttons with <p>, build rows are the nav document's links - IF-Wissen subtree not in the nav document) + logo ICON DIFF (same image, EDS media hash name); chrome-parity header quiet, footer 2 = login shortcut outside the source footer region",
+          "at": "2026-11-21T02:33:56.914Z",
+          "counted": 3
+        }
+      ]
+    }
+  }
+}

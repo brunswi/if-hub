@@ -1,0 +1,211 @@
+/* auth-login - same-design replica of the if-hub.de sign-in (.o-auth).
+   Breakpoints are the source's own (480 / 540 / 968 / 1024 / 1440 / 1600). */
+
+.auth-login {
+  --auth-gap: 28px;
+  --auth-filler: 54px;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  color: var(--auth-text);
+  font-family: var(--auth-font);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.auth-login p {
+  margin: 0;
+}
+
+/* background photo: the source paints it as a cover background from 480px */
+.auth-login-bg {
+  display: none;
+}
+
+.auth-login-bg img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.auth-login-bg :is(p, picture) {
+  width: 100%;
+  height: 100%;
+}
+
+.auth-login-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+}
+
+.auth-login-content {
+  align-self: center;
+  width: calc(100% - 108px);
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.auth-login-filler {
+  height: var(--auth-filler);
+}
+
+.auth-login-logo {
+  margin: 0 0 var(--auth-gap);
+  text-align: left;
+}
+
+.auth-login-logo img {
+  display: block;
+  width: 64px;
+  height: 80px;
+}
+
+.auth-login-greeting h1 {
+  margin: 40px 0;
+  color: var(--auth-text);
+  font-family: var(--auth-font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.auth-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--auth-gap);
+}
+
+.auth-login-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.auth-login-disclaimer a:any-link {
+  display: inline-block;
+  color: var(--auth-link);
+  text-decoration: underline;
+}
+
+.auth-login-sso a:any-link {
+  display: block;
+  padding: 10px 20px;
+  border: 1px solid var(--auth-cta-border);
+  border-radius: 30px;
+  background-color: var(--auth-cta-bg);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.15s linear, color 0.15s linear, border 0.15s linear;
+}
+
+.auth-login-sso a:any-link:hover {
+  background-color: var(--auth-cta-bg-hover);
+}
+
+/* the source keeps its e-mail login hidden: a 24px toggle row (empty label)
+   and a 24px links row (empty password-lost entry) stay in the flow */
+.auth-login-alt-toggle {
+  line-height: 24px;
+}
+
+.auth-login-links {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.auth-login-inline-btn {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--auth-link);
+  font: 400 12px/18px var(--auth-font);
+  cursor: pointer;
+}
+
+.auth-login-email-form[hidden] {
+  display: none;
+}
+
+.auth-login-disclaimer {
+  margin: var(--auth-gap) 0 0;
+  font-size: 14px;
+  line-height: 18px;
+  overflow-wrap: break-word;
+}
+
+@media (width >= 480px) {
+  .auth-login-bg {
+    position: absolute;
+    inset: 0;
+    display: block;
+    overflow: hidden;
+  }
+
+  .auth-login-content {
+    width: 370px;
+    max-width: 370px;
+    height: auto;
+  }
+
+  .auth-login-greeting h1 {
+    margin-top: 12.3047vh;
+    margin-bottom: 4.2969vh;
+    font-size: 38px;
+    line-height: 44px;
+  }
+}
+
+@media (width >= 540px) {
+  .auth-login-box {
+    width: 80%;
+  }
+}
+
+@media (width >= 968px) {
+  .auth-login-box {
+    width: 70%;
+  }
+}
+
+@media (width >= 1024px) {
+  .auth-login-box {
+    width: 60%;
+  }
+}
+
+@media (width >= 1440px) {
+  .auth-login-box {
+    width: 50%;
+  }
+}
+
+@media (width >= 1600px) {
+  .auth-login-box {
+    width: 40%;
+  }
+}

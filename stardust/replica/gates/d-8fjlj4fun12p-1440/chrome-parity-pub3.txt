@@ -1,0 +1,5 @@
+[live-session] main--8053f48d--aemcoder.aem.page: bot signal seen — one navigation at a time, 4000 ms apart from now on
+chrome-parity error: page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://main--8053f48d--aemcoder.aem.page/d/8fjlj4fun12p", waiting until "networkidle"
+

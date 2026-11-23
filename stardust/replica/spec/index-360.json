@@ -1,0 +1,133 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-21T00:29:59.117Z",
+  "url": "https://if-hub.de/",
+  "width": 360,
+  "main": ".o-auth",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://if-hub.de/auth/?referer=%2F",
+  "width": 360,
+  "viewport": 360,
+  "docHeight": 900,
+  "scrollWidth": 360,
+  "root": ".o-auth",
+  "rootFallback": false,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "Sparkasse_Rg",
+    "n": 4
+   }
+  ],
+  "loadedFaces": [
+   "Diatype 1 999 normal",
+   "Sparkasse_Rg 400 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "24/28 700 Sparkasse_Rg",
+    "fontSize": 24,
+    "lineHeight": 28,
+    "fontWeight": "700",
+    "fontFamily": "Sparkasse_Rg",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h1": 1
+    },
+    "sample": "Herzlich willkommen im IF- Hub"
+   },
+   {
+    "key": "16/24 400 Sparkasse_Rg",
+    "fontSize": 16,
+    "lineHeight": 24,
+    "fontWeight": "400",
+    "fontFamily": "Sparkasse_Rg",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Interne Benutzeranmeldung"
+   },
+   {
+    "key": "14/18 500 Sparkasse_Rg",
+    "fontSize": 14,
+    "lineHeight": 18,
+    "fontWeight": "500",
+    "fontFamily": "Sparkasse_Rg",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "link": 1
+    },
+    "sample": "Anmelden über SSO"
+   },
+   {
+    "key": "14/18 400 Sparkasse_Rg",
+    "fontSize": 14,
+    "lineHeight": 18,
+    "fontWeight": "400",
+    "fontFamily": "Sparkasse_Rg",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "link": 1
+    },
+    "sample": "Zugang beantragen"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(17, 17, 16)",
+    "n": 2
+   },
+   {
+    "color": "rgb(0, 0, 0)",
+    "n": 1
+   },
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 1
+   }
+  ],
+  "container": {
+   "left": 54,
+   "right": 54,
+   "content": 252,
+   "leftCommon": {
+    "x": 54,
+    "n": 4
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"main","y":0,"h":54,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.o-auth__vertical-filler","firstText":""},
+  {"i":1,"region":"main","y":54,"h":80,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.o-auth__claim-and-logo-wrapper.js-o-auth__claim-and-logo-wrapper","firstText":""},
+  {"i":2,"region":"main","y":174,"h":56,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"h1.o-auth__greeting.js-o-auth__greeting","firstText":"Herzlich willkommen im IF- Hub"},
+  {"i":3,"region":"main","y":270,"h":168,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.o-auth__form.js-o-auth__form","firstText":"Interne Benutzeranmeldung"},
+  {"i":4,"region":"main","y":466,"h":18,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.o-auth__disclaimer.js-o-auth__disclaimer","firstText":"Zugang beantragen"},
+  {"i":5,"region":"main","y":484,"h":54,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.o-auth__vertical-filler","firstText":""}
+ ],
+ "nodes": [
+  {"section":1,"region":"main","kind":"image","tag":"img","role":null,"text":"DSGV Markenportal der Sparkasse logo","x":54,"y":54,"w":64,"h":80,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[120,150],"src":"https://media.ffycdn.net/eu/sparkassenfinanzportal/Bn4EX9DDsb9pocPP8s6E.svg?width={width}"},
+  {"section":2,"region":"main","kind":"text","tag":"h1","role":"h1","text":"Herzlich willkommen im IF- Hub","x":54,"y":174,"w":252,"h":56,"fontFamily":"Sparkasse_Rg","fontSize":24,"lineHeight":28,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 16)","lines":2},
+  {"section":3,"region":"main","kind":"text","tag":"span","role":null,"text":"Interne Benutzeranmeldung","x":54,"y":270,"w":252,"h":24,"fontFamily":"Sparkasse_Rg","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 16)","lines":1},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Anmelden über SSO","x":54,"y":322,"w":252,"h":40,"fontFamily":"Sparkasse_Rg","fontSize":14,"lineHeight":18,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"https://if-hub.de/api/thirdparty/oidc/auth?referer=%2F"},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"link","text":"Zugang beantragen","x":54,"y":466,"w":123,"h":18,"fontFamily":"Sparkasse_Rg","fontSize":14,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(0, 0, 0)","lines":1,"href":"https://portal.dsv-gruppe.de/freischaltinfo/if-hub.html "}
+ ]
+}

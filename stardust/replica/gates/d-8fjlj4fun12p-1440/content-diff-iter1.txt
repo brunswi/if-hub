@@ -1,0 +1,94 @@
+[live-session] waiting to pace live navigations to if-hub.de (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 1440px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 96 text nodes — 20 headings, 0 eyebrows, 18 CTAs, 58 body; 7 img
+  build: 96 text nodes — 21 headings, 0 eyebrows, 18 CTAs, 57 body; 6 img
+  editable texts (outermost h*/p/ul/ol): source 56 / build 56
+  attributes (placeholder/aria-label/title): source 31 / build 8; icons: source 39 / build 0
+  accepted (invisible, nothing lost): 1 ROLE UPGRADE body → heading — "Herzlich willkommen im IF-Hub"
+root "header"
+  source: 6 text nodes — 0 headings, 0 eyebrows, 4 CTAs, 2 body; 1 img
+  build: 5 text nodes — 0 headings, 0 eyebrows, 4 CTAs, 1 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 1 / build 3; icons: source 2 / build 2
+root "footer" — source: absent (no <footer> / [role="contentinfo"] outside the main root(s)) — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 4 text nodes — 0 headings, 0 eyebrows, 3 CTAs, 1 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+
+Findings: 72 (8 structural 🔴)
+Tiers: looks-same 🔴 8 · nothing-lost 🟡 23 · accepted 🟢 1 (owner 0, auto 1) · advisory 41
+  🔴 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (20×20) at "play/pause" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (20×20) at "step back 5 seconds" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (20×20) at "step forward 5 seconds" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (16×16) at "change playback speed" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (20×20) at "mute" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (20×20) at "fullscreen" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟠 EXTRA [footer]: build cta "Nutzungshinweise" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Impressum" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Kontakt" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [main]: source body "00:05 / 00:55"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [main]: build body "00:03 / 00:55" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING ARIA-LABEL [main]: source <button> aria-label="Play/Pause" has no build <button> with that aria-label (build <button> aria-labels: "Slow (0.5x)", "Normal", "Fast (1.25x)"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <button> aria-label="Step back 5 seconds" has no build <button> with that aria-label (build <button> aria-labels: "Slow (0.5x)", "Normal", "Fast (1.25x)"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <button> aria-label="Step forward 5 seconds" has no build <button> with that aria-label (build <button> aria-labels: "Slow (0.5x)", "Normal", "Fast (1.25x)"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <button> aria-label="Mute" has no build <button> with that aria-label (build <button> aria-labels: "Slow (0.5x)", "Normal", "Fast (1.25x)"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="volume" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <button> aria-label="Fullscreen" has no build <button> with that aria-label (build <button> aria-labels: "Slow (0.5x)", "Normal", "Fast (1.25x)"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <svg> aria-label="spinner interaction icon" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <input> aria-label="Upload image" has no build <input> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ICON [main]: source inline svg spinner interaction icon (0×0) at "00:05 / 00:55 normal slow (0.5x) normal " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add existing" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING BODY [header]: source body "More"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA ARIA-LABEL [header]: build <div> aria-label="Navigation Menu" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Open navigation" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [header]: source inline svg 0 0 24 24 / 1 shape(s) (12×12) at "more" is at "open navigation" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EXTRA [footer]: build body "© S-Communication Services GmbH 2024" has no source source — Build copy with no source — invented/placeholder; confirm intended.

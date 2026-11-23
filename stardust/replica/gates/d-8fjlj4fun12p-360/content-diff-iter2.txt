@@ -1,0 +1,30 @@
+[live-session] waiting to pace live navigations to if-hub.de (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 826 ms
+
+Content diff @ 360px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 96 text nodes — 20 headings, 0 eyebrows, 18 CTAs, 58 body; 7 img
+  build: 96 text nodes — 20 headings, 0 eyebrows, 18 CTAs, 58 body; 6 img
+  editable texts (outermost h*/p/ul/ol): source 56 / build 56
+  attributes (placeholder/aria-label/title): source 31 / build 31; icons: source 39 / build 39
+root "header"
+  source: 6 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 6 body; 1 img
+  build: 6 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 6 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 8 / build 8; icons: source 9 / build 9
+root "footer" — source: absent (no <footer> / [role="contentinfo"] outside the main root(s)) — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 4 text nodes — 0 headings, 0 eyebrows, 3 CTAs, 1 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+
+Findings: 9 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 9
+  🟠 EXTRA [footer]: build cta "Nutzungshinweise" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Impressum" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Kontakt" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [main]: source body "00:07 / 00:55"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [main]: build body "00:02 / 00:55" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 ICON MOVED [main]: source inline svg spinner interaction icon (0×0) at "00:07 / 00:55 normal slow (0.5x) normal " is at "00:02 / 00:55 normal slow (0.5x) normal " in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image add existing" is at "add image" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "add image add existing" is at "add existing" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EXTRA [footer]: build body "© S-Communication Services GmbH 2024" has no source source — Build copy with no source — invented/placeholder; confirm intended.

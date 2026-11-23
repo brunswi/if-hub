@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-21T01:19:14.172Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://if-hub.de/",
+    "da": {
+      "org": "aemcoder",
+      "site": "8053f48d",
+      "ref": "main"
+    },
+    "liveHost": "main--8053f48d--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 2,
+    "discovered": 2,
+    "capped": false,
+    "pageCap": 2
+  },
+  "lastRun": {
+    "at": "2026-11-21T02:55:16.692Z",
+    "pages": {
+      "total": 2,
+      "verified": 2,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 6,
+      "converted": 6,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

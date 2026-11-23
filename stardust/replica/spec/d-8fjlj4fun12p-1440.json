@@ -1,0 +1,167 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-21T00:39:53.314Z",
+  "url": "https://if-hub.de/d/8fJLj4FUN12p",
+  "width": 1440,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://if-hub.de/d/8fJLj4FUN12p",
+  "width": 1440,
+  "viewport": 1440,
+  "docHeight": 900,
+  "scrollWidth": 1440,
+  "root": "main",
+  "rootFallback": false,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "\"Sparkasse Regular\", \"Space Grotesk Frontify\", Arial, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "n": 4
+   },
+   {
+    "stack": "\"Sparkasse Light\", \"Space Grotesk Frontify\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "n": 2
+   },
+   {
+    "stack": "\"Sparkasse Regular\", \"Space Grotesk Frontify\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "n": 1
+   }
+  ],
+  "loadedFaces": [
+   "Diatype 1 999 normal",
+   "Mier B 400 normal",
+   "Sparkasse Light 300 normal",
+   "Sparkasse Medium 500 normal",
+   "Sparkasse Regular 400 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "14/18.2 400 Sparkasse Regular",
+    "fontSize": 14,
+    "lineHeight": 18.2,
+    "fontWeight": "400",
+    "fontFamily": "Sparkasse Regular",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "link": 4
+    },
+    "sample": "IF-Wissen"
+   },
+   {
+    "key": "54/64.8 400 Sparkasse Regular",
+    "fontSize": 54,
+    "lineHeight": 64.8,
+    "fontWeight": "400",
+    "fontFamily": "Sparkasse Regular",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h3": 1
+    },
+    "sample": "Herzlich willkommen im IF-Hub"
+   },
+   {
+    "key": "24/38.4 400 Sparkasse Light",
+    "fontSize": 24,
+    "lineHeight": 38.4,
+    "fontWeight": "400",
+    "fontFamily": "Sparkasse Light",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "p": 1
+    },
+    "sample": "Kundenorientiert und leicht verständlich: Finden Sie hier das Wichtigste, um ih…"
+   },
+   {
+    "key": "20/26 400 Sparkasse Light",
+    "fontSize": 20,
+    "lineHeight": 26,
+    "fontWeight": "400",
+    "fontFamily": "Sparkasse Light",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "p": 1
+    },
+    "sample": "News, Tipps und Anleitungen rund um Ihre Internet-Filiale: Finden Sie auf inen …"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgba(255, 255, 255, 0.8)",
+    "n": 4
+   },
+   {
+    "color": "rgb(253, 249, 249)",
+    "n": 1
+   },
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 1
+   },
+   {
+    "color": "rgb(68, 68, 68)",
+    "n": 1
+   }
+  ],
+  "container": {
+   "left": 50,
+   "right": 60,
+   "content": 1330,
+   "leftCommon": {
+    "x": 143,
+    "n": 2
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"header","y":0,"h":90,"background":"rgb(238, 0, 0)","paddingTop":0,"paddingBottom":0,"selectorHint":"header.th-relative.th-z-20","firstText":"IF-Wissen"},
+  {"i":1,"region":"main","y":90,"h":536,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.po-brandportal__row-container.cm-blockmanager__section","firstText":"Herzlich willkommen im IF-Hub"},
+  {"i":2,"region":"main","y":626,"h":175,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.po-brandportal__row-container.cm-blockmanager__section","firstText":"Kundenorientiert und leicht verständlich: Finden Sie hier d…"},
+  {"i":3,"region":"main","y":801,"h":686,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.po-brandportal__row-container.cm-blockmanager__section","firstText":""},
+  {"i":4,"region":"main","y":1487,"h":171,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.po-brandportal__row-container.cm-blockmanager__section","firstText":""},
+  {"i":5,"region":"main","y":1658,"h":308,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.po-brandportal__row-container.cm-blockmanager__section","firstText":""},
+  {"i":6,"region":"main","y":1967,"h":51,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.po-brandportal__row-container.cm-blockmanager__section","firstText":""},
+  {"i":7,"region":"main","y":2018,"h":288,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.po-brandportal__row-container.cm-blockmanager__section","firstText":""},
+  {"i":8,"region":"main","y":2306,"h":540,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.po-brandportal__row-container.cm-blockmanager__section","firstText":""},
+  {"i":9,"region":"main","y":2846,"h":171,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.po-brandportal__row-container.cm-blockmanager__section","firstText":""},
+  {"i":10,"region":"main","y":3017,"h":136,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.po-brandportal__row-container.cm-blockmanager__section","firstText":""},
+  {"i":11,"region":"main","y":3153,"h":304,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.po-brandportal__row-container.cm-blockmanager__section","firstText":""},
+  {"i":12,"region":"main","y":3457,"h":173,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.po-brandportal__row-container.cm-blockmanager__section","firstText":""},
+  {"i":13,"region":"main","y":3630,"h":217,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.po-brandportal__row-container.cm-blockmanager__section","firstText":""},
+  {"i":14,"region":"main","y":3847,"h":217,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.po-brandportal__row-container.cm-blockmanager__section","firstText":""},
+  {"i":15,"region":"main","y":4063,"h":240,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.po-brandportal__row-container.cm-blockmanager__section","firstText":""}
+ ],
+ "nodes": [
+  {"section":0,"region":"header","kind":"image","tag":"img","role":"link","text":"Go to IF-Hub","x":101,"y":4,"w":43,"h":67,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[176,275],"src":"https://media.ffycdn.net/eu/sparkassenfinanzportal/h52apBMkJBRJKJWJ7iyW.png?width={width}","href":"/d/8fJLj4FUN12p"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"IF-Wissen","x":347,"y":36,"w":61,"h":18,"fontFamily":"Sparkasse Regular","fontSize":14,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgba(255, 255, 255, 0.8)","lines":1,"href":"/d/8fJLj4FUN12p/if-wissen"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Redaktions-Guidelines","x":432,"y":36,"w":142,"h":18,"fontFamily":"Sparkasse Regular","fontSize":14,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgba(255, 255, 255, 0.8)","lines":1,"href":"/d/8fJLj4FUN12p/redaktions-guidelines"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Bewegtbild-Guidelines","x":598,"y":36,"w":143,"h":18,"fontFamily":"Sparkasse Regular","fontSize":14,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgba(255, 255, 255, 0.8)","lines":1,"href":"/d/8fJLj4FUN12p/bewegtbild-guidelines"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Kontakt","x":765,"y":36,"w":49,"h":18,"fontFamily":"Sparkasse Regular","fontSize":14,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgba(255, 255, 255, 0.8)","lines":1,"href":"/d/8fJLj4FUN12p/kontakt"},
+  {"section":0,"region":"header","kind":"image","tag":"svg","role":"button","text":"","x":1309,"y":33,"w":24,"h":24,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":0,"y":90,"w":715,"h":536,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[960,720],"src":"https://media.ffycdn.net/eu/sparkassenfinanzportal/rPNYk2kRNVSEhV2LkAFm.png?width={width}"},
+  {"section":1,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Herzlich willkommen im IF-Hub","x":143,"y":191,"w":501,"h":194,"fontFamily":"Sparkasse Regular","fontSize":54,"lineHeight":64.8,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(253, 249, 249)","lines":3},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"News, Tipps und Anleitungen rund um Ihre Internet-Filiale: Finden Sie auf inen …","x":143,"y":395,"w":501,"h":130,"fontFamily":"Sparkasse Light","fontSize":20,"lineHeight":26,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(255, 255, 255)","lines":5},
+  {"section":1,"region":"main","kind":"image","tag":"video","role":null,"text":"","x":715,"y":90,"w":715,"h":536,"fit":"contain","shape":{"pos":"50% 50%"},"natural":[960,720],"src":"https://media.ffycdn.net/eu/sparkassenfinanzportal/NT4Cqvwes46oAW5bkkNc.mp4?width={width}&format=mp4"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Kundenorientiert und leicht verständlich: Finden Sie hier das Wichtigste, um ih…","x":50,"y":686,"w":1330,"h":115,"fontFamily":"Sparkasse Light","fontSize":24,"lineHeight":38.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(68, 68, 68)","lines":3},
+  {"section":3,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":50,"y":891,"w":410,"h":307,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[319,239],"src":"https://media.ffycdn.net/eu/sparkassenfinanzportal/gL8hhGB2W2aRDWGsPBdr.webp?width={width}&rect=29.472776555022,0,318.66666666667,239&reference_width=800"},
+  {"section":3,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":510,"y":891,"w":410,"h":307,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[319,239],"src":"https://media.ffycdn.net/eu/sparkassenfinanzportal/TpzzJrkyGis3152ekCUL.webp?width={width}&rect=0,0,318.66666666667,239&reference_width=800"},
+  {"section":3,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":970,"y":891,"w":410,"h":307,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[637,478],"src":"https://media.ffycdn.net/eu/sparkassenfinanzportal/DMoYV8aec2czCim7TqfK.jpg?width={width}&rect=39.833333333333,0,637.33333333333,478&reference_width=717"}
+ ]
+}

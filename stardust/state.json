@@ -1,0 +1,151 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-11-21T01:58:27Z",
+    "stardustVersion": "0.43.3"
+  },
+  "site": {
+    "originUrl": "https://if-hub.de",
+    "deployUrl": null,
+    "extractedAt": "2026-11-21T00:15:08.114Z",
+    "pageCap": 2,
+    "totalDiscovered": 2,
+    "crawled": 2
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-21T00:15:08.114Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://if-hub.de/",
+      "title": "Log in - DSGV Markenportal der Sparkasse",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-21T00:15:08.114Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-21T00:37:47Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-21T00:37:50Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-21T01:45:20Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "stardust/migrated/index.html"
+    },
+    {
+      "slug": "d-8fjlj4fun12p",
+      "url": "https://if-hub.de/d/8fJLj4FUN12p",
+      "title": "Start - IF-Hub",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-21T00:15:08.114Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-21T01:13:38Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-21T01:13:38Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-21T01:58:27Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/d-8fjlj4fun12p.json",
+      "prototypePath": "stardust/prototypes/d-8fjlj4fun12p-proposed.html",
+      "migratedPath": "stardust/migrated/d/8fJLj4FUN12p.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-21T01:19:11Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/d/8fJLj4FUN12p",
+        "outputPath": "d/8fJLj4FUN12p.html",
+        "slug": "d-8fjlj4fun12p",
+        "outputPathDefault": "trailing-slash"
+      }
+    ],
+    "totalAssetsBundled": 21,
+    "bundledAssets": [
+      "canon.css",
+      "d-8fjlj4fun12p-proposed.css",
+      "favicon.png",
+      "fonts/ABCDiatypeVariable.woff2",
+      "fonts/MierB-Book.woff2",
+      "fonts/sparkasse-light-300.woff",
+      "fonts/sparkasse-medium-500.woff",
+      "fonts/sparkasse-regular-400.woff",
+      "fonts/sparkasse-rg-400.ttf",
+      "index-proposed.css",
+      "media/9wnvijEiAiM9MyiBPQLF.png",
+      "media/Bn4EX9DDsb9pocPP8s6E.svg",
+      "media/DMoYV8aec2czCim7TqfK.jpg",
+      "media/NT4Cqvwes46oAW5bkkNc.mp4",
+      "media/arrow.svg",
+      "media/c95yUqCmLCeZMGDtT37D.jpg",
+      "media/crop/TpzzJrkyGis3152ekCUL.webp",
+      "media/crop/gL8hhGB2W2aRDWGsPBdr.webp",
+      "media/h52apBMkJBRJKJWJ7iyW.png",
+      "media/hQKdjW6wXL8esQAfs4xo.jpg",
+      "media/rPNYk2kRNVSEhV2LkAFm.png"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "d-8fjlj4fun12p",
+        "file": "stardust/migrated/d/8fJLj4FUN12p.html",
+        "assetsBundled": 16
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-21T01:19:11Z",
+      "rendered": [
+        "index",
+        "d-8fjlj4fun12p"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

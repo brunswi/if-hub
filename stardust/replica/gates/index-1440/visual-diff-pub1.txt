@@ -1,0 +1,81 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/index-1440/vdiff-pub1/
+
+build red flags (advisory): 
+  • BLANK RENDER: the build page is hidden/empty (main height 0px, text 0 chars). NOT a pass. The build render is hidden/empty — a load failure or an unsatisfied visibility gate. Fix before trusting any other result.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 1000,
+  "textLen": 105,
+  "images": [
+   {
+    "src": "Bn4EX9DDsb9pocPP8s6E.svg?width={width}",
+    "natural": "120x150",
+    "rendered": "64x80",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Herzlich willkommen im IF- Hub",
+    "color": "rgb(17, 17, 16)",
+    "fontSize": "38px",
+    "family": "Sparkasse_Rg",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": true,
+  "mainHeight": 0,
+  "textLen": 0,
+  "images": [
+   {
+    "src": "media_1e04d5b2c9ad1e161b342437d9cb521aaa80d7d83.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "2000x1404",
+    "rendered": "1440x1000",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_144ee0a52fb9ba442585c02644b8e035cc574577b.svg?width=2000&format=webply&optimize=medium",
+    "natural": "120x150",
+    "rendered": "64x80",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Herzlich willkommen im IF- Hub",
+    "color": "rgb(17, 17, 16)",
+    "fontSize": "38px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "auth-login",
+    "width": 1440,
+    "left": 0
+   }
+  ]
+ }
+}

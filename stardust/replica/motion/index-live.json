@@ -1,0 +1,99 @@
+{
+  "url": "https://if-hub.de/",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": ".o-auth__submit--oauth-and-saml",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(238, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.15s linear, color 0.15s linear, border 0.15s linear"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(218, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.15s linear, color 0.15s linear, border 0.15s linear"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".o-auth__disclaimer a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "background-color",
+        "el": "div.o-auth__box.js-o-auth__box > div.o-auth__box-content > div.o-auth__form.js-o-auth__form > div.tw-flex.tw-flex-col.tw-gap-7 > a.js-o-auth__submit.o-auth__submit--oauth-and-saml.js-o-auth__submit--oauth-and-saml",
+        "y": 0,
+        "dur": "0.15s, 0.15s, 0.15s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.o-auth__box.js-o-auth__box > div.o-auth__box-content > div.o-auth__form.js-o-auth__form > div.tw-flex.tw-flex-col.tw-gap-7 > a.js-o-auth__submit.o-auth__submit--oauth-and-saml.js-o-auth__submit--oauth-and-saml",
+        "y": 0,
+        "dur": "0.15s, 0.15s, 0.15s"
+      }
+    ],
+    "classMutations": []
+  }
+}

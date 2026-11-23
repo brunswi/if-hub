@@ -1,0 +1,15 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://if-hub.de/d/8fJLj4FUN12p (live side from cache stardust/replica/gates/d-8fjlj4fun12p-360/chrome-live.json, probed 2026-11-21T00:59:56.620Z — delete the file to re-probe)
+  build: https://main--8053f48d--aemcoder.aem.page/d/8fjlj4fun12p
+
+■ header: ✓ parity — 0 paired of 0/0 texts, 3/3 icons
+  region live:  header.th-relative.th-z-20 — outermost <header>, box 0,0 350×90; selector #classic-theme > div:nth-of-type(1) > header
+  region build: header.header-wrapper — outermost <header>, box 0,0 350×90; selector body > header
+
+■ footer: 2 delta(s) — 4 paired of 4/5 texts, 0/1 icons
+  region live:  [data-test-id="guideline-theme-custom-footer"] — given by --region, box 0,8585 350×210
+  region build: footer — given by --region, box 0,8585 350×210
+  EXTRA        "Go to login page"  build <a> "Go to login page" has no live source
+  ICONS        0 live vs 1 build (svg/img) — harvest the live vectors verbatim (recreation-procedure.md § Asset harvest), never approximate
+
+✗ 2 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

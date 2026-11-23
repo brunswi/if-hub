@@ -1,0 +1,67 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/index-1440/vdiff-iter1/
+
+build red flags (advisory): 
+  • HEADING FACE: <h1> "Herzlich willkommen im IF- Hub" is 38px Liberation Sans in build vs 38px Sparkasse_Rg in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 1000,
+  "textLen": 105,
+  "images": [
+   {
+    "src": "Bn4EX9DDsb9pocPP8s6E.svg?width={width}",
+    "natural": "120x150",
+    "rendered": "64x80",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Herzlich willkommen im IF- Hub",
+    "color": "rgb(17, 17, 16)",
+    "fontSize": "38px",
+    "family": "Sparkasse_Rg",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 1000,
+  "textLen": 100,
+  "images": [
+   {
+    "src": "Bn4EX9DDsb9pocPP8s6E.svg",
+    "natural": "120x150",
+    "rendered": "64x80",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Herzlich willkommen im IF- Hub",
+    "color": "rgb(17, 17, 16)",
+    "fontSize": "38px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ }
+}

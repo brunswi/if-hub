@@ -1,0 +1,116 @@
+/* services - IF-Hub "Weitere Services" rows (gated prototype rows cp-heading + cp-services) */
+.services .services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.services .services-col {
+  position: relative;
+  flex: 0 0 100%;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 1px;
+}
+
+@media (width >= 768px) {
+  .services .services-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (width >= 992px) {
+  .services .services-col {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+.services .services-text {
+  padding: 20px;
+  color: var(--hub-text);
+  font-family: var(--font-light);
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.services .services-text :is(h2, h3) {
+  margin: 0 0 10px;
+  color: var(--hub-ink);
+  font-family: var(--font-regular);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.services .services-text p {
+  margin: 0 0 10px;
+}
+
+.services .services-text p:last-child {
+  margin-bottom: 0;
+}
+
+.services .services-text strong,
+.services .services-text em {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.services .services-text a.button:any-link,
+.services .services-text :is(strong, em) > a:any-link {
+  display: inline-block;
+  max-width: none;
+  margin: 10px 0;
+  border-radius: 99px;
+  font-family: var(--font-regular);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  white-space: pre-wrap;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+}
+
+.services .services-text a.button.secondary:any-link,
+.services .services-text em > a:any-link {
+  padding: 10px 20px;
+  border: 2px solid var(--hub-text);
+  background-color: var(--hub-text);
+  color: #fff;
+  line-height: 1.5;
+}
+
+.services .services-text a.button.secondary:hover,
+.services .services-text em > a:hover {
+  border-color: rgb(155 155 155);
+  background-color: rgb(172 172 172);
+  color: rgb(76 76 76);
+}
+
+/* the section heading authored above the block (source row cp-heading) */
+main .services-container > .default-content-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 56.4px 20px 80px;
+  color: var(--hub-text);
+  font-family: var(--font-light);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+main .services-container > .default-content-wrapper h2 {
+  margin: 0;
+  color: var(--hub-ink);
+  font-family: var(--font-medium);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.3;
+}

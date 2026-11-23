@@ -1,0 +1,375 @@
+{
+  "url": "https://if-hub.de/d/8fJLj4FUN12p",
+  "width": 360,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "th-relative th-z-20 th-inset-x-0 th-top-0 th-flex-none th-bg-cover",
+      "position": "relative",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "[aria-label=\"Open navigation\"]",
+      "frames": [
+        {
+          "t": 16316,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16519.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16721.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16923.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [],
+  "media": {
+    "videos": [
+      {
+        "src": "https://media.ffycdn.net/eu/sparkassenfinanzportal/NT4Cqvwes46oAW5bkkNc.mp4?width={width}&format=mp4",
+        "autoplay": false,
+        "loop": true,
+        "muted": false,
+        "paused": false,
+        "currentTime": 8.16022,
+        "readyState": 4,
+        "inViewport": true,
+        "currentTimeAfter": 9.666147,
+        "playing": true
+      }
+    ],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cm-video__item.js-cm-video__item > div.cm-video__controls.cm-video__controls-new.js-cm-video__controls > div.cm-video__progressbar-new.js-cm-video__progressbar > div.cm-video__progressbar-new-background > div.cm-video__progressbar-new-played.js-cm-video__progressbar-played",
+        "y": 0,
+        "dur": "0.25s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "th-text-white",
+          "th-text-opacity-50",
+          "active:th-text-white",
+          "active:th-text-opacity-50",
+          "hover:th-text-white",
+          "hover:th-text-opacity-50",
+          "focus-visible:th-text-white",
+          "focus-visible:th-text-opacity-50"
+        ],
+        "el": "div.th-z-20.th-text-white.th-text-opacity-50 > div.th-flex.th-items-center.th-z-10 > div.th-pr-4.th-pt-1 > button > div.th-flex.th-flex-nowrap.th-justify-center",
+        "y": 0
+      },
+      {
+        "added": [
+          "th-text-white",
+          "th-text-opacity-50",
+          "active:th-text-white",
+          "active:th-text-opacity-50",
+          "hover:th-text-white",
+          "hover:th-text-opacity-50",
+          "focus-visible:th-text-white",
+          "focus-visible:th-text-opacity-50"
+        ],
+        "el": "div.th-bg-[var(--color-primary-default)].th-flex-col.th-absolute > div.th-flex.th-items-center.th-z-10 > div.th-pr-4.th-pt-1 > button > div.th-flex.th-flex-nowrap.th-justify-center",
+        "y": 0
+      },
+      {
+        "added": [
+          "th-flex"
+        ],
+        "el": "div.th-w-full.th-flex.th-justify-start > div.th-flex.th-flex-col.th-w-full > div.th-flex.th-flex-row.th-justify-between > div.th-z-20.th-text-white.th-text-opacity-50 > div.th-bg-[var(--color-primary-default)].th-flex-col.th-absolute",
+        "y": 0
+      }
+    ]
+  }
+}

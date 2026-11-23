@@ -1,20 +1,110 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* IF-Hub footer - lifted from the gated prototype d-8fjlj4fun12p (footer section) */
+footer .hub-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--hub-ink);
+  color: #fff;
+  font-family: var(--font-footer);
+  font-size: 16px;
+  line-height: 24px;
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+footer .hub-footer-inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 20px 20px 50px;
 }
 
-footer .footer p {
+footer .hub-footer-links {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* block items: the links stay inline, so their line box is the face's own (as on the source) */
+footer .hub-footer-links li {
+  display: block;
+  margin: 10px 60px 0 0;
+}
+
+footer .hub-footer-links p {
   margin: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+footer .hub-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .hub-footer a:hover {
+  text-decoration: underline;
+}
+
+footer .hub-footer-copyright {
+  margin: 20px 0 0;
+  text-align: left;
+}
+
+/* login shortcut (fixed, bottom left) */
+footer .hub-login-wrapper {
+  margin: 0;
+}
+
+footer .hub-footer a.hub-login {
+  position: fixed;
+  bottom: 12px;
+  left: 12px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 9999px;
+  background-color: var(--hub-red);
+  color: #fff;
+  font-size: 0;
+  line-height: 0;
+  text-decoration: none;
+  transition: opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+footer .hub-footer a.hub-login:hover {
+  opacity: 0.8;
+}
+
+footer .hub-login svg {
+  flex: none;
+}
+
+@media (width >= 768px) {
+  footer .hub-footer {
+    padding: 40px 0;
+  }
+
+  footer .hub-footer-inner {
+    flex-direction: row;
+    padding: 0 20px 0 50px;
+  }
+
+  footer .hub-footer-links {
+    flex: 1;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  footer .hub-footer-links li {
+    margin: 0 60px 0 0;
+  }
+
+  footer .hub-footer-copyright {
+    flex: 0 0 30%;
+    margin: 0;
+    text-align: right;
   }
 }

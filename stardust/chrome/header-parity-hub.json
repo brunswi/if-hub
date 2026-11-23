@@ -1,0 +1,72 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-21T02:30:32.857Z",
+ "source": "https://if-hub.de/d/8fJLj4FUN12p",
+ "build": "https://main--8053f48d--aemcoder.aem.page/d/8fjlj4fun12p",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 6,
+  "warn": 0,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "control-missing@390 Open navigation > IF-Wissen",
+   "width": 390,
+   "path": "Open navigation > IF-Wissen",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source menu control opens on click; the build has no control named \"IF-Wissen\""
+  },
+  {
+   "key": "state-missing@390 search [type]",
+   "width": 390,
+   "path": "search",
+   "id": "state-missing",
+   "action": "type",
+   "severity": "error",
+   "detail": "typing \"wissen\" shows 6 suggestion(s) on the source, none on the build"
+  },
+  {
+   "key": "state-missing@1440 search [type]",
+   "width": 1440,
+   "path": "search",
+   "id": "state-missing",
+   "action": "type",
+   "severity": "error",
+   "detail": "typing \"wissen\" shows 7 suggestion(s) on the source, none on the build"
+  },
+  {
+   "key": "panel-visual@390 Search [click]",
+   "width": 390,
+   "path": "Search",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 97.0% (bar 2%; source 390×758, build 280×36; texture 54% thick)"
+  },
+  {
+   "key": "panel-visual@390 Open navigation > Search [click]",
+   "width": 390,
+   "path": "Open navigation > Search",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 97.0% (bar 2%; source 390×758, build 280×36; texture 55% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Search [click]",
+   "width": 1440,
+   "path": "Search",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 99.6% (bar 2%; source 1440×814, build 522×36; texture 97% thick)"
+  }
+ ]
+}

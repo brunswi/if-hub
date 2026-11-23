@@ -1,0 +1,34 @@
+{
+  "frozenAt": "2026-11-21T02:34:50.239Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "7d67838f190945e192a32a765a931ecb13e041ee3fba409ee4d4502dc792ea98",
+    "blocks/footer/footer.js": "5ea83c3cbcb592d25b9121489170f1adfc71dc61596f834db55abb9b264fd5ae",
+    "blocks/header/header.css": "df52bb81e7c694c06a070c924be9e33685fd2e03d3f094f9e6a475d56e6c38ef",
+    "blocks/header/header.js": "a85d0dd356e44792cdbf286e8315c190986e6e2729a35d8e0139bdb7a1039afa",
+    "fonts/LICENSING.md": "82b116c9b5511d031644c3665672f3dff3eb710f0ae55024e06925e6eb1727c0",
+    "fonts/abc-diatype-variable.woff2": "8516fc79e10e827413e4ffc385aca2ac1f3af46f71ca8358635e706f5ba4d607",
+    "fonts/mier-b-book.woff2": "d73121d2950b7dcb88a216ac506ff1247da913599cba9eefe73f60c21af9e5dd",
+    "fonts/sparkasse-light-300.woff2": "3baa3cb4e01aad97a16f1151968bc12b9d8624865f38a89a3c48d421b45ba57a",
+    "fonts/sparkasse-medium-500.woff2": "8deb2def4b9b13c056e48d29466578bfdd42a403c731ba98293739fb775039a8",
+    "fonts/sparkasse-regular-400.woff2": "0ca5f540ab4a57c4b0b9585f8dd91d6d310c25339d0d50ddce9cb02d59f56754",
+    "fonts/sparkasse-rg-400.woff2": "9f083e55ae2fe3ea84fe1a69122f934d4d60e7afd0506444958b15edcff84b21",
+    "head.html": "0f963b6378ffa7c27479f25b3c4ddbe93c448e71e4d35b4e464eed7eb00f57c2",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "5774ca341acde710323fd5246169287236b45f04049b3c97a759bf3e3d6b0a8c",
+    "scripts/consented.js": "8a6e80585bf898985ae3fa0012dc370a19f4e366ca6922d92b80b319bcf281aa",
+    "scripts/martech.js": "5d45c9ddb9e3eec6ed5051e87c76509b0fcd904253c406f719f203817d609ed0",
+    "scripts/scripts.js": "458d4aa8c0dae0c55e95bbafb2a05c8634b4fa05223b2e53df572321a09a9751",
+    "styles/fonts.css": "cbbb8a317c630f628493fb0d84e470497648bb3f6b8b76bb86536a69a6555214",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "6d7ca42d5377463e2007147e0830ff94471a4f3bb3f1dc87dbfc339be4372cf7"
+  }
+}

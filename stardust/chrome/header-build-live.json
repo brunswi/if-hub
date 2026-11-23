@@ -1,0 +1,697 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--8053f48d--aemcoder.aem.live/d/8fjlj4fun12p",
+ "at": "2026-11-21T02:56:55.930Z",
+ "shots": "stardust/.work/chrome/header-build-live",
+ "widths": {
+  "390": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(1)>div:nth-of-type(1)>a",
+     "href": "https://main--8053f48d--aemcoder.aem.live/d/8fjlj4fun12p",
+     "expanded": null,
+     "rect": [
+      24,
+      29,
+      20,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>header>div>div>div:nth-of-type(1)>div:nth-of-type(2)>button",
+     "expanded": null,
+     "rect": [
+      292,
+      32,
+      24,
+      24
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         72,
+         11,
+         282,
+         22
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.video-played"
+        }
+       ],
+       "shot": "390-001-Search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         72,
+         11,
+         282,
+         22
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.video-played"
+        }
+       ],
+       "shot": "390-002-Search-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Search guidelines, images, and videos",
+       "key": "search guidelines images and videos",
+       "role": "input",
+       "kind": "search",
+       "sel": "body>header>div>div>div:nth-of-type(2)>div>form>input",
+       "expanded": null,
+       "rect": [
+        72,
+        11,
+        282,
+        22
+       ],
+       "actions": {},
+       "search": {
+        "probe": "wissen",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Open navigation",
+     "key": "open navigation",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>header>div>div>div:nth-of-type(1)>div:nth-of-type(2)>div>button",
+     "expanded": "false",
+     "rect": [
+      332,
+      34,
+      24,
+      24
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://if-hub.de/d/8fJLj4FUN12p/if-wissen"
+         },
+         {
+          "text": "",
+          "href": "https://if-hub.de/d/8fJLj4FUN12p/redaktions-guidelines"
+         },
+         {
+          "text": "",
+          "href": "https://if-hub.de/d/8fJLj4FUN12p/bewegtbild-guidelines"
+         },
+         {
+          "text": "",
+          "href": "https://if-hub.de/d/8fJLj4FUN12p/kontakt"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Search",
+         "Close navigation"
+        ],
+        "options": 0,
+        "rect": [
+         24,
+         33,
+         342,
+         233
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.video-played"
+        }
+       ],
+       "shot": "390-003-Open-navigation-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://if-hub.de/d/8fJLj4FUN12p/if-wissen"
+         },
+         {
+          "text": "",
+          "href": "https://if-hub.de/d/8fJLj4FUN12p/redaktions-guidelines"
+         },
+         {
+          "text": "",
+          "href": "https://if-hub.de/d/8fJLj4FUN12p/bewegtbild-guidelines"
+         },
+         {
+          "text": "",
+          "href": "https://if-hub.de/d/8fJLj4FUN12p/kontakt"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Search",
+         "Close navigation"
+        ],
+        "options": 0,
+        "rect": [
+         24,
+         33,
+         342,
+         233
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.video-played"
+        }
+       ],
+       "shot": "390-004-Open-navigation-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "body>header>div>div>div:nth-of-type(1)>div:nth-of-type(2)>div>div>div>button:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        257,
+        33,
+        69,
+        24
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 6,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [
+           "search"
+          ],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           72,
+           11,
+           282,
+           22
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": 250,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.video-played"
+          }
+         ],
+         "shot": "390-005-Search-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 6,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [
+           "search"
+          ],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           72,
+           11,
+           282,
+           22
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": 250,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.video-played"
+          }
+         ],
+         "shot": "390-006-Search-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Search guidelines, images, and videos",
+         "key": "search guidelines images and videos",
+         "role": "input",
+         "kind": "search",
+         "sel": "body>header>div>div>div:nth-of-type(2)>div>form>input",
+         "expanded": null,
+         "rect": [
+          72,
+          11,
+          282,
+          22
+         ],
+         "actions": {},
+         "search": {
+          "probe": "wissen",
+          "typeahead": {
+           "links": 0,
+           "options": 0
+          },
+          "submit": null
+         }
+        }
+       ]
+      },
+      {
+       "name": "Close navigation",
+       "key": "close navigation",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "body>header>div>div>div:nth-of-type(1)>div:nth-of-type(2)>div>div>div>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        342,
+        33,
+        24,
+        24
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 6
+        },
+        "key": {
+         "opened": false,
+         "hides": 6
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 90,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 90,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 90,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 90,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 6,
+   "truncated": null,
+   "loads": 3,
+   "requests": 124,
+   "maxRequests": 0,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(1)>div:nth-of-type(1)>a",
+     "href": "https://main--8053f48d--aemcoder.aem.live/d/8fjlj4fun12p",
+     "expanded": null,
+     "rect": [
+      97,
+      11,
+      43,
+      67
+     ],
+     "actions": {}
+    },
+    {
+     "name": "IF-Wissen",
+     "key": "ifwissen",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>a",
+     "href": "https://if-hub.de/d/8fJLj4FUN12p/if-wissen",
+     "expanded": null,
+     "rect": [
+      347,
+      36,
+      61,
+      18
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Redaktions-Guidelines",
+     "key": "redaktionsguidelines",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(2)>a",
+     "href": "https://if-hub.de/d/8fJLj4FUN12p/redaktions-guidelines",
+     "expanded": null,
+     "rect": [
+      432,
+      36,
+      142,
+      18
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Bewegtbild-Guidelines",
+     "key": "bewegtbildguidelines",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(3)>a",
+     "href": "https://if-hub.de/d/8fJLj4FUN12p/bewegtbild-guidelines",
+     "expanded": null,
+     "rect": [
+      598,
+      36,
+      143,
+      18
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Kontakt",
+     "key": "kontakt",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(4)>a",
+     "href": "https://if-hub.de/d/8fJLj4FUN12p/kontakt",
+     "expanded": null,
+     "rect": [
+      765,
+      36,
+      49,
+      18
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>header>div>div>div:nth-of-type(1)>div:nth-of-type(2)>button",
+     "expanded": null,
+     "rect": [
+      1309,
+      33,
+      24,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         476,
+         11,
+         524,
+         22
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.video-played"
+        }
+       ],
+       "shot": "1440-001-Search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         476,
+         11,
+         524,
+         22
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 250,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.video-played"
+        }
+       ],
+       "shot": "1440-002-Search-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Search guidelines, images, and videos",
+       "key": "search guidelines images and videos",
+       "role": "input",
+       "kind": "search",
+       "sel": "body>header>div>div>div:nth-of-type(2)>div>form>input",
+       "expanded": null,
+       "rect": [
+        476,
+        11,
+        524,
+        22
+       ],
+       "actions": {},
+       "search": {
+        "probe": "wissen",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": null
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 90,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 90,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 90,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 90,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 2,
+   "truncated": null,
+   "loads": 2,
+   "requests": 84,
+   "maxRequests": 0,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": "wissen"
+}

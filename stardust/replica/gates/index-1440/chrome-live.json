@@ -1,0 +1,35 @@
+{
+  "key": {
+    "probe": 3,
+    "url": "https://if-hub.de/",
+    "width": 1440,
+    "regions": [
+      "header=@landmark",
+      "footer=@landmark"
+    ],
+    "state": "consent=[data-test-id=\"save-selection-button\"]"
+  },
+  "probedAt": "2026-11-21T01:37:11.661Z",
+  "regions": {
+    "header": {
+      "unresolved": "no header resolved (no landmark, no <header>, nothing auto-detected)"
+    },
+    "footer": {
+      "unresolved": "no footer resolved (no landmark, no <footer>, nothing auto-detected)"
+    }
+  },
+  "data": {
+    "header": {
+      "found": false,
+      "sel": "header landmark",
+      "unresolved": "no header resolved (no landmark, no <header>, nothing auto-detected)",
+      "rejected": []
+    },
+    "footer": {
+      "found": false,
+      "sel": "footer landmark",
+      "unresolved": "no footer resolved (no landmark, no <footer>, nothing auto-detected)",
+      "rejected": []
+    }
+  }
+}
