@@ -1,0 +1,11 @@
+{
+  "variantName": "auth-login",
+  "baseBlock": "custom",
+  "canonicalModel": "custom",
+  "visualCharacteristics": "Full-screen sign-in screen: logo, greeting heading, SSO sign-in button, hidden e-mail/password texts, disclaimer link, over a background photo.",
+  "contentPattern": "Rows classified by content: picture-only rows (first = logo, later = background), a heading row (greeting), the first link row (sign-in label, intro text and SSO link), a later link row (disclaimer, opens in new tab), and a row of plain paragraphs (e-mail login texts, kept hidden).",
+  "usage": "The IF-Hub login page (site root).",
+  "reuseGuidance": "Only for the sign-in page; not a general form block.",
+  "options": [],
+  "memberVariantIds": []
+}

@@ -1,0 +1,11 @@
+{
+  "variantName": "hub-hero",
+  "baseBlock": "hero",
+  "canonicalModel": "hero",
+  "visualCharacteristics": "Full-width cover hero split into a greeting panel over a background image and a looping 4:3 video with custom player controls (play/pause, skip, time, speed, volume, fullscreen).",
+  "contentPattern": "Rows classified by content: an image row (greeting background), a row with the h1 headline and lede paragraph, and a paragraph linking to the mp4 video (/media/... path).",
+  "usage": "Opening block of IF-Hub hub pages; also hosts the hub page runtime (section reveal, terms dialog).",
+  "reuseGuidance": "Use once at the top of each hub page. For a plain image hero without video use the standard hero block.",
+  "options": [],
+  "memberVariantIds": []
+}

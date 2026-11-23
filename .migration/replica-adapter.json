@@ -1,0 +1,48 @@
+{
+  "producer": "excat-replica-adapter",
+  "source": {
+    "tool": "stardust",
+    "version": "0.43.3",
+    "flow": "replica",
+    "mode": "rollout"
+  },
+  "originUrl": "https://if-hub.de",
+  "previewBase": "https://main--8053f48d--aemcoder.aem.page/d/8fjlj4fun12p",
+  "convertedAt": "2026-11-22T19:27:13.036Z",
+  "counts": {
+    "pages": 2,
+    "templates": 2,
+    "blockVariants": 6
+  },
+  "templateNames": {
+    "d-8fjlj4fun12p": {
+      "name": "hub",
+      "description": "IF-Hub start page: video hero, guideline tiles, frequently searched cards, services and support band"
+    },
+    "index": {
+      "name": "login",
+      "description": "IF-Hub sign-in screen with SSO login"
+    }
+  },
+  "screenshots": {
+    "capturedAt": "2026-11-22T19:27:29.060Z",
+    "pages": [
+      {
+        "slug": "if-hub_de--47dfe5cc",
+        "captured": 1,
+        "total": 1,
+        "url": "https://aem-20261122--if-hub--brunswi.aem.page/"
+      },
+      {
+        "slug": "if-hub_de_d_8fJLj4FUN12p--ecf24ed1",
+        "captured": 5,
+        "total": 5,
+        "url": "https://aem-20261122--if-hub--brunswi.aem.page/d/8fjlj4fun12p"
+      }
+    ],
+    "variants": {
+      "total": 6,
+      "cropped": 6
+    }
+  }
+}

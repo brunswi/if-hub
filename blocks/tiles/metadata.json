@@ -1,0 +1,11 @@
+{
+  "variantName": "tiles",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "Grid of guideline tiles, each with an image, heading, short text and a call-to-action button.",
+  "contentPattern": "One row per tile: optional image cell, then a cell with h3 heading, text paragraph and CTA paragraph (<strong> link = primary, <em> link = secondary).",
+  "usage": "Featured guideline/knowledge areas on hub pages (e.g. IF-Wissen, Redaktions-Guidelines).",
+  "reuseGuidance": "Use for image-led teaser tiles. For text-only bordered cards use hub-cards.",
+  "options": [],
+  "memberVariantIds": []
+}
