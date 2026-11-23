@@ -1,0 +1,11 @@
+{
+  "variantName": "services",
+  "baseBlock": "columns",
+  "canonicalModel": "columns",
+  "visualCharacteristics": "Horizontal row of service entries, each a heading, short two-line text and a link.",
+  "contentPattern": "One row per service: optional image cell, then h3 heading, text paragraph and CTA paragraph (<strong> primary, <em> secondary). Can be repeated for multiple rows.",
+  "usage": "\"Weitere Services\" section linking to external platforms (App-Shop, Media-Center, UI-Guidelines, training).",
+  "reuseGuidance": "Use for compact lists of external services or tools; add a second services block for another row.",
+  "options": [],
+  "memberVariantIds": []
+}

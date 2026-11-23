@@ -1,0 +1,11 @@
+{
+  "variantName": "hub-cards",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "Row of bordered text cards with heading, description and a secondary-style link.",
+  "contentPattern": "One row per card: optional image cell, then h3 heading, text paragraph and CTA paragraph (<strong> primary, <em> secondary).",
+  "usage": "\"Oft gesucht\" (frequently searched) quick-access section on hub pages.",
+  "reuseGuidance": "Use for text-only navigation cards; use tiles when each item leads with an image.",
+  "options": [],
+  "memberVariantIds": []
+}

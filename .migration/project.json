@@ -1,0 +1,10 @@
+{
+  "sites": {
+    "if-hub": {
+      "previewOrg": "brunswi",
+      "previewSite": "if-hub",
+      "contentHostUrl": "https://content.da.live/brunswi/if-hub/"
+    }
+  },
+  "type": "da"
+}

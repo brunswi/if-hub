@@ -353,7 +353,7 @@ body.hub main .section.rule-after::after {
   margin: 25px auto;
 }
 
-/* Frontify "Terms and conditions" dialog (showTermsDialog in hub-hero.js), outside the block */
+/* "Terms and conditions" dialog (scripts/hub-terms.js, copy from /fragments/terms-and-conditions) */
 /* stylelint-disable no-descending-specificity */
 html.hub-terms-open {
   overflow: hidden;
@@ -456,17 +456,27 @@ body.hub .hub-terms-scroll {
   padding: 16px 24px;
 }
 
-body.hub .hub-terms-scroll p {
-  margin: 0;
+body.hub .hub-terms-scroll :is(p, ul, ol) {
+  margin: 0 0 24px;
 }
 
-body.hub .hub-terms-scroll span,
+body.hub .hub-terms-scroll > :last-child,
+body.hub .hub-terms-scroll .default-content-wrapper > :last-child {
+  margin-bottom: 0;
+}
+
 body.hub .hub-terms-scroll a {
-  color: rgb(254 254 254);
+  color: inherit;
+  text-decoration: underline;
 }
 
-body.hub .hub-terms-scroll .hub-terms-lead {
+/* the authored lead line ("Nutzungsbedingungen & Datenschutz") */
+body.hub .hub-terms-scroll :is(h3, h4) {
+  margin: 0 0 27px;
+  color: inherit;
+  font-family: inherit;
   font-size: 18px;
+  font-weight: 400;
   line-height: 27px;
 }
 

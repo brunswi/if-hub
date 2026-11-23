@@ -234,6 +234,12 @@ async function loadLazy(doc) {
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();
+
+  // hub pages: "Terms and conditions" dialog, copy authored in a fragment
+  if (document.body.classList.contains('hub')) {
+    // eslint-disable-next-line import/no-cycle
+    import('./hub-terms.js').then((m) => m.default());
+  }
 }
 
 /**

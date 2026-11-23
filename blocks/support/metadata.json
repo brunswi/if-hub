@@ -1,0 +1,11 @@
+{
+  "variantName": "support",
+  "baseBlock": "columns",
+  "canonicalModel": "columns",
+  "visualCharacteristics": "Support band with an image on one side and a heading plus primary CTA button on the other.",
+  "contentPattern": "A single row: image cell, then a cell with h3 heading and a CTA paragraph (<strong> primary, <em> secondary).",
+  "usage": "Closing support call-to-action on hub pages.",
+  "reuseGuidance": "Use once near the end of a page to point users to support.",
+  "options": [],
+  "memberVariantIds": []
+}
