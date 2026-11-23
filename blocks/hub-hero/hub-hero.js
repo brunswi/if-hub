@@ -4,7 +4,8 @@
  * Authoring rows (classified by content, any order):
  *   - an image: the greeting background
  *   - the headline (h1) and the lede paragraph
- *   - a paragraph with a link to the mp4 (root-relative /media/... path)
+ *   - a paragraph with a link to the video: an mp4 file, or an AEM Assets video link
+ *     (…/adobe/assets/urn:aaid:aem:…, e.g. its /play player URL; the original mp4 is played)
  *
  * @ew-exempt video link — the authored link paragraph stays in the block (hidden); its href
  *   feeds the <video>, the player controls are presentational
@@ -174,11 +175,34 @@ function reveal(els) {
   });
 }
 
+const ASSET_PATH = /^(\/adobe\/assets\/urn:aaid:aem:[^/]+)/;
+
+/**
+ * Resolves an authored video link to a playable file URL.
+ * - mp4 links are used as authored
+ * - AEM Assets links (player page, manifest, …) resolve to the asset's original mp4
+ * @param {HTMLAnchorElement} a the authored link
+ * @returns {string|null} the video file URL, or null when the link is no video
+ */
+function videoSrc(a) {
+  const href = a.getAttribute('href') || '';
+  let url;
+  try {
+    url = new URL(href, window.location.href);
+  } catch (e) {
+    return null;
+  }
+  if (/\.mp4$/i.test(url.pathname)) return href;
+  const asset = url.pathname.match(ASSET_PATH);
+  if (asset) return `${url.origin}${asset[1]}/original/as/video.mp4${url.search}`;
+  return null;
+}
+
 export default async function decorate(block) {
   if (block.querySelector(':scope > .hub-hero-grid')) return;
   const media = block.querySelector('picture, img');
   const heading = block.querySelector('h1, h2, h3');
-  const videoLink = block.querySelector('a[href*=".mp4"]');
+  const videoLink = [...block.querySelectorAll('a[href]')].find((a) => videoSrc(a));
   const videoPar = videoLink ? (videoLink.closest('p') || videoLink) : null;
   const lede = [...block.querySelectorAll('p')]
     .find((p) => p !== videoPar && !p.querySelector('picture, img'));
@@ -210,7 +234,7 @@ export default async function decorate(block) {
     v.setAttribute('width', '960');
     v.setAttribute('height', '720');
     v.preload = 'auto';
-    v.src = videoLink.getAttribute('href');
+    v.src = videoSrc(videoLink);
     mediaCol.append(buildPlayer(v));
     mediaCol.append(wrapNode(videoPar, 'hub-hero-source'));
     const start = () => {
